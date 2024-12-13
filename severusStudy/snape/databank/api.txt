@@ -1,0 +1,23 @@
+set_lou(String::triple, float::lou) -> bool::success/failure
+    --> set the lou of a given triple, returns failure if triple not in db
+
+get_triple(String::triple) -> Triple_Obj
+    --> get the triple object of a given triple containing all data, including preconditions
+
+match_triple(String::triple) -> Triple_Obj | List[Triple_Obj]
+    --> try to match the triple utilizing upto graph distance = 1, can return multiple triple
+
+get_block_triple(String::block) -> List[Triple_Obj]
+    --> get all triples in a given block
+
+initialize_db(String::csv_path) -> bool::success/failure
+    --> initialize db by loading ontology data from csv file
+
+reset_db() -> bool
+    --> reload the db from csv file
+
+TODO:
+- get all triples in block
+- match triple with q-type
+- REWORK get_triple -> include all preconditions
+- REMOVE set_question_type, get_question_type, get_conditions, get_conditions_string, triple_exists, get_complexity

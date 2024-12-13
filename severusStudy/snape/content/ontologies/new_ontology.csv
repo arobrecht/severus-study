@@ -1,0 +1,151 @@
+Block;Triple;Condition;Complexity
+;;;
+Spiel; (Spiel, sein, Brettspiel);;1
+Spiel; (Brettspiel, sein, Gesellschaftsspiel);;1
+Spiel; (Spiel, sein, Komplex);(Spiel, sein, Brettspiel);1
+Spiel; (Spiel, spieldauer_haben, Zehn_Minuten);(Spiel, sein, Brettspiel);1
+;;;
+Spieler; (Spiel, haben, Spieler);(Spiel, sein, Brettspiel);1
+Spieler; (Spieler, Anzahl, zwei);(Spiel, haben, Spieler);1
+Spieler; (Gegner, sein, Spieler);(Spiel, haben, Spieler);1
+Spieler; (Spieler, reihenfolge, Abwechselnd);(Spiel, haben, Spieler);1
+Spieler; (Spieler, gegeneinander, Gegner);(Spiel, haben, Spieler);1
+;;;
+Ende; (Spiel, haben, Spielausgang);(Spiel, sein, Brettspiel);1
+Ende; (Spielausgang, Anzahl, drei); (Spiel, haben, Spielausgang);1
+Ende; (Spielausgang, option, Sieg); (Spiel, haben, Spielausgang),(Spielausgang, Anzahl, drei);1
+Ende; (Spielausgang, option, Unentschieden); (Spiel, haben, Spielausgang),(Spielausgang, Anzahl, drei);1
+Ende; (Spielausgang, option, Niederlage); (Spiel, haben, Spielausgang),(Spielausgang, Anzahl, drei);1
+Ende; (Sieg, bedingung_haben, Rufen); (Spielausgang, option, Sieg);1
+Ende; (Reihe, erzeugen, Siegchance); (Reihe, sein, Ziel), (Rufen, bedingung_haben, Reihe);1
+;;;
+Spielziel; (Spiel, haben, Ziel); (Spiel, sein, Brettspiel);1
+Spielziel; (Reihe, sein, Ziel); (Spiel, haben, Ziel),(Spiel, haben, Spielfigur),(Spiel, haben, Spielbrett);1
+Spielziel; (Rufen, bedingung_haben, Reihe);(Spiel, sein, Brettspiel);1
+Spielziel; (Reihe, gleich, Figurenmerkmal); (Spiel, haben, Ziel), (Spiel, haben, Spielfigur), (Spielfigur, haben, Figurenmerkmal), (Spiel, haben, Spielbrett),(Reihe, sein, Ziel);3
+Spielziel; (Reihe, laenge, vier);(Reihe, sein, Ziel),(Spiel, haben, Ziel),(Spiel, haben, Spielfigur);1
+Spielziel; (Siegbedingung, benoetigen, Reihe);(Reihe, sein, Ziel);1
+Spielziel; (Reihe, haben, Anordnung);(Spiel, haben, Ziel),(Reihe, sein, Ziel);1
+Spielziel; (Reihe, bestehen_aus, Figuren);(Spiel, haben, Ziel),(Reihe, sein, Ziel),(Spiel, haben, Spielfigur);1
+Spielziel; (Anordnung, Anzahl, drei);(Reihe, haben, Anordnung),(Reihe, sein, Ziel);1
+Spielziel; (Anordnung, option, Diagonal);(Reihe, haben, Anordnung);1
+Spielziel; (Anordnung, option, Vertikal);(Reihe, haben, Anordnung);1
+Spielziel; (Anordnung, option, Horizontal);(Reihe, haben, Anordnung);1
+;;;
+Spielzuege; (Spiel, haben, Spielzug);(Spiel, sein, Brettspiel);1
+Spielzuege; (Spielzug, Anzahl, zwei);(Spiel, haben, Spielzug);1
+Spielzuege; (Spiel, eingeteilt_sein_in, Runde);(Spiel, sein, Brettspiel);1
+Spielzuege; (Runde, enthalten, Waehlen);(Spiel, haben, Spielzug),(Spiel, eingeteilt_sein_in, Runde);1
+Spielzuege; (Runde, enthalten, Setzen);(Spiel, haben, Spielzug),(Spiel, eingeteilt_sein_in, Runde);1
+Spielzuege; (Setzen, folgen_auf, Waehlen);(Spiel, haben, Spielzug);1
+Spielzuege; (Waehlen, folgen_auf, Setzen);(Spiel, haben, Spielzug);1
+Spielzuege; (Waehlen, sein, Spielzug);(Spiel, haben, Spielzug);1
+Spielzuege; (Waehlen, heraus, Figurenvorrat);(Spiel, haben, Spielzug);1
+Spielzuege; (Waehlen, waehlen, Spielfigur);(Spiel, haben, Spielzug), (Waehlen, sein, Spielzug), (Spiel, haben, Spielfigur);1
+Spielzuege; (Waehlen, fuer, Gegner);(Waehlen, sein, Spielzug),(Waehlen, heraus, Figurenvorrat),(Spieler, gegeneinander, Gegner),(Waehlen, waehlen, Spielfigur);1
+Spielzuege; (Waehlen, spielfigur_geben, Gegner);(Waehlen, fuer, Gegner),(Waehlen, waehlen, Spielfigur);1
+Spielzuege; (Setzen, sein, Spielzug);(Spiel, haben, Spielzug);1
+Spielzuege; (Setzen, nutzen, Ausgewaehlt);(Waehlen, waehlen, Spielfigur),(Waehlen, fuer, Gegner);1
+Spielzuege; (Rufen, sein, Aktion);(Spiel, haben, Spielzug),(Setzen, folgen_auf, Waehlen);1
+Spielzuege; (Rufen, sagen, Spielname_Spiel);(Spiel, haben, Spielzug),(Setzen, folgen_auf, Waehlen),(Rufen, sein, Aktion);1
+Spielzuege; (Rufen, folgen_auf, Setzen);(Rufen, sein, Aktion),(Setzen, sein, Spielzug);1
+Spielzuege; (Setzen, dorthin, Feld);(Setzen, sein, Spielzug);1
+Spielzuege; (Setzen, sein, Final);(Setzen, sein, Spielzug), (Setzen, auf, Spielbrett), (Setzen, setzen, Spielfigur);2
+Spielzuege; (Setzen, auf, Spielbrett);(Setzen, sein, Spielzug),(Spiel, haben, Spielbrett);1
+Spielzuege; (Setzen, setzen, Spielfigur);(Spiel, haben, Spielfigur), (Setzen, sein, Spielzug);1
+;;;
+Spielfiguren; (Spiel, haben, Spielfigur); (Spiel, sein, Brettspiel);1
+Spielfiguren; (Spielfigur, haben, Figurenmerkmal); (Spiel, haben, Spielfigur);1
+Spielfiguren; (Spielfigur, Anzahl, sechzehn); (Spiel, haben, Spielfigur);1
+Spielfiguren; (Figurenmerkmal, Anzahl, vier);(Spiel, haben, Spielfigur);1
+Spielfiguren; (Farbe, sein, Figurenmerkmal);(Spiel, haben, Spielfigur),(Spielfigur, haben, Figurenmerkmal);1
+Spielfiguren; (Form, sein, Figurenmerkmal);(Spiel, haben, Spielfigur),(Spielfigur, haben, Figurenmerkmal);1
+Spielfiguren; (Struktur, sein, Figurenmerkmal);(Spiel, haben, Spielfigur),(Spielfigur, haben, Figurenmerkmal);1
+Spielfiguren; (Groesse, sein, Figurenmerkmal);(Spiel, haben, Spielfigur),(Spielfigur, haben, Figurenmerkmal);1
+;;;
+Spielbrett; (Spiel, haben, Spielbrett);(Spiel, sein, Brettspiel);1
+Spielbrett; (Spiel, haben, Figurenvorrat); (Spiel, haben, Spielfigur);1
+Spielbrett; (Feld, Anzahl, sechzehn);(Spiel, haben, Spielbrett);1
+Spielbrett; (Spielbrett, haben, Feld);(Spiel, haben, Spielbrett);1
+Spielbrett; (Spielbrett, sein, Spielbestandteil);(Spiel, haben, Spielbrett);1
+;;;
+Strategien; (Spiel, haben, Taktik);(Spiel, sein, Brettspiel);1
+Strategien; (Aktiv, sein, Taktik);(Spiel, haben, Taktik),(Gegner, sein, Spieler);1
+Strategien; (Passiv, sein, Taktik);(Spiel, haben, Taktik),(Gegner, sein, Spieler);1
+Strategien; (Blocken, sein, Passiv);(Spiel, haben, Taktik),(Passiv, sein, Taktik);1
+Strategien; (Taktik, sein, Kombinierbarkeit);(Spiel, haben, Taktik),(Reihe, gleich, Figurenmerkmal),(Passiv, sein, Taktik),(Reihe, laenge, vier);1
+;;;
+;;;
+# -------------------------;;;
+# Additional final;;;
+# -------------------------;;;
+;;;
+Additional; (Siegchance, können, Vergehen);(Reihe, erzeugen, Siegchance);1
+;;;
+Additional; (Spiel, erfinder_haben, Blaise_Mueller); (Spiel, sein, Brettspiel);1
+Additional; (Spiel, dauern_können, 10_bis_20_Minuten); (Spiel, sein, Brettspiel),(Spiel, spieldauer_haben, Zehn_Minuten);1
+Additional; (Spiel, dauern_können, Individuell); (Spiel, sein, Brettspiel),(Spiel, spieldauer_haben, Zehn_Minuten);1
+;;;
+Additional; (Spieler, mindestalter_haben, Drei_Jahre);(Spiel, haben, Spieler);1
+Additional; (Spieler, empfehlung_mindestalter_haben, Acht_Jahre);(Spiel, haben, Spieler);1
+;;;
+Additional; (Spielbrett, material, Holz);(Spiel, haben, Spielbrett);1
+Additional; (Feld, form, Rund); (Spielbrett, haben, Feld);1
+Additional; (Spieler, identisch, Ziel); (Spiel, haben, Spieler);1
+Additional; (Brettspiel, auf, Tisch); (Spiel, haben, Spielbrett);1
+Additional; (Horizontal, synonym, Waagerecht);(Anordnung, option, Horizontal);1
+Additional; (Spielbrett, material, Holz);(Spiel, haben, Spielbrett);1
+Additional; (Struktur, ausprägung, Hohl);(Struktur, sein, Figurenmerkmal);1
+Additional; (Struktur, ausprägung, Massiv);(Struktur, sein, Figurenmerkmal);1
+Additional; (Spielfigur, material, Holz);(Spiel, haben, Spielfigur);1
+Additional; (Figurenmerkmal, wichtig, Spielziel);(Spielfigur, haben, Figurenmerkmal);1
+Additional; (Spielbrett, größe, 15x15cm);(Spiel, haben, Spielbrett);1
+Additional; (Form, ausprägung, Rund);(Form, sein, Figurenmerkmal);1
+Additional; (Form, ausprägung, Eckig);(Form, sein, Figurenmerkmal);1
+Additional; (Farbe, ausprägung, Hell);(Farbe, sein, Figurenmerkmal);1
+Additional; (Farbe, ausprägung, Dunkel);(Farbe, sein, Figurenmerkmal);1
+Additional; (Unentschieden, kein, Gewinner);(Spielausgang, option, Unentschieden);1
+Additional; (Spielbrett, sein, Gegenstand);(Spiel, haben, Spielbrett);1
+Additional; (Figurenmerkmal, gleich, mindestens_1);(Spielfigur, haben, Figurenmerkmal);1
+# Additional; (Sagen, nicht, Schreien) #???;;
+Additional; (Waehlen, untypisch, Spielzug);(Waehlen, fuer, Gegner);1
+Additional; (Taktik, sein, Persönlich);(Spiel, haben, Taktik);1
+Additional; (Blocken, verhindern, Reihe);(Blocken, sein, Passiv);1
+Additional; (Reihe, sein, Übersehbar);(Reihe, sein, Ziel);1
+Additional; (Unentschieden, aufgebraucht, Figuren);(Spielausgang, option, Unentschieden);1
+Additional; (Spielzug, sein, Abwechselnd);(Spiel, haben, Spielzug), (Spieler, reihenfolge, Abwechselnd);1
+Additional; (Spielfigur, keine_feste_Zuweisung, Spieler); (Spiel, haben, Spielfigur);1
+Additional; (Komplex, erfordert, Aufmerksamkeit);(Spiel, sein, Komplex);1
+Additional; (Taktik, verbessert, Siegchance);(Spiel, haben, Taktik);1
+Additional; (Niederlage, sein_können, Überraschend);(Spielausgang, option, Niederlage);1
+Additional; (Feld, struktur, 4x4);(Spielbrett, haben, Feld), (Spiel, haben, Spielbrett);1
+Additional; (Setzen, final, Figur);;2
+;;;
+Additional; (Disconnected, not_in_graph, Disconnected_Two);;1
+;;;
+######;;;
+;;;
+# ISSUES GITLAB:;;;
+# ZUSATZINFOS: SPIELRUNDE??;;;
+;;;
+# (Stall, auf, Tisch);;;
+# (Stall, !bestandteil_von, Spielbrett);;;
+;;;
+# FÜR EINSTEIGER: WENIGER MERKMALE BENUTZEN, ZB NUR FARBE;;;
+#     (Spieler, ist, Einsteiger);;;
+#     (Merkmal, Anzahl, weniger);;;
+;;;
+# FÜR EXPERTEN: AUCH QUADRAT ALS SIEGFORMATION;;;
+#     (Spieler, ist, Experte);;;
+#     (Anordnun, zusätzlich, Quadrat);;;
+;;;
+# AM ANFANG WERDEN FIGUREN NEBEN DAS BRETT GESTELLT;;;
+#     (Spiel, haben, Startaufstellung);;;
+#     (Startaufstellung, stellt, Spielfigur);;;
+#     (Spielfigur, neben, Spielbrett);;;
+#;;;
+# ANFANGENDER SPIELER WIRD AUSGELOST;;;
+#     (Spieler, haben, Erster_Zug);;;
+#     (Erster_Zug, ist, Auslosen);;;
+#;;;
+# - Rufen, wenn der Gegner eine Reihe verpasst hat;;;

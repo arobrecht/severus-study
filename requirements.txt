@@ -1,0 +1,14 @@
+-r severusStudy/snape/requirements.txt
+flask
+flask-socketio
+flask-wtf
+WTForms
+email_validator
+eventlet
+tornado
+werkzeug
+numpy
+matplotlib
+gensim
+pandas
+pyAgrum

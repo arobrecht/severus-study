@@ -1,0 +1,62 @@
+Block;Triple;Condition;Complexity
+
+Quarto;sein(QUARTO, BRETTSPIEL);;1
+Quarto;sein(QUARTO, GESELLSCHAFTSSPIEL);;1
+Quarto;sein(LAENGE, 10MIN);sein(QUARTO, BRETTSPIEL);1
+Quarto;sein(QUARTO, KOMPLEX);sein(QUARTO, BRETTSPIEL);1
+
+Spieler;haben(QUARTO, SPIELER);sein(QUARTO, BRETTSPIEL);1
+Spieler;anzahl(SPIELER, 2);haben(QUARTO, SPIELER);1
+Spieler;spielen(SPIELER, ABWECHSELND);haben(QUARTO, SPIELER);1
+Spieler;sein(SPIELER, GEGNER);haben(QUARTO, SPIELER);1
+
+Ende;haben(QUARTO, AUSGAENGE);sein(QUARTO, BRETTSPIEL);1
+Ende;anzahl(AUSGAENGE, 3);haben(QUARTO, AUSGAENGE);1
+Ende;option(AUSGANG, UNENTSCHIEDEN);haben(QUARTO, AUSGAENGE), anzahl(AUSGAENGE, 3);1
+Ende;option(AUSGANG, SIEG);haben(QUARTO, AUSGAENGE), anzahl(AUSGAENGE, 3);1
+Ende;option(AUSGANG, NIEDERLAGE);haben(QUARTO, AUSGAENGE), anzahl(AUSGAENGE, 3);1
+
+Spielziel;haben(QUARTO, ZIEL);sein(QUARTO, BRETTSPIEL);1
+Spielziel;sein(REIHE, ZIEL);haben(QUARTO, ZIEL), haben(QUARTO, FIGUREN), haben(QUARTO, BRETT) ;1
+Spielziel;identisch(REIHE, MERKMAL);sein(REIHE, ZIEL), haben(FIGUREN, MERKMAL), haben(QUARTO, ZIEL);3
+Spielziel;laenge(REIHE, 4);sein(REIHE, ZIEL), haben(FIGUREN, MERKMAL), haben(QUARTO, ZIEL) ;1
+Spielziel;option(REIHE, HORIZONTAL);sein(REIHE, ZIEL), identisch(REIHE, MERKMAL), laenge(REIHE, 4), haben(QUARTO, ZIEL) ;1
+Spielziel;option(REIHE, VERTIKAL);sein(REIHE, ZIEL), identisch(REIHE, MERKMAL), laenge(REIHE, 4), haben(QUARTO, ZIEL)  ;1
+Spielziel;option(REIHE, DIAGONAL);sein(REIHE, ZIEL), identisch(REIHE, MERKMAL), laenge(REIHE, 4), haben(QUARTO, ZIEL) ;1
+
+Spielzuege;haben(QUARTO, SPIELZUEGE);sein(QUARTO, BRETTSPIEL);1
+Spielzuege;anzahl(SPIELZUEGE, 3);haben(QUARTO, SPIELZUEGE);1
+Spielzuege;sein(SETZEN, SPIELZUG);haben(QUARTO, SPIELZUEGE);1
+Spielzuege;setzen(SETZEN, FIGUR);haben(QUARTO, FIGUREN), sein(SETZEN, SPIELZUG), haben(QUARTO, SPIELZUEGE) ;1
+Spielzuege;ziel(SETZEN, FELD);sein(SETZEN, SPIELZUG), haben(BRETT, FELDER), haben(QUARTO, SPIELZUEGE) ;1
+Spielzuege;nutzen(SETZEN, AUSGEWAEHLT);sein(SETZEN, SPIELZUG), setzen(SETZEN, FIGUR), sein(WAEHLEN, SPIELZUG), fuer(WAEHLEN, GEGNER), neben(AUSGEWAEHLT, BRETT), haben(QUARTO, SPIELZUEGE) ;2
+Spielzuege;sein(WAEHLEN, SPIELZUG);haben(QUARTO, SPIELZUEGE);1
+Spielzuege;waehlen(WAEHLEN, FIGUR);haben(QUARTO, FIGUREN), sein(WAEHLEN, SPIELZUG), haben(QUARTO, SPIELZUEGE) ;1
+Spielzuege;fuer(WAEHLEN, GEGNER);sein(WAEHLEN, SPIELZUG), sein(SPIELER, GEGNER), haben(QUARTO, SPIELZUEGE) ;3
+Spielzuege;aus(WAEHLEN, STALL);sein(WAEHLEN, SPIELZUG), haben(QUARTO, STALL), haben(QUARTO, SPIELZUEGE) ;1
+Spielzuege;sein(RUFEN, SPIELZUG);haben(QUARTO, SPIELZUEGE);2
+Spielzuege;sagen(RUFEN, QUARTO);sein(RUFEN, SPIELZUG), haben(QUARTO, SPIELZUEGE);2
+Spielzuege;bedingung(REIHE, RUFEN);identisch(REIHE, MERKMAL), sein(RUFEN, SPIELZUG), haben(QUARTO, SPIELZUEGE) ;2
+Spielzuege;bedingung(SIEG, RUFEN);sein(RUFEN, SPIELZUG), option(AUSGANG, SIEG), haben(QUARTO, SPIELZUEGE) ;2
+
+Spielfiguren;haben(QUARTO, FIGUREN);sein(QUARTO, BRETTSPIEL);1
+Spielfiguren;anzahl(FIGUREN, 16);haben(QUARTO, FIGUREN);1
+Spielfiguren;haben(FIGUREN, MERKMAL);haben(QUARTO, FIGUREN);1
+Spielfiguren;anzahl(MERKMAL, 4);haben(FIGUREN, MERKMAL), haben(QUARTO, FIGUREN);1
+Spielfiguren;sein(FARBE, MERKMAL);haben(FIGUREN, MERKMAL), haben(QUARTO, FIGUREN);1
+Spielfiguren;sein(GROESSE, MERKMAL);haben(FIGUREN, MERKMAL), haben(QUARTO, FIGUREN);1
+Spielfiguren;sein(FORM, MERKMAL);haben(FIGUREN, MERKMAL), haben(QUARTO, FIGUREN);1
+Spielfiguren;sein(STRUKTUR, MERKMAL);haben(FIGUREN, MERKMAL), haben(QUARTO, FIGUREN);1
+
+Spielbrett;haben(QUARTO, BRETT);sein(QUARTO, BRETTSPIEL);1
+Spielbrett;haben(BRETT, FELDER);haben(QUARTO, BRETT);1
+Spielbrett;anzahl(FELDER, 16);haben(BRETT, FELDER), haben(QUARTO, BRETT);1
+Spielbrett;neben(AUSGEWAEHLT, BRETT);haben(QUARTO, BRETT);1
+Spielbrett;haben(QUARTO, STALL);haben(QUARTO, BRETT);2
+
+Strategien;haben(QUARTO, TAKTIK);sein(QUARTO, BRETTSPIEL);1
+Strategien;sein(TAKTIK, KOMBINIERBAR);haben(QUARTO, TAKTIK);2
+Strategien;sein(PASSIV, TAKTIK);sein(SPIELER, GEGNER), haben(QUARTO, TAKTIK) ;1
+Strategien;sein(AKTIV, TAKTIK);sein(SPIELER, GEGNER), haben(QUARTO, TAKTIK) ;1
+Strategien;sein(BLOCKEN, PASSIV);sein(PASSIV, TAKTIK), haben(QUARTO, TAKTIK);1
+Strategien;sein(AKTIV, REIHE);identisch(REIHE, MERKMAL), laenge(REIHE, 4) , sein(PASSIV, TAKTIK), haben(QUARTO, TAKTIK) ;1
