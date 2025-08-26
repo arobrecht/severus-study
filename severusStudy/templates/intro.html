@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('.static', filename='css/study.css') }}" type="text/css" />
+    
+<div>
+    <h2 class="heading">Ablauf der Studie</h2>
+    <div  class="textBlock">
+        <p>
+            Zunächst werden einige personenbezogene Daten erhoben.
+            Danach findet das eigentliche Experiment statt und abschließend bitten wir Sie einen finalen Fragebogen auszufüllen.
+            Bitte achten Sie darauf zu keinem Zeitpunkt ihren Browser zu aktualisieren. Wenden Sie sich bei technischen Problemen bitte an die Studienleiter.
+        </p>
+    </div>
+    <div class="flexBottom">
+        <input type="button" class="button" onclick="window.location.href='{{ url_for('.personal_infos') }}';" value="Start"/>
+    </div>
+</div>
+ 
+{% endblock %}

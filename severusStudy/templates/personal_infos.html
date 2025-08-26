@@ -1,0 +1,189 @@
+{% extends "base.html" %}
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('.static', filename='css/study.css') }}" type="text/css" />
+
+
+<script type="text/javascript">
+
+function occupationCheck() {
+    document.getElementById('studiengang').style.display = 'none';
+    document.getElementById('fachsemester').style.display = 'none';
+    document.getElementById('ausbildung').style.display = 'none';
+    document.getElementById('leistungskurse').style.display = 'none';
+    document.getElementById('beruf').style.display = 'none';
+
+    if (document.getElementById('was_machen-0').checked) {
+        document.getElementById('studiengang').style.display = 'block';
+        document.getElementById('fachsemester').style.display = 'block';
+    }
+    if (document.getElementById('was_machen-1').checked) {
+        document.getElementById('leistungskurse').style.display = 'block';
+    }
+    if (document.getElementById('was_machen-2').checked) {
+        document.getElementById('ausbildung').style.display = 'block';
+    }
+    if (document.getElementById('was_machen-3').checked) {
+        document.getElementById('beruf').style.display = 'block';
+    }
+}
+
+</script>
+
+
+
+<div class="flex-container">
+
+    <h2 class="heading">Personenbezogene Daten</h2>
+    <div class="textBlock">
+        <p>
+            Im Folgenden werden einige personenbezogene Daten erhoben.
+        </p>
+    </div>
+
+    <div class="questionBlock">
+    <form action="" method="post" name="pre_questionnaire_done">
+        {{ form.hidden_tag() }}
+
+        <div>
+            <h4>
+                Bitte geben Sie ihr Alter an.
+            </h4>
+            {{ form.alter }}
+        </div>
+
+        <hr>
+
+        <div>
+            <h4>
+                Bitte geben Sie an was auf Sie zutrifft.
+            </h4>
+
+            <div class="container">
+                <div class="row">
+                    {% for subfield in form.was_machen %}
+                        <div class="column">
+                            {{ subfield.label(class_="pointerCursor", onclick="javascript:occupationCheck();")}}
+                        </div>
+                    {% endfor %}
+                </div>
+
+                <div class="row">
+                    {% for subfield in form.was_machen %}
+                        <div class="column">
+                            {{ subfield(class_="pointerCursor", onclick="javascript:occupationCheck();") }}
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="studiengang" style="display:none;">
+            <h4>
+                Bitte geben Sie Ihren Studiengang an.
+            </h4>
+            {{ form.studiengang }}
+
+        <hr>
+
+        </div>
+
+
+        <div id="fachsemester" style="display:none;">
+            <h4>
+                Bitte geben Sie Ihr Fachsemester an.
+            </h4>
+            {{ form.fachsemester }}
+        <hr>
+        </div>
+
+
+        <div id="leistungskurse" style="display:none;">
+            <h4>
+                Bitte geben Sie Ihre Leistungskurse an.
+            </h4>
+            {{ form.leistungskurs }}
+        <hr>
+        </div>
+
+
+        <div id="ausbildung" style="display:none;">
+            <h4>
+                Bitte geben Sie ihren Ausbildungsberuf an.
+            </h4>
+            {{ form.ausbildung }}
+        <hr>
+        </div>
+
+        <div id="beruf" style="display:none;">
+            <h4>
+                Bitte geben Sie ihren Beruf an.
+            </h4>
+            {{ form.beruf }}
+        <hr>
+        </div>
+
+
+        <div>
+            <h4>
+                Ist Deutsch eine Ihrer Erstsprachen oder haben Sie mindestens C1-Niveau Deutsch?
+            </h4>
+
+            <div class="container">
+                <div class="row">
+                    {% for subfield in form.muttersprache %}
+                        <div class="column">
+                            {{ subfield.label(class_="pointerCursor") }}
+                        </div>
+                    {% endfor %}
+                </div>
+
+                <div class="row">
+                    {% for subfield in form.muttersprache %}
+                        <div class="column">
+                            {{ subfield(class_="pointerCursor") }}
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div>
+            <h4>
+                Kennen Sie das Spiel "Quarto"?
+            </h4>
+
+            <div class="container">
+                <div class="row">
+                    {% for subfield in form.vorwissen_quarto %}
+                        <div class="column">
+                            {{ subfield.label(class_="pointerCursor") }}
+                        </div>
+                    {% endfor %}
+                </div>
+
+                <div class="row">
+                    {% for subfield in form.vorwissen_quarto %}
+                        <div class="column">
+                            {{ subfield(class_="pointerCursor") }}
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+    <hr>
+
+    <div class="flexBottom">
+        <input type="submit" value="Weiter" class="button">
+    </div>
+
+    </form>
+    </div>
+
+</div>
+
+{% endblock %}

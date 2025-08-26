@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% block content %}
+
+<link rel="stylesheet" href="{{ url_for('.static', filename='css/study.css') }}" type="text/css" />
+
+<div class="flex-container">
+    {% if session['ausschluss'] %}
+        <div class="textBlock">
+            <h2>
+                Für unsere Studie suchen wir Muttersprachler, die das Spiel Quarto nicht kennen.
+                Leider sind Sie für unsere Studie somit nicht geeignet.
+            </h2>
+        </div>
+    {% else %}
+
+        <h2 class="heading">Vielen Dank für die Teilnahme an dieser Studie! </h2>
+
+        {% if user and user.crowd_user %}
+            {% if not user.crowd_id %}
+                <div class="textBlock">
+
+
+                    <form action="" method="post" name="crowdflower_id">
+                        {{ form.hidden_tag() }}
+                        <p>
+                            Bitte gib deine Prolific-ID ein, um deinen Bestätigungscode zu bekommen: <br>
+                            {{ form.crowd_ID }}<br>
+                            {% for error in form.crowd_ID.errors %}
+                                <span style="color: red;">[{{ error }}]</span>
+                            {% endfor %}<br>
+                        </p>
+                        <p>{{ form.submit_ID }}</p>
+                    </form>
+                </div>
+            {% endif %}
+        {% endif %}
+        
+        {% if crowd_key %}
+            <div class="textBlock">
+                Vielen Dank für die Teilnahme an der Studie.
+                Im Folgenden bekommen Sie einen Code, bitte geben Sie diesen bei Prolific ein, um die
+                Aufwandsentschädigung ausgezahlt zu bekommen: <br>
+                <h4 style="font-weight: bold; margin-top: 30px">{{ crowd_key }}</h4>
+            </div>
+        {% endif %}
+
+        <div class="textBlock">
+            {% if feedback_form %}
+                Wenn Sie Feedback oder Fragen zur Studie haben, nutzen Sie das Formular unten oder schreiben Sie bitte eine Mail an <a href="mailto:arobrecht@techfak.uni-bielefeld.de">arobrecht@techfak.uni-bielefeld.de</a>.
+                {% if got_feedback %}            
+                    <p style="color: #66CDAA">Vielen Dank für Ihr Feedback!</p>
+                {% else %}
+                    <form action="" method="post" name="feedback">
+                        {{ feedback_form.hidden_tag() }}
+                        {{ feedback_form.feedback(class_="feedbackTextArea") }}
+                        {% for error in feedback_form.feedback.errors %}
+                            <span style="color: red;">[{{ error }}]</span>
+                        {% endfor %}<br>                    
+                        {{ feedback_form.submit_feedback }}
+                    </form>
+                {% endif %}
+            {% else %}
+                Sollten Sie weiteres Feedback oder Fragen zur Studie haben, schreiben Sie bitte eine Mail an <a href="mailto:arobrecht@techfak.uni-bielefeld.de">arobrecht@techfak.uni-bielefeld.de</a>.
+            {% endif %}
+        </div>
+
+    {% endif %}    
+
+</div>
+
+{% endblock %}

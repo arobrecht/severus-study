@@ -1,0 +1,37 @@
+﻿category;adapted item;scale;;
+satisfication;Insgesamt war ich zufrieden mit der Erklärung.;7point likert scale
+consistency;Die Erklärung war teilweise nicht eindeutig.;7point likert scale
+relevance;Die Erklärung hat die relevanten Informationen zum richtigen Zeitpunkt gegeben.;7point likert scale
+subjective understanding;Ich denke, ich könnte das Spiel nun spielen. ;7point likert scale
+attention check;Eins plus Eins ist sechszehn.;7point likert scale
+structure;Der Aufbau der Erklärung war unklar.;7point likert scale
+Human-likeness;Die Erklärung wirkte natürlich.;7point likert scale
+intentionality;Es war eine rationale Erklärung.;7point likert scale
+relevance;Die gegebenen Informationen waren relevant.;7point likert scale
+comprehensiveness;Die Menge der Informationen war angemessen.;7point likert scale
+subjective understanding;Die Erklärung war verständlich.;7point likert scale
+truth;Ich denke, dass alle gegebenen Informationen wahr sind.;7point likert scale
+relevance;Die Erklärung hat wichtige Aspekte ausgelassen.;7point likert scale
+comprehensiveness;Die Erklärung war zu ausführlich.;7point likert scale
+content adaptivity;Der Inhalt der Erklärung wurde an mich angepasst.;7point likert scale
+control;Die Erklärung war interaktiv.;7point likert scale
+attention check;Wählen Sie die Antwort ganz rechts aus.;7point likert scale
+subjective understanding; Ich fand die Erklärung klar verständlich. ;7point likert scale
+truth;Ich glaube, die Informationen sind verlässlich.;7point likert scale
+content adaptivity;Ich konnte die Erklärung so beeinflussen, dass sie verlief, wie ich wollte.;7point likert scale
+Human-likeness;Die Erklärung wirkte künstlich.;7point likert scale
+control;Ich hatte das Gefühl die Kontrolle über die Interaktion zu haben.;7point likert scale
+satisfication;Die Erklärung hat nicht meinen Erwartungen entsprochen.;7point likert scale
+consistency;Die genutzten Begriffe waren konsistent.;7point likert scale
+structure;Die Struktur der Erklärung war nachvollziehbar.;7point likert scale
+Human-likeness;Die Erklärung wirkte echt.;7point likert scale
+intentionality;Die Erklärung wirkte vorkonstruiert.;7point likert scale
+truth;Die Erklärung war präzise.;7point likert scale
+content adaptivity;Die Erklärung wurde nicht an mein Feedback angepasst.;7point likert scale
+need adaptivity;Meine Bedürfnisse wurden berücksichtigt.;7point likert scale
+control;Die Erklärung verlief ganz anders als erwartet.;7point likert scale
+appropriatness (NLG);Die Wortwahl war angemessen.;7point likert scale
+fluency (NLG);Die einzelnen Aussagen der Erklärung waren flüssig und zusammenhängend.;7point likert scale
+Human-likeness (NLG);Ein Mensch würde die einzelnen Aussagen in der Erklärung genauso formulieren.;7point likert scale
+Understandability (NLG);Die einzelnen Aussagen der Erklärung waren verständlich.;7point likert scale
+NLU ;Ich konnte dem System Fragen stellen, die es auch verstand.;7point likert scale

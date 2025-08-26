@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('.static', filename='css/study.css') }}" type="text/css" />
+
+<div class="flex-container">
+    <div>
+        <h2>Nutzerbefragung</h2>
+    </div>
+
+    <form action="" method="post" name="pre_questionnaire_done">
+        {{ form.hidden_tag() }}
+        {% for q in form %}
+            {% if q.type == "RadioField" %}
+
+                <hr>
+
+                <h3>
+                   {{ q.label }}
+                </h3>
+                <div class="container">
+                    <div class="row">
+                        {% for subfield in q %}
+                            <div class="column">
+                                {{ subfield.label(class_="pointerCursor") }}
+                            </div>
+                        {% endfor %}
+                    </div>
+
+                    <div class="row">
+                        {% for subfield in q %}
+                            <div class="column">
+                                {{ subfield(class_="pointerCursor") }}
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+
+            {% endif %}
+        {% endfor %}
+
+    <p><input type="submit" value="Start" class="button"></p>
+    </form>
+
+</div>
+
+{% endblock %}

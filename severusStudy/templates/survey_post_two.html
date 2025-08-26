@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('.static', filename='css/study.css') }}" type="text/css" />
+
+<div class="flex-container">
+    <h2 class="heading">Nutzerbefragung</h2>
+    <div class="textBlock">
+        <p>
+            Im Folgenden werden Ihnen Aussagen bezüglich des Erklärers gezeigt.
+            Bitte geben Sie an, ob Sie diesen zustimmen (ich stimmt voll und ganz zu) oder
+            diese ablehnen (ich stimme gar nicht zu).
+        </p>
+    </div>
+
+    <div class="questionBlock">
+    <form action="" method="post" name="pre_questionnaire_done">
+        {{ form.hidden_tag() }}
+        {% for q in form %}
+            {% if q.type == "RadioField" %}
+
+                <hr>
+
+                <h3>
+                   {{ q.label }}
+                </h3>
+                <div class="container">
+                    <div class="row">
+                        {% for subfield in q %}
+                            <div class="column">
+                                {{ subfield.label(class_="pointerCursor") }}
+                            </div>
+                        {% endfor %}
+                    </div>
+
+                    <div class="row">
+                        {% for subfield in q %}
+                            <div class="column">
+                                {{ subfield(class_="pointerCursor") }}
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+
+            {% endif %}
+        {% endfor %}
+
+        <hr>
+
+        <div class="flexBottom">
+            <input type="submit" value="Weiter" class="button">
+        </div>
+
+    </form>
+
+    </div>
+
+</div>
+
+{% endblock %}

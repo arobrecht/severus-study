@@ -1,0 +1,112 @@
+Index,Block,Start Node,Relation,End Node,Sentence,Condition,Complexity,Example
+1,Spiel,Spiel,sein,Brettspiel,Quarto ist ein Brettspiel.,,1,
+2,Spiel,Brettspiel,sein,Gesellschaftsspiel,Quarto ist ein Gesellschaftsspiel.,,1,
+3,Spiel,Spiel,sein,Komplex,Quarto ist komplex.,"(Spiel, sein, Brettspiel)",1,
+4,Spiel,Spiel,dauern,ungefähr_Zehn_Minuten,Quarto dauert ungefähr zehn Minuten. ,"(Spiel, sein, Brettspiel)",1,"[“Wenn das Spiel schnell geht, dann dauert es zum Beispiel nur 5 Minuten.” , “Ein langes Spiel kann auch mal 15 Minuten gehen.” , “Wenn ein Spiel zum Beispiel lange dauert, dann ist es über 10 Minuten lang.”]"
+5,Spieler,Spiel,haben,Spieler,Quarto hat Spieler. ,"(Spiel, sein, Brettspiel)",1,"[“Zum Beispiel dich und mich.”, “ Also du und eine Freundin zum Beispiel.”]"
+6,Spieler,Spieler,Anzahl_haben,zwei,Quarto hat zwei Spieler. ,"(Spiel, haben, Spieler)",1,"[“Also du, eins, und ich, zwei.”]"
+8,Spieler,Spieler,reihenfolge,Abwechselnd,Die Spieler spielen abwechselnd. ,"(Spiel, haben, Spieler)",1,"[“Also zum Beispiel bist erst du dran, dann ich und dann wieder du.” , “Also zum Beispiel Spieler 1, dann Spieler 2, dann wieder Spieler 1 und so weiter.”]"
+9,Spieler,Gegner,spielen,Gegeneinander,Gegner spielen gegeneinander.,"(Spiel, haben, Spieler)",1,"[“Also wenn wir zusammen spielen, dann spiele ich gegen dich und du gegen mich.”]"
+,Spieler,Spieler,sein,Gegner,Die Spieler sind Gegner. ,"(Spiel, haben, Spieler)",1,
+10,Ende,Spiel,haben,Spielausgang,Quarto hat verschiedene Spielausgänge. ,"(Spiel, sein, Brettspiel)",1,
+11,Ende,Spielausgang,Anzahl_haben,drei,Quarto hat drei mögliche Spielausgänge. ," (Spiel, haben, Spielausgang)",1,
+12,Ende,Spielausgang,sein_können,Sieg,Quarto kann mit einem Sieg enden. ," (Spiel, haben, Spielausgang),(Spielausgang, Anzahl, drei)",1,"[“Wenn du zum Beispiel zuerst fertig bist, dann hast du gewonnen.”]"
+13,Ende,Spielausgang,sein_können,Unentschieden,Quarto kann mit einem Unentschieden enden. ," (Spiel, haben, Spielausgang),(Spielausgang, Anzahl, drei)",1,"[“Wenn zum Beispiel keiner der Spieler fertig ist aber alle Figuren gesetzt sind, dann ist das ein Unentschieden.""]"
+14,Ende,Spielausgang,sein_können,Niederlage,Quarto kann mit einer Niederlage enden. ," (Spiel, haben, Spielausgang),(Spielausgang, Anzahl, drei)",1,"[“Wenn wir gegeneinander spielen und ich bin zuerst fertig, hast du verloren.”]"
+15,Ende,Sieg,bedingung_haben,Rufen,Ein Sieg hat die Aktion “Rufen” als Vorbedingung. ," (Spielausgang, option, Sieg)",1,"[“Wenn ich zum Beispiel eine Reihe abschließe, dann muss ich Quarto rufen, um zu gewinnen.”, “Wenn du also eine Reihe bildest und das Rufen vergisst, dann hast du nicht gewonnen.” , “Wenn du zum Beispiel eine Reihe fertig machst und vergisst zu Rufen, dann kann ich Quarto Rufen und habe gewonnen.”]"
+16,Ende,Reihe,erzeugen,Siegchance,Das Bilden einer Reihe erzeugt eine Siegchance. ," (Reihe, sein, Ziel), (Rufen, bedingung_haben, Reihe)",1,"[“Wenn du zum Beispiel eine Reihe aus vier großen Figuren stellst, dann hast du die Chance auf einen Sieg.”]"
+17,Spielziel,Spiel,haben,Ziel,Quarto hat ein Ziel. ," (Spiel, sein, Brettspiel)",1,
+18,Spielziel,Reihe,sein,Ziel,Das Ziel von Quarto ist das Bilden einer Reihe. ," (Spiel, haben, Ziel),(Spiel, haben, Spielfigur),(Spiel, haben, Spielbrett)",1,
+19,Spielziel,Rufen,bedingung_haben,Reihe,"Man darf erst die Aktion “Rufen” ausführen, wenn eine Reihe gebildet wurde. ","(Spiel, sein, Brettspiel)",1,"[“Wenn du zum Beispiel Quarto rufst, ohne dass es eine Reihe auf dem Spielfeld gibt, zählt das nicht.”, “Quarto rufen darfst du also nur dann, wenn auf dem Spielbrett schon eine Reihe steht.”]"
+20,Spielziel,Reihe,gleich,Figurenmerkmal,Eine Reihe ist durch mindestens ein gleiches Figurenmerkmal zu erkennen. ," (Spiel, haben, Ziel), (Spiel, haben, Spielfigur), (Spielfigur, haben, Figurenmerkmal), (Spiel, haben, Spielbrett),(Reihe, sein, Ziel)",3,"[“Vier helle Figuren wären zum Beispiel eine Reihe.”, “Eine Reihe bei Quarto kann zum Beispiel aus vier kleinen Figuren bestehen.”, “Eine Reihe kann zum Beispiel auch aus vier eckigen Steinen bestehen.”, “Es ist auch eine Reihe, wenn mehr als ein Merkmal gleich ist, also Farbe und Form zum Beispiel.”]"
+21,Spielziel,Reihe,länge,vier,Eine Reihe ist vier Figuren lang. ,"(Reihe, sein, Ziel),(Spiel, haben, Ziel),(Spiel, haben, Spielfigur)",1,"[“Wenn du zum Beispiel die passende Figur zu einer Dreierreihe zufügst, dann ist die Reihe fertig.”, “Wenn die Reihe zum Beispiel nur 3 Figuren enthält, dann ist sie zu kurz.”, “Wenn die Reihe nicht in einer Linie verläuft, dann zählt sie leider auch nicht.""]"
+22,Spielziel,Reihe,sein,Siegbedingung,Eine Siegbedingung ist die Existenz einer Reihe.,"(Reihe, sein, Ziel)",1,"[“Wenn du zum Beispiel eine Reihe aus vier großen Figuren stellst, dann hast du eine Bedingung für den Sieg erfüllt.”]"
+23,Spielziel,Reihe,haben,Anordnung,Eine Reihe kann verschiedene Anordnungen haben. ,"(Spiel, haben, Ziel),(Reihe, sein, Ziel)",1,
+24,Spielziel,Reihe,bestehen_aus,Figuren,Eine Reihe besteht aus Figuren. ,"(Spiel, haben, Ziel),(Reihe, sein, Ziel),(Spiel, haben, Spielfigur)",1,
+25,Spielziel,Anordnung,Anzahl_haben,drei,Es gibt drei mögliche Arten der Anordnung.,"(Reihe, haben, Anordnung),(Reihe, sein, Ziel)",1,
+26,Spielziel,Anordnung,sein_können,Diagonal,Eine mögliche Anordnung ist diagonal. ,"(Reihe, haben, Anordnung)",1,"[“Also eine Reihe von links unten nach recht oben ist ein Beispiel dafür.”, “Wenn die Reihe beispielsweise links oben beginnt und dann gerade nach rechts unten läuft, dann ist sie diagonal.”]"
+27,Spielziel,Anordnung,sein_können,Vertikal,Eine mögliche Anordnung ist vertikal.,"(Reihe, haben, Anordnung)",1,"[“Wenn du zum Beispiel eine Reihe in allen Feldern ganz links erstellst, dann ist die vertikal.”, “Eine Reihe von oben rechts nach unten rechts wäre also vertikal.""]"
+28,Spielziel,Anordnung,sein_können,Horizontal,Eine mögliche Anordnung ist horizontal. ,"(Reihe, haben, Anordnung)",1,"[“Eine horizontale Reihe könnte zum Beispiel von unten links nach unten rechts gehen.”, “Eine Reihe von oben links nach oben rechts wäre horizontal.”]"
+29,Spielzüge,Spiel,haben,Spielzug,Quarto hat Spielzüge.,"(Spiel, sein, Brettspiel)",1,"[“Zum Beispiel Wählen.”, “Zum Beispiel Setzen.”, “Wenn du gerade eine Figur für deinen Gegner wählst, dann ist das ein Spielzug."", “Wenn du gerade eine Figur gesetzt hast, dann hast du einen der beiden Spielzüge gemacht.”]"
+30,Spielzüge,Spielzug,Anzahl_haben,zwei,Quarto hat zwei Spielzüge. ,"(Spiel, haben, Spielzug)",1,
+31,Spielzüge,Spiel,eingeteilt_sein_in,Runde,Quarto ist in Runden eingeteilt.,"(Spiel, sein, Brettspiel)",1,
+32,Spielzüge,Runde,enthalten,Spielfigur_wählen,Eine Runde enthält den Spielzug Wählen. ,"(Spiel, haben, Spielzug),(Spiel, eingeteilt_sein_in, Runde)",1,"[“Also Wählen ist einer der beiden Spielzüge.”, “Wenn du gerade eine Figur für deinen Gegner wählst, dann ist das ein Spielzug.""]"
+33,Spielzüge,Runde,enthalten,Spielfigur_setzen,Eine Runde enthält den Spielzug Setzen.  ,"(Spiel, haben, Spielzug),(Spiel, eingeteilt_sein_in, Runde)",1,"[“Wenn du gerade eine Figur gesetzt hast, dann hast du einen der beiden Spielzüge gemacht.”]"
+35,Spielzüge,Spielfigur_wählen,folgen_auf,Spielfigur_setzen,Das Auswählen der Spielfigur folgt auf das Setzen der Spielfigur.,"(Spiel, haben, Spielzug)",1,"[“Angenommen du hast gerade deine Figur gesetzt, dann musst du noch eine Figur auswählen und danach ist der Zug vorbei.”]"
+36,Spielzüge,Spielfigur_wählen,sein,Spielzug,Das Auswählen der Spielfigur ist ein Spielzug. ,"(Spiel, haben, Spielzug)",1,
+37,Spielzüge,Spielfigur_wählen,heraus,Figurenvorrat,Man wählt eine Figur aus dem übrigen Figurenvorrat.,"(Spiel, haben, Spielzug)",1,"[“Also die unbenutzen Figuren stehen ja irgendwo, neben dem Spielbrett auf dem Tisch zum Beispiel. Von denen wählst du eine.”]"
+38,Spielzüge,Spielfigur_wählen,wählen,Spielfigur,"Beim Spielzug Wählen, wählt man eine Spielfigur aus. ","(Spiel, haben, Spielzug), (Waehlen, sein, Spielzug), (Spiel, haben, Spielfigur)",1,"[“Wenn du Wählen musst, dann wählst du die Spielfigur aus dem Figurenvorrat aus, von der du in dem Moment glaubst, das ich sie setzen soll.”]"
+39,Spielzüge,Spielfigur_wählen,für,Gegner,"Beim Spielzug Wählen, wählt man für seinen Gegner. ","(Waehlen, sein, Spielzug),(Waehlen, heraus, Figurenvorrat),(Spieler, gegeneinander, Gegner),(Waehlen, waehlen, Spielfigur)",1,"[“Wenn zum Beispiel nur noch eine kleine Figur für die Reihe fehlt, dann würdest du eine große Figur wählen, damit ich nicht gewinne.”]"
+40,Spielzüge,Spielfigur_wählen,spielfigur_geben,Gegner,"Beim Spielzug Wählen, gibt man dem Gegner eine Figur. ","(Waehlen, für, Gegner),(Waehlen, waehlen, Spielfigur)",1,
+41,Spielzüge,Spielfigur_setzen,sein,Spielzug,Das Setzen der Figur ist ein Spielzug. ,"(Spiel, haben, Spielzug)",1,
+42,Spielzüge,Spielfigur_setzen,nutzen,Ausgewählt,Man nutzt zum Setzen die ausgewählte Figur. ,"(Waehlen, waehlen, Spielfigur),(Waehlen, für, Gegner)",1,
+43,Spielzüge,Spiel,haben,Aktion,Das Spiel hat Aktionen. ,,
+,Spielzüge,Rufen,sein,Aktion,Das Rufen ist eine Aktion. ,"(Spiel, haben, Spielzug),(Setzen, folgen_auf, Waehlen)",1,"[""Wenn du zum Beispiel eine Reihe machst, es nicht bemerkst und mir eine Figur raussuchst, dann ist die Siegchance für dich vergangen."", ""Wenn du deine Siegchance verpasst hast und ich die fertige Reihe auch nicht bemerke, dann ist die Siegchance mit der Reihe für immer vergangen.""]"
+44,Spielzüge,Rufen,sagen,Spielname_Spiel,Beim Rufen muss man den Namen des Spiels “Quarto” sagen. ,"(Spiel, haben, Spielzug),(Setzen, folgen_auf, Waehlen),(Rufen, sein, Aktion)",1,[“Du sagst also laut QUARTO.”]
+45,Spielzüge,Rufen,folgen_auf,Spielfigur_setzen,Das Rufen folgt auf das Setzen. ,"(Rufen, sein, Aktion),(Setzen, sein, Spielzug)",1,
+46,Spielzüge,Spielfigur_setzen,auf,Feld,Die Figur muss auf ein freies Feld gesetzt werden. ,"(Setzen, sein, Spielzug)",1,
+47,Spielzüge,Spielfigur_setzen,sein,Endgültig,Das Setzen ist endgültig.,"(Setzen, sein, Spielzug), (Setzen, auf, Spielbrett), (Setzen, setzen, Spielfigur)",2,"[“Wenn du zum Beispiel gesetzt hast und dann merkst, dass die Entscheidung die falsche war, dann hast du leider Pech gehabt.”, “Wenn du also gerade nicht aufgepasst hast und eine Reihe übersehen hast, dann darfst du nicht mehr umsetzen.”]"
+48,Spielzüge,Spielfigur_setzen,auf,Spielbrett,Die Figur wird auf das Spielbrett gesetzt. ,"(Setzen, sein, Spielzug),(Spiel, haben, Spielbrett)",1,
+49,Spielzüge,Spielfigur_setzen,setzen,Spielfigur,"Beim Spielzug Setzen, setzt man die Spielfigur. ","(Spiel, haben, Spielfigur), (Setzen, sein, Spielzug)",1,
+50,Spielfiguren,Spiel,haben,Spielfigur,Quarto hat Spielfiguren. ," (Spiel, sein, Brettspiel)",1,
+51,Spielfiguren,Spielfigur,haben,Figurenmerkmal,Die Spielfiguren haben verschiedene Merkmale. ," (Spiel, haben, Spielfigur)",1,"[“Es gibt zum Beispiel eine große, eckige, dunkle Spielfigur mit Loch in der Mitte.”, “Eine Figur ist beispielsweise klein, dunkel, rund und hohl, eine andere klein, dunkel, eckig und ausgefüllt.""]"
+52,Spielfiguren,Spielfigur,Anzahl_haben,sechzehn,Es gibt sechzehn verschiedene Spielfiguren. ," (Spiel, haben, Spielfigur)",1,
+53,Spielfiguren,Figurenmerkmal,Anzahl_haben,vier,Jede Figur hat vier verschiedene Merkmale. ,"(Spiel, haben, Spielfigur)",1,
+54,Spielfiguren,Farbe,sein,Figurenmerkmal,Die Farbe ist ein Figurenmerkmal. ,"(Spiel, haben, Spielfigur),(Spielfigur, haben, Figurenmerkmal)",1,"[""Es gibt beispielsweise helle Figuren."", ""Figuren können zum Beispiel aus dunklem Holz sein.""]"
+55,Spielfiguren,Form,sein,Figurenmerkmal,Die Form ist ein Figurenmerkmal. ,"(Spiel, haben, Spielfigur),(Spielfigur, haben, Figurenmerkmal)",1,"[""Es gibt beispielsweise helle Figuren."", ""Figuren können zum Beispiel aus dunklem Holz sein.""]"
+56,Spielfiguren,Struktur,sein,Figurenmerkmal,Die Struktur ist ein Figurenmerkmal. ,"(Spiel, haben, Spielfigur),(Spielfigur, haben, Figurenmerkmal)",1,"[""Es gibt 8 Figuren mit einem Loch in der Mitte.""]"
+57,Spielfiguren,Größe,sein,Figurenmerkmal,Die Größe ist ein Figurenmerkmal. ,"(Spiel, haben, Spielfigur),(Spielfigur, haben, Figurenmerkmal)",1,"[""Figuren können zum Beispiel groß oder klein sein.""]"
+58,Spielbrett,Spiel,haben,Spielbrett,Quarto hat ein Spielbrett. ,"(Spiel, sein, Brettspiel)",1,
+59,Spielbrett,Spiel,haben,Figurenvorrat,Quarto hat einen Figurenvorrat. ," (Spiel, haben, Spielfigur)",1,"[""Der Figurenvorrat kann zum Beispiel neben dem Spielbrett oder in der Spielverpackung sein.""]"
+,Spielbrett,Figurenvorrat,neben,Spielbrett, Der Figurenvorrat ist neben dem Spielbrett.,,
+,Spielbrett,Figurenvorrat,umfassen,freie_Spielfiguren, Der Figurenvorrat umfässt die freien Spielfiguren.,,
+60,Spielbrett,Feld,Anzahl_haben,sechzehn,Das Spielbrett hat sechzehn Felder.,"(Spiel, haben, Spielbrett)",1,
+61,Spielbrett,Spielbrett,haben,Feld,Das Spielbrett hat Felder. ,"(Spiel, haben, Spielbrett)",1,
+62,Spielbrett,Spielbrett,sein,Spielbestandteil,Das Spielbrett ist ein Bestandteil von Quarto. ,"(Spiel, haben, Spielbrett)",1,
+63,Strategien,Spiel,haben,Taktik,Quarto hat verschiedene Taktiken.,"(Spiel, sein, Brettspiel)",1,
+64,Strategien,Aktiv_spielen,sein,Taktik,Aktiv zu Spielen ist eine Taktik. ,"(Spiel, haben, Taktik),(Gegner, sein, Spieler)",1,"[""Wenn du zum Beispiel aktiv spielen möchtest, dann versuchst du ganz schnell eine Reihe zu beenden.""]"
+65,Strategien,Passiv_spielen,sein,Taktik,Passiv zu Spielen ist eine Taktik. ,"(Spiel, haben, Taktik),(Gegner, sein, Spieler)",1,"[""Wenn du zum Beispiel passiv spielen möchtest, dann versuchst du mir alle Möglichkeiten zu verbauen.""]"
+66,Strategien,Blocken,sein,Passiv_spielen,Den Gegner zu Blocken gehört eher zur passiven Taktik. ,"(Spiel, haben, Taktik),(Passiv_spielen, sein, Taktik)",1,"[""Also wenn zum Beispiel drei kleine Figuren in einer Reihe stehen und ich suche für dich eine große Figur aus."", ""Wenn du diese Figur dann in die Dreierreihe stellst, Blockst du die Reihe für mich und kannst wieder kleine Figuren wählen.""]"
+67,Strategien,Taktik,sein,Kombinierbar,Die verschiedenen Taktiken sind kombinierbar. ,"(Spiel, haben, Taktik),(Reihe, gleich, Figurenmerkmal),(Passiv_spielen, sein, Taktik),(Reihe, länge, vier)",1,"[""Du kannst beispielsweise so lange passiv spielen, bis du das Spiel mir einem aktiveren Zug beenden kannst."", ""Du kannst beispielsweise auch  absichtlich deinem Gegner Figuren geben, mit der er eine Reihe bilden kann und hoffen, dass er es nicht bemerkt.""]"
+68,Additional,Siegchance,können,Vergehen,Eine Siechance kann auch vergehen. ,"(Reihe, erzeugen, Siegchance)",1,
+69,Additional,Spiel,erfinder_haben,Blaise_Müller,Quarto wurde von Blaise Müller erfunden. ," (Spiel, sein, Brettspiel)",1,
+70,Additional,Spiel,dauern_können,10_bis_20_Minuten,Das Spiel kann zehn bis zwanzig Minuten dauern. ," (Spiel, sein, Brettspiel),(Spiel, spieldauer_haben, Zehn_Minuten)",1,
+71,Additional,Spiel,dauern_können,Individuell,Die Dauer von Quarto ist individuell. ," (Spiel, sein, Brettspiel),(Spiel, spieldauer_haben, Zehn_Minuten)",1,
+72,Additional,Spieler,mindestalter_haben,Drei_Jahre,Die Spieler müssen mindestens drei Jahre alt sein. ,"(Spiel, haben, Spieler)",1,
+73,Additional,Spieler,empfehlung_mindestalter_haben,Acht_Jahre,Ein Alter von mindestens acht Jahren ist empfohlen. ,"(Spiel, haben, Spieler)",1,
+74,Additional,Spielbrett,material,Holz,Das Spielbrett ist aus Holz.,"(Spiel, haben, Spielbrett)",1,
+75,Additional,Feld,form,Rund,Die Felder auf dem Spielbrett sind rund. ," (Spielbrett, haben, Feld)",1,
+76,Additional,Spieler,haben_gleich,Ziel,Die Spieler haben das gleiche Ziel. ," (Spiel, haben, Spieler)",1,
+77,Additional,Brettspiel,auf,Tisch,Ein Brettspiel spielt man meistens auf einem Tisch. ," (Spiel, haben, Spielbrett)",1,
+78,Additional,Horizontal,synonym,Waagerecht,Horizontal ist ein anderes Wort für waagerecht. ,"(Anordnung, option, Horizontal)",1,
+80,Additional,Struktur,sein_können,Hohl,Die Struktur einer Figur kann hohl sein. ,"(Struktur, sein, Figurenmerkmal)",1,
+81,Additional,Struktur,sein_können,Massiv,Die Struktur einer Figur kann massiv sein. ,"(Struktur, sein, Figurenmerkmal)",1,
+82,Additional,Spielfigur,material,Holz,Die Spielfiguren bestehen aus Holz. ,"(Spiel, haben, Spielfigur)",1,
+83,Additional,Figurenmerkmal,wichtig,Spielziel,"Die Figurenmerkmale sind wichtig, um das Spielziel zu erreichen. ","(Spielfigur, haben, Figurenmerkmal)",1,
+84,Additional,Spielbrett,größe,15x15cm,Das Spielbrett hat eine Größe von fünfzehn mal fünfzehn Zentimeter. ,"(Spiel, haben, Spielbrett)",1,
+85,Additional,Form,sein_können,Rund,Figuren können eine runde Form haben. ,"(Form, sein, Figurenmerkmal)",1,
+86,Additional,Form,sein_können,Eckig,Figuren können eine eckige Form haben. ,"(Form, sein, Figurenmerkmal)",1,
+87,Additional,Farbe,sein_können,Hell,Figuren können eine helle Farbe haben. ,"(Farbe, sein, Figurenmerkmal)",1,
+88,Additional,Farbe,sein_können,Dunkel,Figuren können eine dunkle Farbe haben. ,"(Farbe, sein, Figurenmerkmal)",1,
+89,Additional,Unentschieden,kein,Gewinner,"Wenn das Spiel unentschieden endet, dann gibt es keinen Gewinner. ","(Spielausgang, option, Unentschieden)",1,
+90,Additional,Spielbrett,sein,Gegenstand,Das Spielbrett ist ein Gegenstand. ,"(Spiel, haben, Spielbrett)",1,
+91,Additional,Figurenmerkmal,gleich,mindestens_1,"Es muss mindestens ein Figurenmerkmal übereinstimmen, um eine Reihe zu erzeugen. ","(Spielfigur, haben, Figurenmerkmal)",1,
+92,Additional,Spielfigur_wählen,untypisch,Spielzug,Das Auswählen der Spielfigur ist ein sehr ungewöhnlicher Spielzug. ,"(Wählen, für, Gegner)",1,
+93,Additional,Taktik,sein,Persönlich,Welche Taktik man bevorzugt ist sehr persönlich. ,"(Spiel, haben, Taktik)",1,
+94,Additional,Blocken,verhindern,Reihe,Beim Blocken verhindert man das Bilden einer Reihe. ,"(Blocken, sein, Passiv)",1,
+95,Additional,Reihe,sein,Übersehbar,Mögliche Reihen kann man leicht übersehen.,"(Reihe, sein, Ziel)",1,
+96,Additional,Unentschieden,aufgebraucht,Figuren,Bei einem Unentschieden sind alle Figuren aufgebraucht aber keiner hat eine Reihe gebildet. ,"(Spielausgang, option, Unentschieden)",1,
+97,Additional,Spielfigur,aufgebraucht,Unentschieden,"Wenn keine Reihe gebildet wurde aber alle Figuren aufgebraucht sind, dann ist das ein Unentschieden. ","(Spielausgang, option, Unentschieden)",1,
+98,Additional,Spielzug,sein,Abwechselnd,Die Spieler sind immer abwechselnd am Zug.,"(Spiel, haben, Spielzug), (Spieler, reihenfolge, Abwechselnd)",1,
+99,Additional,Spielfigur,keine_feste_Zuweisung,Spieler,Den Spielern gehören nicht bestimmte Spielfiguren. ," (Spiel, haben, Spielfigur)",1,
+100,Additional,Komplex,erfordert,Aufmerksamkeit,"Da das Spiel komplex ist, erfordert es eine hohe Aufmerksamkeit. ","(Spiel, sein, Komplex)",1,
+101,Additional,Taktik,verbessert,Siegchance,Taktisch zu spielen erhöht die Siegchance. ,"(Spiel, haben, Taktik)",1,
+102,Additional,Niederlage,sein_können,Überraschend,Niederlagen können einen manchmal sehr überraschen. ,"(Spielausgang, option, Niederlage)",1,
+103,Additional,Feld,struktur,4x4,Die Felder sind in einer vier mal vier Struktur angeordnet. ,"(Spielbrett, haben, Feld), (Spiel, haben, Spielbrett)",1,
+104,Additional,Größe,sein_können,Groß,Die Figuren können groß sein. ,"(Größe, sein, Figurenmerkmal)",1,
+105,Additional,Größe,sein_können,Klein,Die Figuren können klein sein. ,"(Größe, sein, Figurenmerkmal)",1,
+106,Additional,Gegner,sein,Spieler,Die Spieler sind Gegner. ,"(Spiel, haben, Spieler)",1,
+107,Additional,Figurenvorrat,synonym,Stall,Stall ist ein Synonym für Figurenvorrat. , ,
+
+
+

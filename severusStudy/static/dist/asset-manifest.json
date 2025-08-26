@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/static/dist/static/js/main.8dcacc10.js",
+    "static/media/confused.png": "/static/dist/static/media/confused.4bf467d7a9bb1dfb97ed.png",
+    "static/media/yay.png": "/static/dist/static/media/yay.b5befd1d8d045a8e7556.png",
+    "index.html": "/static/dist/index.html"
+  },
+  "entrypoints": [
+    "static/js/main.8dcacc10.js"
+  ]
+}

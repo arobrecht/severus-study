@@ -1,0 +1,157 @@
+{% extends "base.html" %}
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('.static', filename='css/study.css') }}" type="text/css" />
+    <script type="text/javascript">
+        //Test for old browsers:
+        var canvas = document.createElement("canvas");
+        if (!canvas.getContext) {
+            window.location.href = "{{ url_for('.update_browser') }}";
+        }
+
+    </script>
+
+    <div class="textBlock">
+        <h3>Informationen zur wissenschaftlichen Studie</h3>
+        <p>
+            Im Folgenden informieren wir Sie über die Studie im Allgemeinen, den datenschutzrechtskonformen
+            Umgang mit Ihren personenbezogenen Daten und bitten um Ihre Zustimmung
+            zur Teilnahme sowie zur Verwendung Ihrer Daten für die angegebenen Zwecke. Bevor
+            Sie sich dazu bereit erklären, lesen Sie bitte sorgfältig die nachfolgenden Informationen.
+            Alle weiteren Fragen können an den Leiter der Untersuchung gestellt werden.
+        </p>
+
+        <h4>Das Forschungsteam</h4>
+        <p>
+           Diese Studie wird im Rahmen der Doktorarbeit von Amelie Sophie Robrecht
+            durchgeführt und von ihr geleitet. Betreuer dieser Doktorarbeit ist Prof. Dr. Stefan Kopp.
+
+            <ol>
+                <li>
+                    Amelie Sophie Robrecht<br>
+                    Social Cognitive Systems, Universität Bielefeld<br>
+                    Telefon: +49 521 106 12035, Mail:
+                    <a href="mailto:arobrecht@techfak.uni-bielefeld.de">arobrecht@techfak.uni-bielefeld.de</a>
+                </li>
+
+                <li>
+                    Prof. Dr. Stefan Kopp<br>
+                    Social Cognitive Systems, Universität Bielefeld<br>
+                    Telefon: +49 521 106 12144, Mail:
+                    <a href="mailto:skopp@techfak.uni-bielefeld.de">skopp@techfak.uni-bielefeld.de</a>
+                </li>
+            </ol>
+        </p>
+
+        <h4>Das Forschungsprojekt</h4>
+        <p>
+            Die Studie wird im Rahmen des Projektes A01 des Trans-
+            regionalen Sonderforschungsbereiches TRR 318 durchgeführt und für die Doktorarbeit
+            von Amelie Sophie Robrecht ausgewertet. Hierbei werden adaptive Erklärprozesse untersucht.
+        </p>
+
+        <h4>Freiwilligkeit der Teilnahme</h4>
+        <p>
+            Ihre Teilnahme an dieser Studie ist freiwillig. Es steht
+            Ihnen zu jedem Zeitpunkt frei die Studie ohne die Angabe von Gründen abzubrechen und
+            die Löschung Ihrer Daten anzuordnen.
+        </p>
+
+        <h4>Dauer der Teilnahme</h4>
+        <p>
+            Die Studie wird ca. 20 min dauern, je nach Verlauf kann die Länge jedoch variieren.
+        </p>
+
+{#        <h4>Belohnung für die Teilnahme</h4>#}
+{#        <p>#}
+{#            Sie werden für die Teilnehme an der Studie eine#}
+{#            Aufwandsentschädigung von xxx € über Prolific erhalten. Die Aufwandsentschädigung#}
+{#            kann nur nach Abschluss der gesamten Studie ausgezahlt werden.#}
+{#        </p>#}
+
+        <h4>Informationen zum Datenschutz</h4>
+        <p>
+            Im Rahmen dieser Studie werden personenbezogene Daten erhoben. Zusätzlich werden
+            der Verlauf der Erklärungen, sowie die Antworten zu den Fragebögen anonymisiert gespeichert.
+        </p>
+
+        <h4>Nutzung und Lagerung der erhobenen Daten</h4>
+        <p>
+            Alle erhobenen Daten werden
+            auf einem von der Technischen Fakultät der Universität Bielefeld gehosteten Volume
+            gespeichert. Die Daten werden zusätzlich auf in einem AG-internen Sciebo-Ordner aufbewahrt.
+            Sciebo ist ein nicht-kommerzieller Cloud-Speicher des Landes NRW speziell für
+            Hochschulen. An beiden Orten werden die Daten für 10 Jahre gespeichert.
+        </p>
+
+        <h4>Zugriff auf die erhobenen Daten</h4>
+        <p>
+            Sowohl auf das Volume der Fakultät als auch
+            auf den Sciebo-Ordner haben ausschließlich Mitglieder der AG Social Cognitive Systems der Universität Bielefeld und Mitglieder des TRR 318 Zugriff.
+        </p>
+
+        <h4>Veröffentlichung der erhobenen Daten</h4>
+        <p>
+            Die Veröffentlichung von Forschungsergebnissen in Publikationen oder auf Tagungen erfolgt ausschließlich in anonymisierter
+            Form und lässt zu keinem Zeitpunkt Rückschlüsse auf Sie als Person zu.
+        </p>
+
+        <h4>Weitergabe an Länder außerhalb der Europäischen Union (EU)</h4>
+        <p>
+            Ihr Einverständnis vorausgesetzt werden die in dieser Studie erhobenen Daten im Sinne guter
+            wissenschaftlicher Praxis auf verschlüsselten Universitätservern aufbewahrt, um von anderen
+            Wissenschaftler:innen genutzt zu werden. Ihre Daten werden stets vertraulich unter
+            Wahrung der Datenschutzgesetze behandelt und nicht an Institutionen in Ländern außerhalb
+            der Europäischen Union (EU) weitergegeben.
+        </p>
+
+        <h4>Rechtsbelehrung</h4>
+        <p>
+            Sie haben jederzeit die Möglichkeit folgende Rechte geltend zu machen:
+            <ul>
+                <li>
+                    <b>Art. 7 Abs. 3 DSGVO: Recht auf Widerruf der Einwilligung</b><br>
+                    Sie haben das Recht, Ihre Einwilligung jederzeit mit Wirkung für die Zukunft zu
+                    widerrufen.
+                </li>
+                <li>
+                    <b>Art. 15 DSGVO: Auskunftsrecht</b><br>
+                    Sie haben uns gegenüber das Recht, Auskunft darüber zu erhalten, welche Daten
+                    wir zu Ihrer Person verarbeiten.
+                </li>
+                <li>
+                    <b>Art. 16 DSGVO: Recht auf Berichtigung</b><br>
+                    Sollten die Sie betreffenden Daten nicht richtig oder unvollständig sein, so können
+                    Sie die Berichtigung unrichtiger oder die Vervollständigung unvollständiger Angaben verlangen.
+                </li>
+                <li>
+                    <b>Art. 17 DSGVO: Recht auf Löschung</b><br>
+                    Sie können jederzeit die Löschung ihrer Daten verlangen.
+                </li>
+                <li>
+                    <b>Art. 18 DSGVO: Recht auf Einschränkung der Verarbeitung</b><br>
+                    Sie können die Einschränkung der Verarbeitung der Sie betreffenden personenbezogenen Daten verlangen.
+                </li>
+                <li>
+                    <b>Art. 21 DSGVO: Widerspruchsrecht</b><br>
+                    Sie können jederzeit gegen die Verarbeitung der Sie betreffenden Daten Widerspruch einlegen.
+                </li>
+                <li>
+                    <b>Art. 77 DSGVO: Recht auf Beschwerde bei einer Aufsichtsbehörde</b><br>
+                    Wenn Sie der Auffassung sind, dass wir bei der Verarbeitung Ihrer Daten datenschutzrechtliche
+                    Vorschriften nicht beachtet haben, können Sie sich mit einer Beschwerde
+                    an die zuständigen Aufsichtsbehörde wenden, die Ihre Beschwerde prüfen
+                    wird. Wenden Sie sich in diesem Fall an Anja Schmid, die Datenschutzbeauftragte
+                    der Universität Bielefeld entweder mit einer Mail an
+                    <a href="mailto:datenschutzbeauftragte@uni-bielefeld.de">datenschutzbeauftragte@uni-bielefeld.de</a>
+                    oder per Telefon unter +49 521 106 5225.
+                </li>
+            </ul>
+        </p>
+
+    </div>
+
+    <div class="flexBottom">
+        <input type="button" class="button" onclick="window.location.href='{{ url_for('.index') }}';" value="Zurück"/>
+    </div>
+
+{% endblock %}

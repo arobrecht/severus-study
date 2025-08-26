@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+
+<link rel="stylesheet" href="{{ url_for('.static', filename='css/study.css') }}" type="text/css" />
+
+<div class="flex-container">
+    <h2 class="heading">Vielen Dank!</h2>
+
+    <div class="textBlock">
+        <p>
+            Im Folgenden werden Ihnen einige Fragen zur Erklärung gestellt.
+        </p>
+    </div>
+
+    <div class="flexBottom">
+        <input type="button" class="button" onclick="window.location.href='{{ url_for('.questionnaire_post_one') }}';" value="Weiter"/>
+    </div>
+</div>
+
+{% endblock %}

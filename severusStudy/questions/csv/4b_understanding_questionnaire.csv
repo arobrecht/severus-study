@@ -1,0 +1,10 @@
+question;answer;options;points;comment
+Welche dieser Szenarien enthalten ein Quarto?;t1o1, t103, t1o4;t1o1, t1o2,  t103, t1o4;4;each wrong item minimizes by -1, if non of the given answers is correct no points are reached
+Wählen Sie die Figur aus, die ein Quarto mit den drei abgebildeten Steinen (t2) bildet.;t2o3;t2o1, t2o2, t2o3;4;each wrong item minimizes by -1, if non of the given answers is correct no points are reached
+Wählen Sie die Figur aus, die ein Quarto mit den drei abgebildeten Steinen (t3) bildet.;t3o3;t3o1, t3o2, t3o3;4;each wrong item minimizes by -1, if non of the given answers is correct no points are reached
+Wählen Sie die Figur aus, die ein Quarto mit den drei abgebildeten Steinen (t7) bildet.;t7o3, t6o3;t7o1, t7o3, t6o3;4;each wrong item minimizes by -1, if non of the given answers is correct no points are reached
+Wählen Sie die Figur aus, welche Sie der:dem Gegenspieler für den nächsten Zug geben würden. Es steht aktuell nur die Reihe t4.;t4o3;t4o1, t4o2, t4o3;4;each wrong item minimizes by -1, if non of the given answers is correct no points are reached
+Wählen Sie die Figur aus, welche Sie der:dem Gegenspieler für den nächsten Zug geben würden. Es steht aktuell nur die Reihe t5.;t5o1;t5o1, t5o2, t5o3;4;each wrong item minimizes by -1, if non of the given answers is correct no points are reached
+Wählen Sie die Figur aus, welche Sie der:dem Gegenspieler für den nächsten Zug geben würden. Es steht aktuell nur die Reihe t8.;t8o3, t9o1;t8o1, t8o2, t9o1;4;each wrong item minimizes by -1, if non of the given answers is correct no points are reached
+Gegeben ist folgende Spielsituation (t10). Sie bekommen vom Gegner die Spielfigur t8o1 (klein, eckig, hell, massiv). Wohin würden Sie die Figur setzen? (Mehrfachnennung möglich);F2;B1, B2, C3, D4, D1, E1, F1, G1, F2;5;each wrong item minimizes by -1, if non of the given answers is correct no points are reached
+Gegeben ist die folgende Spielsituation (t11). Welchen Spielsteine würden Sie der/dem Gegenspieler:in geben? (Mehrfachnennung möglich);1, 6;1, 2, 3, 4, 5, 6, 7, 8;5;each wrong item minimizes by -1, if non of the given answers is correct no points are reached

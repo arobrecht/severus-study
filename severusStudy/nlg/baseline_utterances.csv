@@ -1,0 +1,69 @@
+triple;utterance
+Spiel sein Brettspiel;Quarto ist ein Brettspiel.
+Brettspiel sein Gesellschaftsspiel;Quarto ist ein Gesellschaftsspiel.
+Spiel sein Komplex;Das Spiel ist komplex.
+Spiel dauern ungefähr_Zehn_Minuten;Das Spiel dauert normalerweise ungefähr zehn Minuten.
+Spiel haben Spieler;Das Spiel hat Spieler.
+Spieler Anzahl_haben zwei;Das Spiel hat zwei Spieler.
+Spieler reihenfolge Abwechselnd;Die Spieler sind abwechselnd an der Reihe.
+Spieler  sein Gegner;Ein Spieler hat einen Gegner.
+Gegner spielen Gegeneinander;Die Gegner spielen gegeneinander.
+Spiel haben Spielausgang;Quarto hat einen Spielausgang.
+Spielausgang Anzahl_haben drei;Es gibt drei mögliche Spielausgänge.
+Spielausgang sein_können Sieg;Ein Spielergebnis kann ein Sieg sein.
+Spielausgang sein_können Unentschieden;Ein Spiel kann unentschieden ausgehen.
+Spielausgang sein_können Niederlage;Eine Niederlage kann ein Spielausgang sein.
+Reihe erzeugen Siegchance;Eine Reihe zu bilden erzeugt eine Gewinnchancen.
+Sieg bedingung_haben Rufen;Du gewinnst, indem du „Quarto“ rufst.
+Spiel haben Spielfigur;Das Spiel hat Spielfiguren.
+Spielfigur Anzahl_haben sechzehn;Das Spiel hat sechzehn Spielfiguren.
+Spielfigur haben Figurenmerkmal;Spielfiguren haben Figurenmerkmale.
+Figurenmerkmal Anzahl_haben vier;Es gibt vier Merkmale.
+Farbe sein Figurenmerkmal;Farbe ist ein Merkmal der Spielfiguren.
+Form sein Figurenmerkmal;Die Form ist eines der Figurenmerkmale.
+Struktur sein Figurenmerkmal;Jede Figur hat das Figurenmerkmal Struktur. 
+Größe sein Figurenmerkmal;Die Figuren im Spiel haben die Größe als Merkmal.
+Spiel haben Figurenvorrat;Das Spiel hat einen Figurenvorrat.
+Figurenvorrat neben Spielbrett;Der Vorrat der übrigen Figuren ist neben dem Spielbrett.
+Figurenvorrat umfassen freie_Spielfiguren;Der Figurenvorrat beinhaltet alle freien Figuren.
+Spiel haben Spielbrett;Das Spiel hat ein Spielbrett.
+Spielbrett sein Spielbestandteil;Ein Spielbrett ist ein Bestandteil des Spiels.
+Spielbrett haben Feld;Das Spielbrett hat Felder.
+Feld Anzahl_haben sechzehn;Das Spielfeld hat sechzehn Felder.
+Spiel haben Ziel;Quarto hat ein Ziel.
+Reihe sein Ziel;Eine Reihe ist das Ziel.
+Rufen bedingung_haben Reihe;Eine Bedingung, um Rufen zu können ist, dass eine Reihe existiert.
+Reihe gleich Figurenmerkmal;Eine Reihe hat ein gleichartiges Figurenmerkmal.
+Siegbedingung benötigen Reihe;Für den Sieg benötigt man eine Reihe.
+Reihe haben Anordnung;Eine Reihe hat eine Anordnung.
+Reihe bestehen_aus Figuren;Eine Reihe besteht aus Figuren.
+Reihe länge vier;Eine Reihe ist vier Felder lang.
+Anordnung Anzahl_haben drei;Es gibt drei mögliche Anordnungen.
+Anordnung sein_können Diagonal;Die Anordnung kann diagonal sein.
+Anordnung sein_können Vertikal;Eine Anordnung kann vertikal sein.
+Anordnung sein_können Horizontal;Die Anordnung kann horizontal sein.
+Spiel haben Spielzug;Das Spiel hat Züge.
+Spielzug Anzahl_haben zwei;Quarto hat zwei Spielzüge.
+Spiel eingeteilt_sein_in Runde;Das Spiel ist in Runden eingeteilt.
+Runde enthalten Spielfigur_wählen;In jeder Runde wählt man eine Spielfigur aus.
+Runde enthalten Spielfigur_setzen;In jeder Runde wird eine Spielfigur gesetzt.
+Spielfigur_wählen folgen_auf Spielfigur_setzen;Nachdem ein Spieler eine Figur gesetzt hat, wählt er die nächste Spielfigur.
+Spielfigur_wählen sein Spielzug;Das Wählen einer Spielfigur ist ein Spielzug.
+Spielfigur_wählen heraus Figurenvorrat;Man wählt eine Spielfigur aus dem Figurenvorrat.
+Spielfigur_wählen wählen Spielfigur;Man wählt eine Spielfigur.
+Spielfigur_wählen für Gegner;Du wählst eine Spielfigur für deinen Gegner.
+Spielfigur_wählen spielfigur_geben Gegner;Du wählst eine Figur, die du deinem Gegner gibst.
+Spielfigur_setzen sein Spielzug;Man setzt eine Spielfigur als Spielzug.
+Spielfigur_setzen nutzen Ausgewählt;Die ausgewählte Spielfigur wird genutzt, um sie zu setzen.
+Spielfigur_setzen auf Feld;Eine Spielfigur wird auf ein Feld gesetzt.
+Spielfigur_setzen sein Endgültig;Ein Spielfigur zu setzen ist ein Spielzug, der endgültig ist.
+Spielfigur_setzen auf Spielbrett;Man setzt Spielfiguren auf das Spielbrett.
+Spielfigur_setzen setzen Spielfigur;Eine Spielfigur wird gesetzt.
+Rufen sein Aktion;Rufen ist die Aktion, die man im Spiel ausführt.
+Rufen sagen Spielname_Spiel;Beim Rufen muss man “Quarto” sagen.
+Rufen folgen_auf Spielfigur_setzen;Das Rufen folgt auf das Setzen einer Spielfigur.
+Spiel haben Taktik;Das Spiel erfordert Taktik.
+Aktiv sein Taktik;Aktiv zu spielen ist eine Taktik. 
+Passiv sein Taktik;Passiv sein ist eine Taktik.
+Blocken sein Passiv;Das Blockieren von möglichen Reihen ist ein Teil einer passiven Spieltaktik.
+Taktik sein Kombinierbarkeit;In diesem Spiel lassen sich Taktiken kombinieren.

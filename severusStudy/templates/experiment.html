@@ -1,0 +1,22 @@
+{% extends "base.html"%} {% block content %}
+<!-- <script src="https://cdn.socket.io/4.5.4/socket.io.min.js" integrity="sha384-/KNQL8Nu5gCHLqwqfQjA689Hhoqgi2S84SNUxC3roTe4EhJ9AfLkp8QiQcU8AMzI" crossorigin="anonymous"></script> -->
+<link
+  rel="stylesheet"
+  href="{{ url_for('.static', filename='css/study.css') }}"
+  type="text/css"
+/>
+<script type="text/javascript">
+  var socketPath = "{{ socket_path }}";
+  var feedbackMode = "{{ feedback_mode }}"
+  var isBaseline = "{{ is_baseline }}"
+</script>
+{% for js_file in get_assets('dist/static/js/main.*.js') -%}
+<script
+  type="text/javascript"
+  src="{{ url_for('.static', filename=js_file) }}"
+></script>
+{% endfor -%} 
+<div id="root">
+
+</div>
+{% endblock %}

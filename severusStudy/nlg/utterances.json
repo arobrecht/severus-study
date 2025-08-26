@@ -1,0 +1,7120 @@
+{
+  "0": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      69
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Siegchancen können verstreichen."
+  },
+  "1": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      69
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, Gewinnchancen können verfallen."
+  },
+  "2": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      69
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, Gewinnchancen können verfallen."
+  },
+  "3": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      70
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Blaise Müller hat das Spiel erfunden."
+  },
+  "4": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      70
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Falsch, der Erfinder des Spiels ist Blaise Müller."
+  },
+  "5": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      70
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, der Erfinder des Spiels ist Blaise Müller."
+  },
+  "6": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      71
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Ein Spiel kann zwischen 10 und 20 Minuten dauern."
+  },
+  "7": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      71
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nicht Ganz, das Spiel dauert ungefähr 10 bis 20 Minuten."
+  },
+  "8": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      71
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, das Spiel dauert ungefähr 10 bis 20 Minuten."
+  },
+  "9": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      72
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Länge eines Spiels kann variieren."
+  },
+  "10": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      72
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, ein Spiel kann auch einzeln dauern."
+  },
+  "11": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      72
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, ein Spiel kann individuell lange dauern."
+  },
+  "12": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      73
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Spieler müssen mindestens drei Jahre alt sein."
+  },
+  "13": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      73
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, Spieler müssen mindestens drei Jahre alt sein."
+  },
+  "14": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      73
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, Spieler müssen mindestens drei Jahre alt sein."
+  },
+  "15": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      74
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel ist für Spieler ab acht Jahren empfohlen."
+  },
+  "16": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      74
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, das Spiel empfiehlt, dass Spieler acht Jahre alt sein sollten."
+  },
+  "17": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      74
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, das Spiel ist für Spieler ab acht Jahren empfohlen."
+  },
+  "18": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      75
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spielbrett ist aus Holz gemacht worden."
+  },
+  "19": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      75
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, das Spielbrett ist aus Holz."
+  },
+  "20": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      75
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, das Spielbrett ist aus Holz."
+  },
+  "21": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      76
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spielfeld hat Felder in runder Form."
+  },
+  "22": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      76
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, die Felder sind rund."
+  },
+  "23": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      76
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, das Feld ist rund."
+  },
+  "24": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      77
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Spieler haben das gleiche Ziel."
+  },
+  "25": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      77
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, die Spieler haben dasselbe Ziel."
+  },
+  "26": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      77
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, Spieler haben ein identisches Ziel."
+  },
+  "27": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      78
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel liegt auf dem Tisch."
+  },
+  "28": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      78
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, das Spiel steht auf dem Tisch."
+  },
+  "29": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      78
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, das Brettspiel steht auf dem Tisch."
+  },
+  "30": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      79
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Waagerecht ist ein Synonym für horizontal."
+  },
+  "31": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      79
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Falsch, waagerecht ist ein Synonym für „horizontal“."
+  },
+  "32": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      79
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, es ist ein waagerechtes Synonym."
+  },
+  "33": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      80
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Struktur kann hohl sein."
+  },
+  "34": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      80
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, eine Struktur kann hohl sein."
+  },
+  "35": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      80
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, die Struktur kann hohl sein."
+  },
+  "36": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      81
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Struktur kann massiv sein."
+  },
+  "37": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      81
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, eine Struktur kann massiv sein."
+  },
+  "38": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      81
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, die Struktur kann massiv sein."
+  },
+  "39": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      82
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Spielfiguren sind aus Holz gefertigt."
+  },
+  "40": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      82
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, die Spielfigur ist aus Holz."
+  },
+  "41": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      82
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, die Spielfigur ist aus Holz."
+  },
+  "42": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      83
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Figurenmerkmale sind wichtig für das Spielziel."
+  },
+  "43": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      83
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, Figurenmerkmale sind wichtig für das Spielziel."
+  },
+  "44": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      83
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, das Aussehen einer Spielfigur ist wichtig, um das Spielziel zu erreichen."
+  },
+  "45": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      84
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spielbrett ist 15 mal 15 Zentimeter groß."
+  },
+  "46": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      84
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, das Spielbrett ist 15 × 15 cm groß."
+  },
+  "47": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      84
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, das Spielbrett ist 15 mal 15 Zentimeter groß."
+  },
+  "48": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      85
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Form kann rund sein."
+  },
+  "49": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      85
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, die Form kann rund sein."
+  },
+  "50": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      85
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, die Form kann rund sein."
+  },
+  "51": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      86
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Form kann eckig sein."
+  },
+  "52": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      86
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, die Form kann eckig sein."
+  },
+  "53": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      86
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, die Form kann eckig sein."
+  },
+  "54": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      87
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Figur kann eine helle Farbe haben."
+  },
+  "55": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      87
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Farben können hell sein."
+  },
+  "56": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      87
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, eine Farbe kann hell sein."
+  },
+  "57": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      88
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Figur kann dunkel sein."
+  },
+  "58": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      88
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, Eine Figur kann dunkel gefärbt sein."
+  },
+  "59": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      88
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, eine Farbe kann dunkel sein."
+  },
+  "60": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      89
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wenn niemand gewinnt, endet das Spiel unentschieden."
+  },
+  "61": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      89
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, das Spiel kann unentschieden ausgehen."
+  },
+  "62": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      89
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, bei einem Unentschieden gibt es keinen Gewinner."
+  },
+  "63": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      90
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel hat ein Spielbrett."
+  },
+  "64": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      90
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, es gibt ein Spielbrett."
+  },
+  "65": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      90
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, das Spielbrett Teil des Spiels."
+  },
+  "66": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      91
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Mindestens ein Merkmal muss übereinstimmen."
+  },
+  "67": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      91
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, die Figuren müssem mindestens ein Merkmal gemeinsam haben."
+  },
+  "68": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      91
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, mindestens eine Eigenschaft der Figuren muss gleich sein."
+  },
+  "69": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      92
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Auswählen einer Spielfigur ist ein ungewöhnlicher Zug."
+  },
+  "70": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      92
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, eine Spielfigur zu wählen, ist ein ungewöhnlicher Zug."
+  },
+  "71": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      92
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, das Auswählen einer Spielfigur ist ein ungewöhnlicher Zug."
+  },
+  "72": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      93
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Taktiken sind eher persönlich."
+  },
+  "73": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      93
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, Taktik ist persönlicher Geschmack."
+  },
+  "74": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      93
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, die Wahl der Taktik ist persönlich."
+  },
+  "75": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      94
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Blocken verhindert das Fertigstellen einer Reihe."
+  },
+  "76": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      94
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, das Blocken kann eine Reihe unterbinden."
+  },
+  "77": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      94
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, Blocken verhindert eine Reihe."
+  },
+  "78": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      95
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Reihe kann man leicht übersehen."
+  },
+  "79": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      95
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, eine Reihe kann man schon mal übersehen."
+  },
+  "80": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      95
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, eine Reihe ist oft schwer zu sehen."
+  },
+  "81": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      96
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel endet unentschieden, wenn alle Figuren aufgebraucht sind."
+  },
+  "82": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      96
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, das Spiel endet unentschieden, wenn alle Figuren aufgebrauchtsind."
+  },
+  "83": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      96
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, bei einem Unentschieden wurden alle Figuren verwendet."
+  },
+  "84": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      97
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel endet unentschieden, sobald alle Spielfiguren aufgebraucht sind."
+  },
+  "85": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      97
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, es ist ein Unentschieden, wenn alle Spielfiguren aufgebraucht sind."
+  },
+  "86": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      97
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Wenn alle Spielfiguren aufgebraucht sind, endet das Spiel unentschieden."
+  },
+  "87": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      98
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Spieler wechseln sich bei einem Spielzug ab."
+  },
+  "88": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      98
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, die Spielzüge sind abwechselnd."
+  },
+  "89": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      98
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, die Spielzüge sind abwechselnd."
+  },
+  "90": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      99
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Spielfiguren gehören nicht einem Spieler."
+  },
+  "91": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      99
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, eine Spielfigur ist keinem Spieler fest zugeordnet."
+  },
+  "92": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      99
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, eine Spielfigur ist keinem festen Spieler zugeordnet."
+  },
+  "93": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      100
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Komplexität des Spiels erfordert Aufmerksamkeit."
+  },
+  "94": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      100
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, das Spiel ist komplex und braucht deshalb Aufmerksamkeit."
+  },
+  "95": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      100
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, die Komplexität des Spiels erfordert Aufmerksamkeit."
+  },
+  "96": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      101
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine bessere Taktik erhöht deine Gewinnchancen."
+  },
+  "97": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      101
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Falsch, bessere Taktik erhöht die Gewinnchancen."
+  },
+  "98": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      101
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Genau, eine bessere Taktik erhöht deine Gewinnchancen."
+  },
+  "99": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      102
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Niederlage kann überraschend sein."
+  },
+  "100": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      102
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, eine Niederlage kann überraschen."
+  },
+  "101": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      102
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, eine Niederlage kann überraschen."
+  },
+  "102": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      103
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Feld hat ein 4 × 4-Raster."
+  },
+  "103": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      103
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, Es hat ein 4x4-Raster."
+  },
+  "104": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      103
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, das Feld hat eine 4x4-Struktur."
+  },
+  "105": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      104
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Figuren können groß sein."
+  },
+  "106": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      104
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, die Größe kann groß sein."
+  },
+  "107": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      104
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, die Größe kann groß sein."
+  },
+  "108": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      105
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Figuren können klein sein."
+  },
+  "109": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      105
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, die Größe kann klein sein."
+  },
+  "110": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      105
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, die Größe kann klein sein."
+  },
+  "111": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      106
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Der Gegner ist Spieler."
+  },
+  "112": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      106
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, der Gegner ist ein Spieler."
+  },
+  "113": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      106
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, der Gegner ist Spieler."
+  },
+  "114": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      71,
+      72
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel kann zwischen 10 und 20 Minuten dauern, das variiert."
+  },
+  "115": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      75,
+      82
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spielbrett und die Spielfiguren sind aus Holz gefertigt."
+  },
+  "116": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      80,
+      81
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Strukturen können hohl oder massiv sein."
+  },
+  "117": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      85,
+      86
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Form kann rund oder eckig sein."
+  },
+  "118": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      87,
+      88
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Farben können hell oder dunkel sein."
+  },
+  "119": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      104,
+      105
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Größe kann groß oder klein sein."
+  },
+  "120": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      9
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Jedes Spiel hat einen Ausgang."
+  },
+  "121": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      9
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, ein Spiel hat einen Ausgang."
+  },
+  "122": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      9
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, ein Spiel hat einen Ausgang."
+  },
+  "123": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      10
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Es gibt drei mögliche Spielausgänge."
+  },
+  "124": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      10
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, das Spiel kann auf drei Arten enden."
+  },
+  "125": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      10
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, es gibt drei mögliche Enden."
+  },
+  "126": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      11
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Ein Spielergebnis kann ein Sieg sein."
+  },
+  "127": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      11
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, ein Spiel kann einen Sieg als Ausgang haben."
+  },
+  "128": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      11
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, ein Spiel kann zum Sieg führen."
+  },
+  "129": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      12
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Ein Spiel kann unentschieden ausgehen."
+  },
+  "130": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      12
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, das Spiel kann unentschieden ausgehen."
+  },
+  "131": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      12
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, das Spiel kann unentschieden ausgehen."
+  },
+  "132": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      13
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Ein Spiel kann zu einer Niederlage führen."
+  },
+  "133": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      13
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, das Spiel kann auch verloren gehen."
+  },
+  "134": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      13
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, ein Spiel kann mit einer Niederlage enden."
+  },
+  "135": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      14
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Du gewinnst, indem du „Quarto“ rufst."
+  },
+  "136": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      14
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, Quarto zu rufen ist eine Siegbedingung."
+  },
+  "137": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      14
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, es ist eine Siegbedingung Quarto zu rufen."
+  },
+  "138": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      15
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Reihe zu bilden erzeugt eine Gewinnchancen."
+  },
+  "139": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      15
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, eine Reihe kann eine Siegchance ermöglichen."
+  },
+  "140": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      15
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, eine Reihe zu bilden, erhöht die Gewinnchance."
+  },
+  "141": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      9
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 116,
+    "answer_type": null,
+    "utterance": "Wie Tic Tac Toe hat auch Quarto einen Spielausgang."
+  },
+  "142": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      9
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 162,
+    "answer_type": null,
+    "utterance": "Wie Schach hat auch Quarto einen Spielausgang."
+  },
+  "143": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      10
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 117,
+    "answer_type": null,
+    "utterance": "Genau wie Quarto hat Tic Tac Toe drei mögliche Spielausgänge."
+  },
+  "144": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      10
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 163,
+    "answer_type": null,
+    "utterance": "Wie Schach hat Quarto drei mögliche Spielausgänge."
+  },
+  "145": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      11
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 118,
+    "answer_type": null,
+    "utterance": "Wie bei TicTacToe kann das Spiel mit einem Sieg enden. "
+  },
+  "146": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      11
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 164,
+    "answer_type": null,
+    "utterance": "Bei Quarto wie bei Schach kann das Spiel mit einem Sieg enden."
+  },
+  "147": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      12
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 119,
+    "answer_type": null,
+    "utterance": "Bei Quarto kann ein Spiel unentschieden ausgehen, ähnlich wie bei Tic-Tac-Toe."
+  },
+  "148": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      13
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 120,
+    "answer_type": null,
+    "utterance": "In Quarto kann, genau wie TicTacToe, mit einer Niederlage enden."
+  },
+  "149": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      13
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 166,
+    "answer_type": null,
+    "utterance": "In Quarto kann eine Niederlage Ergebnis eines Spiels sein, genau wie bei Schach."
+  },
+  "150": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      14
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 121,
+    "answer_type": null,
+    "utterance": "Im Gegensatz zu Tic Tac Toe muss man bei Quarto den Namen des Spiels Rufen, um zu gewinnen."
+  },
+  "151": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      14
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 167,
+    "answer_type": null,
+    "utterance": "Bei Quarto und Schach ist das Rufen eine Siegbedingung."
+  },
+  "152": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      15
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 122,
+    "answer_type": null,
+    "utterance": "Eine Reihe zu erzeugen erzeugt eine Siegchance bei Quarto, führt bei Tic Tac Toe aber direkt zum Sieg."
+  },
+  "153": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      15
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 168,
+    "answer_type": null,
+    "utterance": "Genauso wie man im Schach eine Mattstellung aufbaut, um eine Gewinnchance zu erhalten, bietet das Erstellen einer Reihe in Quartò ebenfalls die Möglichkeit, zu gewinnen."
+  },
+  "154": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      11,
+      12
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Ein Spiel kann entweder gewonnen oder unentschieden enden."
+  },
+  "155": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      11,
+      13
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Ein Spiel kann entweder gewonnen oder verloren werden."
+  },
+  "156": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      12,
+      13
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel kann unentschieden ausgehen oder verloren gehen."
+  },
+  "157": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      11,
+      12,
+      13
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Ein Spiel kann mit einem Sieg, einem Unentschieden oder einer Niederlage enden."
+  },
+  "158": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      0
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Quarto ist ein Brettspiel."
+  },
+  "159": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      0
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, es ist ein Brettspiel."
+  },
+  "160": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      0
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, das Spiel ist ein Brettspiel."
+  },
+  "161": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      1
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Ein Brettspiel ist ein Gesellschaftsspiel."
+  },
+  "162": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      1
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, ein Brettspiel ist ein Gesellschaftsspiel."
+  },
+  "163": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      1
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, ein Brettspiel ist ein Gesellschaftsspiel."
+  },
+  "164": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      2
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel ist komplex."
+  },
+  "165": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      2
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, das Spiel ist komplex."
+  },
+  "166": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      2
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, das Spiel ist komplex."
+  },
+  "167": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      3
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel dauert normalerweise ungefähr zehn Minuten."
+  },
+  "168": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      3
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Falsch, Spiele dauern ungefähr zehn Minuten."
+  },
+  "169": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      3
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, das Spiel dauert ungefähr zehn Minuten."
+  },
+  "170": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      0
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 108,
+    "answer_type": null,
+    "utterance": "Im Gegensatz zu Tic Tac Toe ist Quarto ein Brettspiel."
+  },
+  "171": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      0
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 153,
+    "answer_type": null,
+    "utterance": "Quarto ist wie Schach ein Brettspiel."
+  },
+  "172": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      0
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 155,
+    "answer_type": null,
+    "utterance": "Wie Quarto ist auch Schach ein Brettspiel, aber es ist komplexer."
+  },
+  "173": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      1
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 154,
+    "answer_type": null,
+    "utterance": "Wie Schach ist auch Quarto ein Brett- und Gesellschaftsspiel."
+  },
+  "174": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      2
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 109,
+    "answer_type": null,
+    "utterance": "Im Gegensatz zu Tic Tac Toe ist Quarto ein komplexes Spiel."
+  },
+  "175": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      2
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 153,
+    "answer_type": null,
+    "utterance": "Obwohl beides Spiele sind, gilt Quarto als komplex, während Schach ein Brettspiel ist."
+  },
+  "176": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      2
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 155,
+    "answer_type": null,
+    "utterance": "Quarto ist komplex wie Schach."
+  },
+  "177": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      0,
+      2
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel ist ein komplexes Brettspiel."
+  },
+  "178": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      57
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel hat ein Spielbrett."
+  },
+  "179": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      57
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, das Spiel hat ein Spielbrett."
+  },
+  "180": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      57
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, das Spiel hat ein Spielbrett."
+  },
+  "181": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      58
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel verfügt über einen Figurenbestand."
+  },
+  "182": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      58
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, das Spiel hat einen Figurenvorrat."
+  },
+  "183": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      58
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, das Spiel verfügt über einen Figurenvorrat."
+  },
+  "184": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      61
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spielbrett hat sechzehn Felder."
+  },
+  "185": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      61
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, das Spiel hat sechzehn Felder."
+  },
+  "186": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      61
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, das Spielbrett hat sechzehn Felder."
+  },
+  "187": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      62
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spielbrett hat Felder."
+  },
+  "188": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      62
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, das Spielbrett hat Felder."
+  },
+  "189": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      62
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, das Spielbrett hat Felder."
+  },
+  "190": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      63
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spielbrett ist ein Bestandteil des Spiels."
+  },
+  "191": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      63
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein. Es ist ein Spielbestandteil des Spiels."
+  },
+  "192": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      63
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, es ist ein Bestandteil des Spiels."
+  },
+  "193": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      57
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 149,
+    "answer_type": null,
+    "utterance": "Im Gegensatz zu Quarto, das ein Spielbrett hat, besitzt TicTacToel nur Spielpapier."
+  },
+  "194": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      57
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 199,
+    "answer_type": null,
+    "utterance": "Wie Schach, hat auch Quarto ein Spielbrett."
+  },
+  "195": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      58
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 149,
+    "answer_type": null,
+    "utterance": "Im Gegensatz zu Tic Tac Toe, das ein Spielpapier verwendet, hat Quarto! Einen Figurenvorrat."
+  },
+  "196": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      58
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 199,
+    "answer_type": null,
+    "utterance": "Quarto hat einen Figurenvorrat, Schach nur das Spielbrett. "
+  },
+  "197": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      58
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 200,
+    "answer_type": null,
+    "utterance": "Im Gegensatz zu Schach besitzt Quarto einen Figurenvorrat."
+  },
+  "198": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      62
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 151,
+    "answer_type": null,
+    "utterance": "Quarto verwendet ein Spielbrett, während Tic Tac Toe auf Spielpapier gespielt wird, obwohl beide Spiele Felder haben."
+  },
+  "199": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      62
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 202,
+    "answer_type": null,
+    "utterance": "Quarto und Schach haben beide ein Spielbrett mit Feldern."
+  },
+  "200": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      63
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 203,
+    "answer_type": null,
+    "utterance": "Wie beim Schach hat auch Quarto ein Spielbrett als Bestandteil des Spiels."
+  },
+  "201": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      57,
+      58
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel besteht aus einem Spielbrett und dem Figurenvorrat."
+  },
+  "202": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      4
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel hat Spieler. "
+  },
+  "203": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      4
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein,Quarto hat Spieler."
+  },
+  "204": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      4
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Genau, das Spiel hat Spieler."
+  },
+  "205": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      5
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel hat zwei Spieler."
+  },
+  "206": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      5
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, das Spiel hat zwei Spieler."
+  },
+  "207": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      5
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Genau, das Spiel hat zwei Spieler."
+  },
+  "208": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      6
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Spieler sind abwechselnd an der Reihe."
+  },
+  "209": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      6
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Das ist leider falsch. Die Spieler sind abwechselnd an der Reihe."
+  },
+  "210": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      6
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, die Spieler wechseln sich bei Quarto ab!"
+  },
+  "211": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      7
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Gegner spielen gegeneinander."
+  },
+  "212": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      7
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, die Spieler spielen gegeneinander."
+  },
+  "213": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      7
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, die Spieler spielen gegeneinander."
+  },
+  "214": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      8
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Spieler sind Gegner. "
+  },
+  "215": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      8
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, ein Spieler hat einen Gegner."
+  },
+  "216": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      8
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, ein Spieler hat einen Gegner."
+  },
+  "217": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      4
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 111,
+    "answer_type": null,
+    "utterance": "Wie Tic Tac Toe hat, so hat auch Quarto Spieler."
+  },
+  "218": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      4
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 157,
+    "answer_type": null,
+    "utterance": "Wie Schach hat auch Quarto Spieler."
+  },
+  "219": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      5
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 112,
+    "answer_type": null,
+    "utterance": "Quarto wird ebenfalls von zwei Spielern gespielt, genau wie Tic-Tac-Toe."
+  },
+  "220": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      5
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 158,
+    "answer_type": null,
+    "utterance": "Wie Schach hat auch Quarto zwei Spieler."
+  },
+  "221": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      6
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 114,
+    "answer_type": null,
+    "utterance": "Wie bei Tic Tac Toe spielen die Spieler bei Quarto! Abwechselnd."
+  },
+  "222": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      6
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 160,
+    "answer_type": null,
+    "utterance": "Bei Quarto und Schach wechseln sich die Spieler ab."
+  },
+  "223": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      8
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "In Quarto ist der Mitspieler eines Spielers dessen Gegner, genau wie bei Tic-Tac-Toe, wo die Spieler gegeneinander antreten."
+  },
+  "224": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      8
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Bei Quarto hat ein Spieler einen Gegner, aber beim Schach hat ein Spieler einen Gegner, gegen den er spielt."
+  },
+  "225": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      49
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel hat Spielfiguren."
+  },
+  "226": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      49
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, Quarto hat Spielfiguren."
+  },
+  "227": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      49
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, das Spiel hat Spielfiguren."
+  },
+  "228": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      50
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Spielfiguren haben bestimmte Merkmale."
+  },
+  "229": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      50
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, Spielfiguren haben Figurenmerkmale."
+  },
+  "230": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      50
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, Spielfiguren haben Figurenmerkmale."
+  },
+  "231": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      51
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel hat sechzehn Spielfiguren."
+  },
+  "232": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      51
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, das Spiel hat sechzehn Figuren."
+  },
+  "233": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      51
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, das Spiel hat sechzehn Figuren."
+  },
+  "234": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      52
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Es gibt vier Merkmale."
+  },
+  "235": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      52
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, die Figuren haben vier Eigenschaften."
+  },
+  "236": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      52
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, ein Spielstein hat vier Merkmale."
+  },
+  "237": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      53
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Figuren im Spiel haben Farbe als Merkmal."
+  },
+  "238": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      53
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, die Farbe ist ein Merkmal der Spielfigur."
+  },
+  "239": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      53
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, Farbe ist das Figurenmerkmal."
+  },
+  "240": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      54
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Form ist eines der Figurenmerkmale."
+  },
+  "241": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      54
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, die Spielfigur hat eine Form als Figurenmerkmal."
+  },
+  "242": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      54
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, die Spielfigur hat die Form als ihr Figurenmerkmal."
+  },
+  "243": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      55
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Jede Figur hat das Figurenmerkmal Struktur. "
+  },
+  "244": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      55
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Falsch. Die Figuren haben eine Struktur als Merkmal."
+  },
+  "245": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      55
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, die Struktur ist ein Figurenmerkmal."
+  },
+  "246": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      56
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Figuren im Spiel haben die Größe als Merkmal."
+  },
+  "247": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      56
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, die Größe ist ein Merkmal einer Spielfigur."
+  },
+  "248": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      56
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, die Größe ist ein Merkmal der Spielfigur."
+  },
+  "249": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      49
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 144,
+    "answer_type": null,
+    "utterance": "Im Gegensatz zu Quarto, das Spielfiguren hat, hat Tic Tac Toe keine."
+  },
+  "250": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      49
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 145,
+    "answer_type": null,
+    "utterance": "Während beide Spiele etwas haben, um einen Zug darzustellen, verwendet Quarto Spielfiguren und Tic-Tac-Toe-Symbole."
+  },
+  "251": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      49
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 191,
+    "answer_type": null,
+    "utterance": "Wie Schach hat auch Quarto Spielfiguren im Spiel."
+  },
+  "252": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      50
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 146,
+    "answer_type": null,
+    "utterance": "Genauso wie Spielfiguren in Tic Tac Toe bestimmte Merkmale haben, besitzen Spielfiguren in Quarto Figurenmerkmale."
+  },
+  "253": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      50
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 192,
+    "answer_type": null,
+    "utterance": "Wie bei Schach haben die Spielfiguren in Quarto ebenfalls Figurenmerkmale."
+  },
+  "254": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      53
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 148,
+    "answer_type": null,
+    "utterance": "So wie die Form bei TicTacToe ist die Farbe bei Quarto ein relevantes Merkmal."
+  },
+  "255": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      53
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 195,
+    "answer_type": null,
+    "utterance": "Wie bei Schach ist auch bei Quarto die Farbe ein Merkmal der Figuren."
+  },
+  "256": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      53
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 196,
+    "answer_type": null,
+    "utterance": "Bei Quarto ist die Farbe eines der Unterscheidungsmerkmale der Figuren, wie es beim Schach die Form ist."
+  },
+  "257": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      54
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 148,
+    "answer_type": null,
+    "utterance": "Wie bei Tic Tac Toe ist auch bei Quarto die Form ein relevantes Figurenmerkmal."
+  },
+  "258": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      54
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 195,
+    "answer_type": null,
+    "utterance": "In Quarto ist die Form das Kennzeichen der Figuren, während es bei Schach die Farbe ist."
+  },
+  "259": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      54
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 196,
+    "answer_type": null,
+    "utterance": "Wie beim Schach, ist die Form auch bei Quarto ein wichtiges Merkmal."
+  },
+  "260": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      55
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 148,
+    "answer_type": null,
+    "utterance": "Ähnlich wie die Form bei TicTacToe, ist die Struktur der Figur bei Quarto ein relevantes Figurenmerkmal. "
+  },
+  "261": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      55
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 195,
+    "answer_type": null,
+    "utterance": "Bei Quarto ist die Struktur ein wichtiges Merkmal der Spielfiguren, wie es beim Schach die Farbe ist."
+  },
+  "262": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      55
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 196,
+    "answer_type": null,
+    "utterance": "Während Schachfiguren durch ihre Form definiert werden, zeichnen sich Quartofiguren durch ihre Struktur aus."
+  },
+  "263": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      55
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 197,
+    "answer_type": null,
+    "utterance": "Im Gegensatz zu Schach ist die Struktur der Figur bei Quarto relevant."
+  },
+  "264": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      56
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 148,
+    "answer_type": null,
+    "utterance": "So wie Tic Tac Toe seine Spielfiguren durch ihre Form unterscheidet, ist bei Quarto die Größe ein Figurenmerkmal."
+  },
+  "265": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      56
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 195,
+    "answer_type": null,
+    "utterance": "Im Gegensatz zu Schach, wo ein Figurenmerkmal die Farbe ist, ist es bei Quarto auch die Größe der Figur wichtig."
+  },
+  "266": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      56
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 196,
+    "answer_type": null,
+    "utterance": "Im Gegensatz zu Schach, wo die Figuren durch ihre Form charakterisiert werden, zeichnen sich die Figuren bei Quarto zusätzlich durch ihre Größe aus."
+  },
+  "267": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      53,
+      54
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Farbe und Form sind beides Figurenmerkmale."
+  },
+  "268": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      53,
+      55
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Figuren unterscheiden sich durch ihre Farbe und Struktur."
+  },
+  "269": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      53,
+      56
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Farbe und Größe sind Figurenmerkmale."
+  },
+  "270": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      54,
+      55
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Form und die Struktur sind wichtige Figurenmerkmale."
+  },
+  "271": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      54,
+      56
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Form und Größe sind beides Figurenmerkmale."
+  },
+  "272": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      55,
+      56
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Zwei der Figurenmerkmale in Quarto sind die Struktur und die Größe."
+  },
+  "273": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      53,
+      54,
+      55
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Zu den Merkmalen der Figuren zählen Farbe, Form und Struktur."
+  },
+  "274": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      53,
+      54,
+      56
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Figuren im Spiel werden durch ihre Farbe, Form und Größe charakterisiert."
+  },
+  "275": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      53,
+      55,
+      56
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Figuren im Spiel werden durch ihre Farbe, Struktur und Größe gekennzeichnet."
+  },
+  "276": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      54,
+      55,
+      56
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Quarto-Figuren können in Form, Struktur und Größe variieren."
+  },
+  "277": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      16
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel hat ein Ziel."
+  },
+  "278": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      16
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, das Spiel hat ein Ziel."
+  },
+  "279": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      16
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, das Spiel hat ein Ziel."
+  },
+  "280": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      17
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Reihe ist das Ziel."
+  },
+  "281": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      17
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, eine Reihe ist das Ziel."
+  },
+  "282": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      17
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, eine Reihe ist das Ziel."
+  },
+  "283": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      18
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Bedingung, um Rufen zu können ist, dass eine Reihe existiert."
+  },
+  "284": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      18
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, Rufen hat eine Reihe als Voraussetzung."
+  },
+  "285": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      18
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, bevor man rufen darf, muss es eine Reihe geben."
+  },
+  "286": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      19
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Reihe wird durch dasselbe Figurenmerkmal definiert."
+  },
+  "287": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      19
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein. Reihen haben ein gemeinsames Figurenmerkmal."
+  },
+  "288": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      19
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, eine Reihe muss ein gleiches Figurenmerkmal haben."
+  },
+  "289": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      20
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Reihe ist vier Felder lang."
+  },
+  "290": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      20
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, eine Reihe ist vier Felder lang."
+  },
+  "291": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      20
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, die Reihe ist vier Felder lang."
+  },
+  "292": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      21
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Vier in einer Reihe zu haben, ist die Siegbedingung."
+  },
+  "293": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      21
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nicht ganz. Eine Reihe ist eine Siegbedingung."
+  },
+  "294": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      21
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, eine Reihe ist die Siegbedingung."
+  },
+  "295": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      22
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Reihe hat eine Anordnung."
+  },
+  "296": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      22
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, Reihen haben Anordnungen."
+  },
+  "297": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      22
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, Reihen haben eine Anordnung."
+  },
+  "298": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      23
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Reihen bestehen aus Figuren."
+  },
+  "299": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      23
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, Reihen bestehen aus Figuren."
+  },
+  "300": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      23
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, Reihen bestehen aus Figuren."
+  },
+  "301": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      24
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Es gibt drei mögliche Anordnungen."
+  },
+  "302": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      24
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Falsch, Quarto hat drei mögliche Anordnungen."
+  },
+  "303": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      24
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Genau, es gibt drei Arten eine Reihe anzuordnen. "
+  },
+  "304": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      25
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Anordnung kann diagonal sein."
+  },
+  "305": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      25
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, eine Diagonale kann eine Anordnung sein."
+  },
+  "306": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      25
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, Anordnungen können diagonal sein."
+  },
+  "307": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      26
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Anordnung kann vertikal sein."
+  },
+  "308": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      26
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, eine Anordnung kann vertikal sein."
+  },
+  "309": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      26
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, eine Anordnung kann vertikal sein."
+  },
+  "310": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      27
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Anordnung kann horizontal sein."
+  },
+  "311": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      27
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, eine Anordnung kann horizontal sein."
+  },
+  "312": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      27
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, Anordnungen können horizontal sein."
+  },
+  "313": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      16
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 123,
+    "answer_type": null,
+    "utterance": "Wie Tic Tac Toe hat auch Quarto ein Ziel."
+  },
+  "314": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      16
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 169,
+    "answer_type": null,
+    "utterance": "Wie Schach, hat auch Quarto ein Ziel."
+  },
+  "315": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      17
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 124,
+    "answer_type": null,
+    "utterance": "Wie bei Tic Tac Toe ist das Ziel bei Quarto, eine Reihe zu erreichen."
+  },
+  "316": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      17
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 127,
+    "answer_type": null,
+    "utterance": "Wie bei Tic Tac Toe, wo eine Reihe zum Sieg führt, ist sie bei Quarto das Ziel."
+  },
+  "317": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      17
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 170,
+    "answer_type": null,
+    "utterance": "Bei Quarto ist das Ziel, eine Reihe zu erreichen, während man beim Schach den König mattsetzen muss."
+  },
+  "318": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      18
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 171,
+    "answer_type": null,
+    "utterance": "Beide Spiele erfordern eine Bedingung zum Rufen, wobei Quarto das Bilden einer Reihe und Schach ein Schachmatt voraussetzt."
+  },
+  "319": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      19
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 125,
+    "answer_type": null,
+    "utterance": "Wie bei Tic-Tac-Toe ist das Ziel bei Quarto! auch, eine Reihe mit demselben Figurenmerkmal zu bilden."
+  },
+  "320": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      20
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 126,
+    "answer_type": null,
+    "utterance": "In Quarto muss eine Gewinnreihe vier Felder lang sein, während man bei Tic-Tac-Toe drei benötigt."
+  },
+  "321": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      21
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 124,
+    "answer_type": null,
+    "utterance": "Bei Quarto ist eine Reihe ein Sieg, während sie bei Tic Tac Toe das Ziel darstellt."
+  },
+  "322": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      21
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 127,
+    "answer_type": null,
+    "utterance": "Wie bei Tic Tac Toe ist eine Siegbedingungl bei Quarto, eine Reihe zu erreichen, um zu gewinnen."
+  },
+  "323": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      21
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 172,
+    "answer_type": null,
+    "utterance": "Bei Quarto ist eine Reihe die Siegbedingung, während es bei Schach Schachmatt ist."
+  },
+  "324": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      22
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 128,
+    "answer_type": null,
+    "utterance": "Sowohl bei Quarto als auch bei Tic-Tac-Toe geht es darum, eine Reihe anzuordnen."
+  },
+  "325": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      23
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 129,
+    "answer_type": null,
+    "utterance": "Im Gegensatz zu Tic Tac Toe, wo die Reihen aus Symbolen bestehen, bestehen die Reihen bei Quarto aus Figuren."
+  },
+  "326": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      24
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 130,
+    "answer_type": null,
+    "utterance": "Quarto hat, genau wie TicTacToe, drei Möglichkeiten eine Reihe zu Bilden."
+  },
+  "327": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      25
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie bei TicTacToe kann man die Figuren auch bei Quarto diagonal anordnen."
+  },
+  "328": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      26
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Bei TicTacToe kann eine Reihe vertikal sein, genau wie bei Quarto."
+  },
+  "329": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      27
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Bei Quarto können die Figuren horizontal angeordnet werden, genau wie bei TicTacToe."
+  },
+  "330": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      17,
+      21
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Reihe zu bilden ist das Ziel und eine Bedingung um zu gewinnen."
+  },
+  "331": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      25,
+      26
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Anordnungen können diagonal oder vertikal sein."
+  },
+  "332": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      25,
+      27
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Anordnungen können diagonal oder horizontal sein."
+  },
+  "333": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      26,
+      27
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Anordnung kann vertikal oder horizontal sein."
+  },
+  "334": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      25,
+      26,
+      27
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Anordnung kann diagonal, vertikal oder horizontal sein."
+  },
+  "335": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      28
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel hat Züge."
+  },
+  "336": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      28
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, das Spiel hat Züge."
+  },
+  "337": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      28
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, das Spiel hat Spielzüge."
+  },
+  "338": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      29
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Quarto hat zwei Spielzüge."
+  },
+  "339": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      29
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, es gibt zwei Spielzüge."
+  },
+  "340": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      29
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Genau, es sind zwei Spielzüge."
+  },
+  "341": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      30
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel ist in Runden unterteilt."
+  },
+  "342": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      30
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, das Spiel ist in Runden unterteilt."
+  },
+  "343": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      30
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, das Spiel ist in Runden unterteilt."
+  },
+  "344": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      31
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "In jeder Runde wird eine Spielfigur ausgewählt."
+  },
+  "345": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      31
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Falsch. Eine Runde beinhaltet die Auswahl einer Spielfigur."
+  },
+  "346": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      31
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, in dieser Runde wählt man eine Spielfigur aus."
+  },
+  "347": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      32
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "In jeder Runde wird eine Spielfigur platziert."
+  },
+  "348": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      32
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, ein Runde beeinhaltet es, eine Spielfigur zu setzen."
+  },
+  "349": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      32
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, bei einem Zug wird eine Spielfigur gesetzt."
+  },
+  "350": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      33
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Nachdem ein Spieler eine Figur gesetzt hat, wählt er die nächste Spielfigur."
+  },
+  "351": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      33
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, das Auswählen einer Spielfigur folgt auf das Setzen einer Spielfigur."
+  },
+  "352": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      33
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, wenn man eine Spielfigur gesetzt hat wählt man die nächste Figur."
+  },
+  "353": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      34
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Wählen einer Spielfigur ist ein Spielzug."
+  },
+  "354": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      34
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, eine Spielfigur zu wählen, ist ein Spielzug."
+  },
+  "355": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      34
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, das Auswählen einer Spielfigur ist ein Spielzug."
+  },
+  "356": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      35
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Du wählst eine Spielfigur aus dem Figurenvorrat."
+  },
+  "357": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      35
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, du wählst Spielfiguren aus dem Figurenvorrat."
+  },
+  "358": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      35
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, du wählst Figuren aus dem Figurenvorrat."
+  },
+  "359": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      36
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Du wählst eine Spielfigur."
+  },
+  "360": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      36
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, du wählst eine Spielfigur."
+  },
+  "361": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      36
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, du wählst eine Spielfigur."
+  },
+  "362": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      37
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Der Spieler wählt eine Spielfigur für seinen Gegner aus."
+  },
+  "363": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      37
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, man wählt eine Spielfigur für den Gegner aus."
+  },
+  "364": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      37
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, du wählst eine Spielfigur für deinen Gegner aus."
+  },
+  "365": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      38
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Du wählst eine Figur, die du deinem Gegner gibst."
+  },
+  "366": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      38
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Ja, du wählst eine Spielfigur aus und gibst sie deinem Gegner."
+  },
+  "367": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      38
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, du wählst eine Spielfigur aus, die du deinem Gegner gibst."
+  },
+  "368": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      39
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Setzen einer Spielfigur ist ein Spielzug."
+  },
+  "369": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      39
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, der Spielzug besteht darin, eine Spielfigur zu setzen."
+  },
+  "370": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      39
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, ein Zug besteht darin, eine Spielfigur zu setzen."
+  },
+  "371": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      40
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Du setzt immer die ausgewählte Figur."
+  },
+  "372": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      40
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, man muss die Figur setzen, die ausgewählt wurde."
+  },
+  "373": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      40
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, du kannst die ausgewählte Spielfigur setzen."
+  },
+  "374": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      41
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel beinhaltet eine Aktion."
+  },
+  "375": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      41
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, das Spiel hat eine Aktion."
+  },
+  "376": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      41
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, Quarto hat eine sogenannte Aktion."
+  },
+  "377": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      42
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Rufen ist die Aktion im Spiel."
+  },
+  "378": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      42
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein. Das Rufen ist eine Aktion."
+  },
+  "379": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      42
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, Rufen ist eine Aktion."
+  },
+  "380": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      43
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Beim Rufen muss man “Quarto” sagen."
+  },
+  "381": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      43
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, man muss den Namen des Spiels sagen. "
+  },
+  "382": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      43
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, man ruft den Namen des Spiels."
+  },
+  "383": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      44
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Typischerweise folgt das Rufen auf das Setzen einer Figur."
+  },
+  "384": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      44
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, meistens folgt das Rufen auf das Setzen."
+  },
+  "385": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      44
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, der Ruf folgt auf das Setzen einer Spielfigur."
+  },
+  "386": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      45
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Spielfigur wird auf ein Feld gesetzt."
+  },
+  "387": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      45
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein. Eine Spielfigur wird auf ein Feld gesetzt."
+  },
+  "388": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      45
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, eine Spielfigur wird auf ein Feld gesetzt."
+  },
+  "389": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      46
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Setzen einer Spielfigur ist endgültig."
+  },
+  "390": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      46
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, die Spielfigur ist gesetzt und verbleibt dauerhaft auf dem Brett."
+  },
+  "391": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      46
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, die Spielfigur ist endgültig gesetzt."
+  },
+  "392": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      47
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Du setzt eine Spielfigur auf das Spielbrett."
+  },
+  "393": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      47
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, eine Spielfigur wird auf das Spielbrett gesetzt."
+  },
+  "394": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      47
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, eine Spielfigur wird auf das Spielbrett gesetzt."
+  },
+  "395": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      48
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Du setzt eine Spielfigur."
+  },
+  "396": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      48
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Ja, eine Spielfigur wird gesetzt."
+  },
+  "397": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      48
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, du setzt eine Figur."
+  },
+  "398": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      28
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 134,
+    "answer_type": null,
+    "utterance": "Wie Tic Tac Toe hat auch Quarto Spielzüge!"
+  },
+  "399": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      28
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 173,
+    "answer_type": null,
+    "utterance": "Wie Schach hat auch Quarto Züge."
+  },
+  "400": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      30
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 136,
+    "answer_type": null,
+    "utterance": "Wie Tic Tac Toe ist auch Quarto in Runden unterteilt."
+  },
+  "401": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      30
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 175,
+    "answer_type": null,
+    "utterance": "Wie Schach, ist auch Quarto in Runden unterteilt."
+  },
+  "402": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      31
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 137,
+    "answer_type": null,
+    "utterance": "In jeder Runde von Quarto wird eine Spielfigur ausgewählt, während in jeder Runde von Tic-Tac-Toe ein Zeichen gesetzt wird."
+  },
+  "403": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      31
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 176,
+    "answer_type": null,
+    "utterance": "In jeder Runde wählt man bei beiden Spielen, Schach und Quarto, eine Spielfigur aus."
+  },
+  "404": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      31
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 177,
+    "answer_type": null,
+    "utterance": "In Quarto wählt man in jeder Runde eine Figur, während man beim Schach in jeder Runde eine Figur setzt."
+  },
+  "405": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      32
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 137,
+    "answer_type": null,
+    "utterance": "In jeder Runde von Quarto! wird eine Spielfigur platziert, während bei Tic-Tac-Toe ein Symbol eingezeichnet wird."
+  },
+  "406": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      32
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 176,
+    "answer_type": null,
+    "utterance": "Wie bei Schach, wo in jeder Runde ein Spielstein gesetzt wird, besteht ein Zug bei Quarto darin, eine Spielfigur zu platzieren und eine andere zu wählen."
+  },
+  "407": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      32
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 177,
+    "answer_type": null,
+    "utterance": "Wie bei Schach beinhaltet ein Zug in Quarto auch das Setzen einer Spielfigur."
+  },
+  "408": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      33
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 186,
+    "answer_type": null,
+    "utterance": "Während man bei Schach nur noch “Schach matt” sagen kann, wenn man eine Figur gesetzt hat, muss man nach dem Setzen bei Quarto noch eine Figur auswählen."
+  },
+  "409": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      34
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 178,
+    "answer_type": null,
+    "utterance": "Wie bei Schach besteht einer der Züge in Quarto darin, eine Spielfigur auszuwählen."
+  },
+  "410": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      34
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 182,
+    "answer_type": null,
+    "utterance": "Anstatt wie bei Schach eine Spielfigur zu setzen, gibt es bei Quarto auch noch den Spielzug in dem man eine Figur auswählt."
+  },
+  "411": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      35
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 179,
+    "answer_type": null,
+    "utterance": "Bei beiden Spielen wählt man eine Figur aus, aber bei Quarto wählt man aus allen vorhandenen Figuren, während man beim Schach nur die eigenen auswählen kann."
+  },
+  "412": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      36
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 180,
+    "answer_type": null,
+    "utterance": "Bei dem Spielzug Wählen, wählt man eine Spielfigur aus."
+  },
+  "413": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      37
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 181,
+    "answer_type": null,
+    "utterance": "Im Gegensatz zu Schach, wo man sich selbst eine Spielfigur aussucht, wählt man bei Quarto eine Spielfigur für den Gegner."
+  },
+  "414": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      39
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 178,
+    "answer_type": null,
+    "utterance": "Während man bei Quarto eine Spielfigur setzt, wählt man bei Schach eine Spielfigur aus."
+  },
+  "415": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      39
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 182,
+    "answer_type": null,
+    "utterance": "Genau wie im Schach ist das Setzen einer Spielfigur ein Zug bei Quarto!"
+  },
+  "416": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      39
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 188,
+    "answer_type": null,
+    "utterance": "Bei Quarto ist das Setzen einer Spielfigur ein Zug, während es beim Schach endgültig ist."
+  },
+  "417": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      40
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 183,
+    "answer_type": null,
+    "utterance": "In Quarto setzt man die vom Gegner ausgewählte Figur, während man bei Schach seine eigenen Figuren setzt."
+  },
+  "418": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      41
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 134,
+    "answer_type": null,
+    "utterance": "Quarto hat wie Tic Tac Toe Züge."
+  },
+  "419": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      41
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 173,
+    "answer_type": null,
+    "utterance": "Wie Schach hat auch Quarto eine dem Spiel zugeordnete Aktion."
+  },
+  "420": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      42
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 184,
+    "answer_type": null,
+    "utterance": "Sowohl Quarto als auch Schach beinhalten die Aktion des Rufens."
+  },
+  "421": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      43
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 185,
+    "answer_type": null,
+    "utterance": "Während beide Spiele die Spielaktion Rufen haben, ruft man bei „Quarto!“ den Spielnamen, während man bei Schach „Schachmatt“ sagt."
+  },
+  "422": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      44
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 186,
+    "answer_type": null,
+    "utterance": "Wie bei Schach folgt das Rufen meist auf das Setzen einer Figur."
+  },
+  "423": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      45
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 140,
+    "answer_type": null,
+    "utterance": "In Quarto werden Spielfiguren auf das Feld gesetzt, ähnlich wie bei Tic-Tac-Toe Zeichen gemacht werden."
+  },
+  "424": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      45
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 187,
+    "answer_type": null,
+    "utterance": "Wie bei Schach setzt man auch bei Quarto Spielfiguren auf das Feld."
+  },
+  "425": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      45
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 189,
+    "answer_type": null,
+    "utterance": "Bei Quarto wird eine Spielfigur auf ein Feld gesetzt, ähnlich wie beim Schach, wo eine Figur auf das Spielfeld gestellt wird."
+  },
+  "426": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      46
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 141,
+    "answer_type": null,
+    "utterance": "Ähnlich wie bei Tic Tac Toe, wo man ein Feld dauerhaft markiert, platziert man auch bei Quarto eine Spielfigur endgültig."
+  },
+  "427": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      46
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 182,
+    "answer_type": null,
+    "utterance": "Bei Quarto ist das Setzen einer Figur endgültig, während es beim Schach ein Zug ist."
+  },
+  "428": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      46
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 188,
+    "answer_type": null,
+    "utterance": "Wie bei Schach ist das Setzen einer Spielfigur in Quarto ein endgültiger Zug."
+  },
+  "429": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      47
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 142,
+    "answer_type": null,
+    "utterance": "Im Gegensatz zu Tic Tac Toe, bei dem man Zeichen malt, setzt man bei Quarto Figuren."
+  },
+  "430": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      47
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 187,
+    "answer_type": null,
+    "utterance": "Bei beiden Spielen, Quarto und Schach, wird eine Figur auf das Spielbrett gesetzt, genauer gesagt auf ein freies Feld."
+  },
+  "431": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      47
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 189,
+    "answer_type": null,
+    "utterance": "Sowohl Quarto als auch Schach beinhalten das Setzen einer Spielfigur auf das Brett."
+  },
+  "432": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      48
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 190,
+    "answer_type": null,
+    "utterance": "Sowohl Quarto als auch Schach beinhalten das Setzen einer Spielfigur."
+  },
+  "433": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      28,
+      41
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Ein Spiel besteht aus Zügen und Aktionen."
+  },
+  "434": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      31,
+      32
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "In jeder Runde wählt man eine Spielfigur aus und setzt sie."
+  },
+  "435": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      33,
+      44
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Auf das Setzen einer Spielfigur folgt entweder die Aktion Rufen oder das Auswählen der nächsten Figur."
+  },
+  "436": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      34,
+      39
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Ein Zug besteht entweder darin, eine Spielfigur auszuwählen, oder eine auf das Spielfeld zu setzen."
+  },
+  "437": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      37,
+      38
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Der Gegner wählt eine Spielfigur, die er dir dann übergibt."
+  },
+  "438": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      39,
+      46
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Setzen einer Spielfigur ist ein Spielzug der endgültig ist."
+  },
+  "439": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      45,
+      47
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Spielfigur wird auf ein Feld auf dem Spielbrett gesetzt."
+  },
+  "440": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      34,
+      39,
+      46
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Spielzüge in Quarto, das Wählen und Setzen einer Figur, sind immer endgültig."
+  },
+  "441": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      64
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel erfordert Taktik."
+  },
+  "442": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      64
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, bei einem Spiel braucht man Taktik."
+  },
+  "443": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      64
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, Quarto ist ein taktisches Spiel."
+  },
+  "444": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      65
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Aktiv zu spielen ist eine Taktik. "
+  },
+  "445": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      65
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, man kann eine aktive Taktik verfolgen."
+  },
+  "446": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      65
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, aktives Spielen ist eine mögliche Taktik."
+  },
+  "447": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      66
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Taktik ist, passiv zu spielen."
+  },
+  "448": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      66
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, passiv zu spielen ist eine Taktik im Spiel."
+  },
+  "449": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      66
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, passiv zu spielen ist eine Taktik."
+  },
+  "450": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      67
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Blockieren von möglichen Reihen ist ein Teil einer passiven Spieltaktik."
+  },
+  "451": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      67
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, Blocken gehört eher zur passiven Taktik."
+  },
+  "452": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      67
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, Blocken ist eher eine passive Taktik. "
+  },
+  "453": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      68
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "In diesem Spiel lassen sich Taktiken kombinieren."
+  },
+  "454": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      68
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Falsch, Taktiken kann man kombinieren."
+  },
+  "455": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      68
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, eine Taktik lässt sich kombinieren."
+  },
+  "456": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      64
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 204,
+    "answer_type": null,
+    "utterance": "Wie Schach erfordert auch Quarto taktisches Geschick."
+  },
+  "457": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      65
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 205,
+    "answer_type": null,
+    "utterance": "Quarto zeichnet sich durch die Taktik des aktiven Spiels aus, während Schach durch Strategien, wie den Doppelangriff geprägt ist."
+  },
+  "458": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      66
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 205,
+    "answer_type": null,
+    "utterance": "Während Schach-Taktiken Züge wie den Doppelangriff beinhalten, kann man bei einer passiven Taktik im Quarto viel Blocken."
+  },
+  "459": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      68
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 206,
+    "answer_type": null,
+    "utterance": "In Quarto und Schach kann man Taktiken gut miteinander kombinieren."
+  },
+  "460": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      65,
+      66
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Je nach Taktik kann ein Spieler aktiv oder passiv spielen."
+  },
+  "461": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      69
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt: Siegchancen können verstreichen."
+  },
+  "462": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      70
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel ist, wie gesagt, von Blaise Müller entwickelt."
+  },
+  "463": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      71
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "10 bis 20 Minuten dauert die Runde also."
+  },
+  "464": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      72
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Länge des Spiels ist unterschiedlich."
+  },
+  "465": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      73
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt: Mindestalter drei Jahre."
+  },
+  "466": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      74
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Empfohlenes Alter aber eben eher acht. "
+  },
+  "467": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      75
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Also nochmal, das Spielbrett ist aus Holz gemacht worden."
+  },
+  "468": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      76
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spielfeld hat Felder in runder Form, sagte ich schon."
+  },
+  "469": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      77
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Ziel ist für beide Spieler, wie gesagt, gleich. "
+  },
+  "470": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      78
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Man legt es auf den Tisch."
+  },
+  "471": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      79
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Waagerecht also gleich horizontal."
+  },
+  "472": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      80
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Figuren können also hohl sein. "
+  },
+  "473": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      81
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Figuren können also massiv sein."
+  },
+  "474": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      82
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Nochmal: Die Spielfiguren sind aus Holz gefertigt."
+  },
+  "475": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      83
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Figurenmerkmale sind, wie erwähnt, wichtig für das Spielziel."
+  },
+  "476": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      84
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Brett misst 15x15cm."
+  },
+  "477": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      85
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Figuren können also rund sein."
+  },
+  "478": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      86
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Figuren können also eckig sein. "
+  },
+  "479": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      87
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Figuren können also hell sein."
+  },
+  "480": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      88
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Figuren können also dunkel sein."
+  },
+  "481": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      89
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt, keiner gewinnt, dann ist es ein Unentschieden."
+  },
+  "482": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      90
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Es gibt ein Spielbrett, hatte ich schon gesagt. "
+  },
+  "483": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      91
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Nochmal: Mindestens ein Merkmal muss übereinstimmen."
+  },
+  "484": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      92
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Auswählen einer Spielfigur ist, wie schon gesagt, ein ungewöhnlicher Zug."
+  },
+  "485": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      93
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Taktiken sind also vom Spieler abhängig."
+  },
+  "486": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      94
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Nochmal in Kurz: Blocken verhindert die Reihe."
+  },
+  "487": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      95
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Reihe kann man, wie gesagt, leicht übersehen."
+  },
+  "488": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      96
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wenn alle Figuren aufgebraucht sind, dann ist das ein Unentschieden."
+  },
+  "489": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      97
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt: Das Spiel endet unentschieden, sobald alle Spielfiguren aufgebraucht sind."
+  },
+  "490": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      98
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Spieler spielen , wie gesagt, abwechselnd."
+  },
+  "491": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      99
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Nochmal anders: Beide Spieler können alle Figuren nutzen."
+  },
+  "492": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      100
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Komplexität des Spiels erfordert, wie gesagt, Aufmerksamkeit."
+  },
+  "493": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      101
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Verfolgen einer Taktik erhöht, wie schon erwähnt, die Gewinnchancen."
+  },
+  "494": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      102
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Manchmal kommen Niederlagen überraschend."
+  },
+  "495": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      103
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt, die Felder haben eine 4x4 Struktur."
+  },
+  "496": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      104
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Figuren können groß sein."
+  },
+  "497": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      105
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Figuren können klein sein."
+  },
+  "498": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      106
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Spieler sind wie gesagt Gegner."
+  },
+  "499": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      71,
+      72
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt: Das Spiel kann zwischen 10 und 20 Minuten dauern, das variiert."
+  },
+  "500": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      75,
+      82
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spielbrett und die Spielfiguren sind, wie gesagt, beide aus Holz."
+  },
+  "501": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      80,
+      81
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt: Die Struktur einer Figur kann hohl oder massiv sein."
+  },
+  "502": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      85,
+      86
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Form einer Figur kann, wie schon erwähnt, rund oder eckig sein."
+  },
+  "503": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      87,
+      88
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Nochmal: Die Farbe einer Figur kann hell oder dunkel sein."
+  },
+  "504": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      104,
+      105
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Größe einer Figur kann, wie schon erwähnt,  groß oder klein sein."
+  },
+  "505": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      9
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel hat einen Spielausgang."
+  },
+  "506": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      10
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt: Es gibt drei mögliche Spielausgänge."
+  },
+  "507": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      11
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Es kann also ein Sieg sein."
+  },
+  "508": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      12
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Es kann also unentschieden enden."
+  },
+  "509": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      13
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Es kann also eine Niederlage werden. "
+  },
+  "510": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      14
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt: Gewinnen kannst du nur, wenn du Quarto! Sagst."
+  },
+  "511": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      15
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie schon erwähnt: Wenn du eine Reihe bildest, erzeugst du eine Siegchance."
+  },
+  "512": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      11,
+      12
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Ein Spiel kann also gewonnen oder unentschieden enden."
+  },
+  "513": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      11,
+      13
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Ein Spiel kann, wie gesagt, gewonnen oder verloren werden."
+  },
+  "514": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      12,
+      13
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel kann also unentschieden ausgehen oder verloren gehen."
+  },
+  "515": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      11,
+      12,
+      13
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Mögliche Spielausgänge sind, wie gesagt, Sieg, Niederlage oder Unentschieden. "
+  },
+  "516": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      0
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt: Quarto ist ein Brettspiel."
+  },
+  "517": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      1
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Es ist wie gesagt ein Gesellschaftsspiel."
+  },
+  "518": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      2
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel ist, wie gesagt, komplex."
+  },
+  "519": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      3
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Du brauchst zum Spielen ungefähr zehn Minuten."
+  },
+  "520": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      0,
+      2
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Es handelt sich bei Quarto um ein komplexes Brettspiel."
+  },
+  "521": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      57
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Es gibt – wie gesagt – ein Spielbrett."
+  },
+  "522": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      58
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Also nochmal: Das Spiel verfügt über einen Figurenbestand."
+  },
+  "523": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      61
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Nur um sicherzugehen: Das Spielbrett hat sechzehn Felder."
+  },
+  "524": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      62
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Es gibt Felder auf dem Spielbrett."
+  },
+  "525": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      63
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spielbrett gehört zum Spiel."
+  },
+  "526": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      57,
+      58
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt: Es gibt das Spielbrett und den Vorrat an Figuren."
+  },
+  "527": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      4
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel hat – wie gesagt – Spieler."
+  },
+  "528": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      5
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Nochmal: Es gibt zwei Spieler."
+  },
+  "529": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      6
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Spieler spielen also abwechselnd."
+  },
+  "530": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      7
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Gegner spielen gegeneinander, sagte ich schon."
+  },
+  "531": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      8
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie schon erwähnt, die Spieler sind Gegner. "
+  },
+  "532": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      49
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel hat Spielfiguren."
+  },
+  "533": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      50
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt, die Spielfiguren haben bestimmte Merkmale."
+  },
+  "534": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      51
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel also hat sechzehn Spielfiguren."
+  },
+  "535": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      52
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Nochmal, es gibt vier Merkmale."
+  },
+  "536": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      53
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Ein Merkmal ist also die Farbe."
+  },
+  "537": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      54
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Ein Merkmal ist also die Form."
+  },
+  "538": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      55
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Struktur ist also auch ein Figurenmerkmal."
+  },
+  "539": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      56
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt, die Größe ist auch ein Figurenmerkmal."
+  },
+  "540": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      53,
+      54
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Farbe und Form sind also beides Figurenmerkmale."
+  },
+  "541": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      53,
+      55
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt: Struktur und Farbe sind Figurenmerkmale."
+  },
+  "542": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      53,
+      56
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Zwei der Merkmale sind also Größe und Farbe."
+  },
+  "543": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      54,
+      55
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Form und die Struktur sind also wichtige Figurenmerkmale."
+  },
+  "544": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      54,
+      56
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt, Form und Größe sind Figurenmerkmale."
+  },
+  "545": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      55,
+      56
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Ich hatte schon erwähnt, dass Größe und Struktur Figurenmerkmale sind."
+  },
+  "546": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      53,
+      54,
+      55
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Zu den Merkmalen der Figuren zählen also Farbe, Form und Struktur."
+  },
+  "547": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      53,
+      54,
+      56
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Nochmal: Die Figuren im Spiel werden durch ihre Farbe, Form und Größe charakterisiert."
+  },
+  "548": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      53,
+      55,
+      56
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt, die Figuren im Spiel werden durch ihre Farbe, Struktur und Größe gekennzeichnet."
+  },
+  "549": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      54,
+      55,
+      56
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Quarto-Figuren können – wie schon erwähnt - in Form, Struktur und Größe variieren."
+  },
+  "550": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      16
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel hat also ein Ziel."
+  },
+  "551": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      17
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt, das Bilden einer Reihe ist das Ziel."
+  },
+  "552": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      18
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt, die Bedingung, um Rufen zu können ist, dass eine Reihe existiert."
+  },
+  "553": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      19
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie schon erwähnt, muss für eine Reihe eines der Figurenmerkmale übereinstimmen. "
+  },
+  "554": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      20
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Reihe ist dementsprechend vier Figuren lang."
+  },
+  "555": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      21
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Nochmal: Eine Reihe ist eine Siegbedingung."
+  },
+  "556": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      22
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Reihe hat also eine bestimmte Anordnung."
+  },
+  "557": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      23
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Reihen bestehen also aus Figuren."
+  },
+  "558": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      24
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Es gibt, wie gesagt, drei mögliche Anordnungen."
+  },
+  "559": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      25
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Reihe kann also diagonal sein."
+  },
+  "560": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      26
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Reihe kann also vertikal sein."
+  },
+  "561": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      27
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Reihe kann also horizontal sein."
+  },
+  "562": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      17,
+      21
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt: Eine Reihe zu bilden ist das Ziel und eine Bedingung um zu gewinnen."
+  },
+  "563": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      25,
+      26
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Reihen können also diagonal oder vertikal sein."
+  },
+  "564": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      25,
+      27
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Reihen können also diagonal oder horizontal verlaufen."
+  },
+  "565": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      26,
+      27
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Reihen können vertikal oder horizontal sein."
+  },
+  "566": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      25,
+      26,
+      27
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie schon erwähnt: Eine Reihe kann diagonal, vertikal oder horizontal sein."
+  },
+  "567": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      28
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Es gibt Spielzüge."
+  },
+  "568": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      29
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Nochmal: Quarto hat zwei Spielzüge."
+  },
+  "569": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      30
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel ist in Runden unterteilt."
+  },
+  "570": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      31
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt: In jeder Runde wird eine Spielfigur ausgewählt."
+  },
+  "571": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      32
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "In jeder Runde wird also eine Spielfigur platziert."
+  },
+  "572": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      33
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt, nachdem ein Spieler eine Figur gesetzt hat, wählt er die nächste Spielfigur."
+  },
+  "573": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      34
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Ein Spielzug ist also das Wählen einer Spielfigur."
+  },
+  "574": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      35
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Du wählst, wie gesagt, eine Spielfigur aus dem Figurenvorrat."
+  },
+  "575": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      36
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Du wählst also eine Spielfigur."
+  },
+  "576": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      37
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt, der Spieler wählt eine Spielfigur für seinen Gegner aus."
+  },
+  "577": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      38
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Nochmal: Du wählst eine Figur, die du deinem Gegner gibst."
+  },
+  "578": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      39
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Setzen einer Spielfigur ist also ein Spielzug."
+  },
+  "579": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      40
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Du setzt – wie gesagt - immer die ausgewählte Figur."
+  },
+  "580": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      41
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Bei Quarto gibt es eine bestimmte Aktion."
+  },
+  "581": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      42
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Die Aktion im Spiel ist also das Rufen. "
+  },
+  "582": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      43
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Beim Rufen muss – wie schon erwähnt - “Quarto” gesagt werden."
+  },
+  "583": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      44
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Typischerweise folgt das Rufen also auf das Setzen einer Figur."
+  },
+  "584": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      45
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt: Eine Spielfigur wird auf ein Feld gesetzt."
+  },
+  "585": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      46
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Setzen einer Spielfigur ist also endgültig."
+  },
+  "586": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      47
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Du setzt, wie gesagt, eine Spielfigur auf das Spielbrett."
+  },
+  "587": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      48
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Du setzt also eine Spielfigur."
+  },
+  "588": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      28,
+      41
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Quarto hat also Züge und eine Aktion."
+  },
+  "589": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      31,
+      32
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Nochmal: In jeder Runde wählt man eine Spielfigur aus und setzt sie."
+  },
+  "590": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      33,
+      44
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Auf das Setzen einer Spielfigur kann also die Aktion Rufen oder das Auswählen der nächsten Figur folgen."
+  },
+  "591": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      34,
+      39
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie schon gesagt: Ein Zug besteht entweder darin, eine Spielfigur auszuwählen, oder eine auf das Spielfeld zu setzen."
+  },
+  "592": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      37,
+      38
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Der Gegner wählt  also eine Spielfigur und übergibt sie dir."
+  },
+  "593": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      39,
+      46
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Setzen ist also ein endgültiger Zug."
+  },
+  "594": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      45,
+      47
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt: Die Spielfigur wird auf ein Feld auf dem Spielbrett gesetzt."
+  },
+  "595": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      34,
+      39,
+      46
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Spielzüge in Quarto, das Wählen und Setzen einer Figur, sind also immer endgültig."
+  },
+  "596": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      64
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Quarto ist also taktisch. "
+  },
+  "597": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      65
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Taktik ist – wie gesagt – das aktive Spielen."
+  },
+  "598": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      66
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Taktik ist, passiv zu spielen."
+  },
+  "599": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      67
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Blockieren von möglichen Reihen ist – wie schon erwähnt – Teil einer passiven Spieltaktik."
+  },
+  "600": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      68
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt: Man kann Taktiken kombinieren."
+  },
+  "601": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      65,
+      66
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Je nach Taktik kann ein Spieler also aktiv oder passiv spielen."
+  },
+  "602": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      59
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Der Vorrat der übrigen Figuren ist neben dem Spielbrett."
+  },
+  "603": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      59
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, der Vorrat ist neben dem Spielbrett."
+  },
+  "604": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      59
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja genau, neben dem Spielbrett. "
+  },
+  "605": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      59
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt, die restlichen Figuren stehen als Figurenvorrat neben dem Spielbrett. "
+  },
+  "606": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      60
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Der Figurenvorrat beinhaltet alle freien Figuren."
+  },
+  "607": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      60
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, nur die freien Figuren sind im Figurenvorrat."
+  },
+  "608": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      60
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, im Figurenvorrat sind die freien Figuren. "
+  },
+  "609": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      60
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Der Figurenvorrat umfasst also alle Figuren, die noch nicht gespielt wurden. "
+  },
+  "610": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      107
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Stall ist ein Synonym für den Figurenvorrat. "
+  },
+  "611": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      107
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, Stall oder auch Figurenvorrat. "
+  },
+  "612": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      107
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, statt Figurenvorrat kann man auch Stall sagen. "
+  },
+  "613": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      107
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt, den Figurenvorrat kann man auch als Stall bezeichnen. "
+  },
+  "614": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      59,
+      60
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Der Figurenvorrat befindet sich neben dem Spielbrett und beinhaltet alle freien Figuren."
+  },
+  "615": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      58,
+      59
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spiel hat einen Figurenvorrat, welcher sich neben dem Spielbrett befindet. "
+  },
+  "616": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      58,
+      60
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Der Figurenvorrat von Quarto beinhaltet alle nicht gespielten Figuren. "
+  },
+  "617": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      58,
+      59,
+      60
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Der Figurenvorrat von Quarto befindet sich neben dem Spielbrett und umfasst alle freien Figuren. "
+  },
+  "618": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      59,
+      60
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein, der Figurenvorrat befindet sich neben dem Spielbrett und beinhaltet alle freien Figuren."
+  },
+  "619": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      58,
+      59
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Falsch, das Spiel hat einen Figurenvorrat, welcher sich neben dem Spielbrett befindet. "
+  },
+  "620": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      58,
+      60
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nicht ganz, der Figurenvorrat von Quarto beinhaltet alle nicht gespielten Figuren. "
+  },
+  "621": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      58,
+      59,
+      60
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 0,
+    "utterance": "Nein. Der Figurenvorrat von Quarto befindet sich neben dem Spielbrett und umfasst alle freien Figuren. "
+  },
+  "622": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      59,
+      60
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Genau, der Figurenvorrat befindet sich neben dem Spielbrett und beinhaltet alle freien Figuren."
+  },
+  "623": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      58,
+      59
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Richtig, das Spiel hat einen Figurenvorrat, welcher sich neben dem Spielbrett befindet. "
+  },
+  "624": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      58,
+      60
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, der Figurenvorrat von Quarto beinhaltet alle nicht gespielten Figuren. "
+  },
+  "625": {
+    "move": "CONFIRM_CLARIFY",
+    "triples": [
+      58,
+      59,
+      60
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": 1,
+    "utterance": "Ja, der Figurenvorrat von Quarto befindet sich neben dem Spielbrett und umfasst alle freien Figuren. "
+  },
+  "626": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      59,
+      60
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt, im Figurenvorrat neben dem Spielbrett sind alle freien Figuren."
+  },
+  "627": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      58,
+      59
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Der Figurenvorrat von Quarto befindet sich also neben dem Spielbrett."
+  },
+  "628": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      58,
+      60
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Quarto hat - wie gesagt - einen Figurenvorrat, der alle freien Figuren umfasst."
+  },
+  "629": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      58,
+      59,
+      60
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt, Quarto hat einen Figurenvorrat, der sich neben dem Spielbrett befindet und alle freien Figuren umfasst. "
+  },
+  "630": {
+    "move": "DEEPEN_REPEAT",
+    "triples": [
+      58,
+      59,
+      60
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Wie gesagt, Quarto hat einen Figurenvorrat, der sich neben dem Spielbrett befindet und alle freien Figuren umfasst."
+  },
+  "631": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      61
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 150,
+    "answer_type": null,
+    "utterance": "Während es bei Tic Tac Toe neun Felder gibt, hat Quarto sechzehn Felder."
+  },
+  "632": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      61
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 201,
+    "answer_type": null,
+    "utterance": "Schach hat vierundsechzig Felder und Quarto nur sechzehn."
+  },
+  "633": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      51
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 193,
+    "answer_type": null,
+    "utterance": "Bei Schach gibt es zweiunddreißig Spielfiguren, während es bei Quarto sechzehn gibt."
+  },
+  "634": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      8
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 161,
+    "answer_type": null,
+    "utterance": "Wie beim Schach sind die Spieler auch bei Quarto Gegner."
+  },
+  "635": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      26
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 132,
+    "answer_type": null,
+    "utterance": "Sowohl bei Quarto als auch bei Tic-Tac-Toe kann eine Anordnung vertikal sein."
+  },
+  "636": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      41
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 204,
+    "answer_type": null,
+    "utterance": "Bei Schach und Quarto kann die Taktik einen Einfluss auf die Aktion haben."
+  },
+  "637": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      29
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 158,
+    "answer_type": null,
+    "utterance": "Während es bei Schach viele verschiedene Spielzüge gibt, gibt es bei Quarto nur zwei."
+  },
+  "638": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      12
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 166,
+    "answer_type": null,
+    "utterance": "Ähnlich wie die Niederlage bei Schach, gibt es ein Unentschieden bei Quarto."
+  },
+  "639": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      27
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 133,
+    "answer_type": null,
+    "utterance": "Genau wie bei TicTacToe kann eine Reihe auch bei Quarto horizontal angeordnet sein."
+  },
+  "640": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      57
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 157,
+    "answer_type": null,
+    "utterance": "Wie bei Schach spielen die Spieler auf einem Spielbrett."
+  },
+  "641": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      58
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 191,
+    "answer_type": null,
+    "utterance": "Die Spielfiguren, die denen von Schach ähneln, befinden sich zunächst im Figurenvorrat."
+  },
+  "642": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      57
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 111,
+    "answer_type": null,
+    "utterance": "So wie es bei TicTacToe Spieler gibt, gibt es bei Quarto ein Spielbrett."
+  },
+  "643": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      57
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 173,
+    "answer_type": null,
+    "utterance": "Wie bei Schach gehören Spielbrett und Spielzüge zum Spiel dazu."
+  },
+  "644": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      58
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 162,
+    "answer_type": null,
+    "utterance": "Bei Quarto gibt es einen Figurenvorrat, bei Schach nicht."
+  },
+  "645": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      57
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 134,
+    "answer_type": null,
+    "utterance": "Quarto hat ein Spielbrett, während TicTacToe Spielzüge hat."
+  },
+  "646": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      52
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 147,
+    "answer_type": null,
+    "utterance": "Während bei TicTacToe nur ein Figurenmerkmal relevant ist, gibt es bei Quarto 4."
+  },
+  "647": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      52
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 194,
+    "answer_type": null,
+    "utterance": "Schach hat zwei relevante Figurenmerkmale, Quarto vier."
+  },
+  "648": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      25
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 131,
+    "answer_type": null,
+    "utterance": "Genau wie bei TicTacToe kann eine Reihe diagonal angeordnet werden."
+  },
+  "649": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      26
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 131,
+    "answer_type": null,
+    "utterance": "Genau wie die diagonale Anordnung bei TicTacToe, kann eine Reihe bei Quarto horizontal angeordnet werden."
+  },
+  "650": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      26
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 133,
+    "answer_type": null,
+    "utterance": "Genau wie die horizontale Anordnung bei TicTacToe, kann eine Reihe bei Quarto horizontal angeordnet werden."
+  },
+  "651": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      29
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 158,
+    "answer_type": null,
+    "utterance": "Bei Quarto gibt es zwei Spielzüge, genauso viele wie es Spieler bei Schach gibt."
+  },
+  "652": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      29
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 112,
+    "answer_type": null,
+    "utterance": "Bei TicTacToe gibt es zwei Spieler, genauso viele Spielzüge hat auch Quarto."
+  },
+  "653": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      29
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 174,
+    "answer_type": null,
+    "utterance": "Anders als Schach, hat Quarto zwei verschiedene Spielzüge."
+  },
+  "654": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      29
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 135,
+    "answer_type": null,
+    "utterance": "Quarto hat zwei verschiedene Spielzüge, TicTacToe nur einen."
+  },
+  "655": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      58
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 116,
+    "answer_type": null,
+    "utterance": "Bei Quarto gibt es einen Figurenvorrat, bei TicTacToe nicht."
+  },
+  "656": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      61
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 150,
+    "answer_type": null,
+    "utterance": "Quarto hat mit 16 Feldern fast doppelt so viele wie TicTacToe."
+  },
+  "657": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      27
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 133,
+    "answer_type": null,
+    "utterance": "Wie auch bei TicTacToe kann eine Anordnung horizontal sein."
+  },
+  "658": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      25
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 131,
+    "answer_type": null,
+    "utterance": "Eine diagonale Anordnung ist bei Quarto wie bei TicTacToe möglich."
+  },
+  "659": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      25
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Ähnlich wie die vertikale Anordnung bei TicTacToe nur um 45 Grad gedreht, sieht die diagonale Anordnung aus."
+  },
+  "660": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      12
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 166,
+    "answer_type": null,
+    "utterance": "Ein Unentschieden bei Quarto ist fast wie eine Niederlage bei Schach."
+  },
+  "661": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      12
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 120,
+    "answer_type": null,
+    "utterance": "Ein Unentschieden bei Quarto ist bedeutend besser als eine Niederlage bei Schach."
+  },
+  "662": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      49
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 173,
+    "answer_type": null,
+    "utterance": "So wie der Spielzug zu Schach, gehört die Spielfigur zu Quarto."
+  },
+  "663": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      8
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 115,
+    "answer_type": null,
+    "utterance": "Genau wie bei TicTacToe spielen die Spieler als Gegner gegeneinander."
+  },
+  "664": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      12
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 164,
+    "answer_type": null,
+    "utterance": "Ein Unentschieden in Quarto ist beinahe wie ein Sieg bei Schach."
+  },
+  "665": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      12
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 118,
+    "answer_type": null,
+    "utterance": "Ein Unentschieden bei Quarto ist fast schwerer als ein Sieg bei TicTacToe."
+  },
+  "666": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      13
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 119,
+    "answer_type": null,
+    "utterance": "Eine Niederlage in Quarto ist vergleichbar mit einem Unentschieden bei TicTacToe."
+  },
+  "667": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      58
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 173,
+    "answer_type": null,
+    "utterance": "So wie Schach Spielzüge hat, hat Quarto einen Figurenvorrat."
+  },
+  "668": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      58
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 134,
+    "answer_type": null,
+    "utterance": "So wie TicTacToe Spielzüge hat, hat Quarto einen Figurenvorrat."
+  },
+  "669": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      58
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 157,
+    "answer_type": null,
+    "utterance": "Die Spieler gehören zu Schach, wie der Figurenvorrat zu Quarto."
+  },
+  "670": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      49
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 111,
+    "answer_type": null,
+    "utterance": "Bei Quarto gibt es Spielfiguren, bei TicTacToe Spieler."
+  },
+  "671": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      49
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 149,
+    "answer_type": null,
+    "utterance": "Die Spielfiguren bei Quarto sind ein Bestandteil des Spiels, genau wie das Spielpapier bei Tic Tac Toe."
+  },
+  "672": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      27
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 131,
+    "answer_type": null,
+    "utterance": "Eine horizontale Anordnung bei Quarto ist wie eine Diagonale bei TicTacToe nur gedreht."
+  },
+  "673": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      49
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 157,
+    "answer_type": null,
+    "utterance": "So wie die Spieler zu Schach, gehören die Spielfiguren zu Quarto."
+  },
+  "674": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      41
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 111,
+    "answer_type": null,
+    "utterance": "So wie Tic Tac Toe Spieler hat, gehört die Aktion Rufen zu Quarto."
+  },
+  "675": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      49
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 134,
+    "answer_type": null,
+    "utterance": "Spielzüge gehören zu TicTacToe wie Spielfiguren zu Quarto."
+  },
+  "676": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      25
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 132,
+    "answer_type": null,
+    "utterance": "Ähnlich wie die vertikale Reihe bei TicTacToe ist die diagonale Reihe bei Quarto."
+  },
+  "677": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      41
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 162,
+    "answer_type": null,
+    "utterance": "Die Aktion Rufen gehört zu Quarto wie das Ende einer Partie zu Schach."
+  },
+  "678": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      41
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 116,
+    "answer_type": null,
+    "utterance": "Die Aktion Rufen gehört zu Quarto wie das Ende des Spiels zu TicTacToe."
+  },
+  "679": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      11
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 166,
+    "answer_type": null,
+    "utterance": "Der Sieg ist das Gegenteil der Niederlage, bei Quarto wie bei Schach."
+  },
+  "680": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      12
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 165,
+    "answer_type": null,
+    "utterance": "Ein Unentschieden bei Quarto ist identisch zum Remis im Schach."
+  },
+  "681": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      25
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 133,
+    "answer_type": null,
+    "utterance": "Ähnlich wie die horizontale Reihe bei TicTacToe ist die diagonale Reihe bei Quarto."
+  },
+  "682": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      13
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 164,
+    "answer_type": null,
+    "utterance": "Das Gegenteil vom Sieg ist die Niederlage."
+  },
+  "683": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      11
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 165,
+    "answer_type": null,
+    "utterance": "Der einizige Spielausgang der besser ist als ein Remis im Schach ist ein Sieg bei Quarto."
+  },
+  "684": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      11
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 120,
+    "answer_type": null,
+    "utterance": "Das Gegenteil vom Sieg ist die Niederlage, bei TicTacToe genau wie bei Quarto."
+  },
+  "685": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      58
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 111,
+    "answer_type": null,
+    "utterance": "Bei TicTacToe und Quarto haben die Spieler einen Figurenvorrat."
+  },
+  "686": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      57
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 111,
+    "answer_type": null,
+    "utterance": "Bei TicTacToe und Quarto nutzen die Spieler das Spielbrett."
+  },
+  "687": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      57
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 116,
+    "answer_type": null,
+    "utterance": "Das Spielbrett von TicTacToe sieht anders aus als das von Quarto."
+  },
+  "688": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      17,
+      95
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Reihe zu bilden ist das Ziel aber vorsicht, Reihen übersieht man schnell."
+  },
+  "689": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      21,
+      95
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Reihe zu Bilden ist eine der Siegbedingungen, man kann sie aber schnell übersehen."
+  },
+  "690": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      34,
+      92
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Der Spielzug Wählen ist ein eher untypischer Spielzug und sehr spezifisch für Quarto."
+  },
+  "691": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      63,
+      90
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spielbrett ist ein tatsächlicher Gegenstand und gehört zum Spiel."
+  },
+  "692": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      63,
+      90
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Spielbrett ist ein Gegenstand, der zum Zubehör von Quarto gehört."
+  },
+  "693": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      68,
+      93
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Man kann verschiedene Taktiken kombinieren, welche man bevorzugt ist sehr persönlich."
+  },
+  "694": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      17,
+      21,
+      95
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Eine Reihe zu bilden ist das Ziel, da es eine Siegbedingung erfüllt; aber vorsicht, Reihen übersieht man schnell. "
+  },
+  "695": {
+    "move": "STATE_INFORMATION",
+    "triples": [
+      34,
+      39,
+      92
+    ],
+    "comparison_domain": null,
+    "comparison_triple_id": null,
+    "answer_type": null,
+    "utterance": "Das Wählen und Setzen einer Spielfigur sind die beiden Spielzüge bei Quarto; das Wählen ist ein eher untypischer Spielzug bei Brettspielen, weil man für den Gegner wählt. "
+  },
+  "696": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      11
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 119,
+    "answer_type": null,
+    "utterance": "Bei Quarto und bei TicTacToe gibt es den Spielausgang Sieg sowie Unentschieden."
+  },
+  "697": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      13
+    ],
+    "comparison_domain": "Chess",
+    "comparison_triple_id": 165,
+    "answer_type": null,
+    "utterance": "Bei Quarto kann das Spiel mit einer Niederlage enden, wobei bei Schach auch ein Remis möglich ist."
+  },
+  "698": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      13
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 118,
+    "answer_type": null,
+    "utterance": "Bei Quarto und bei TicTacToe ist Sieg sowie Niederlage ein möglicher Spielausgang."
+  },
+  "699": {
+    "move": "GENERATE_COMPARISON",
+    "triples": [
+      27
+    ],
+    "comparison_domain": "TicTacToe",
+    "comparison_triple_id": 132,
+    "answer_type": null,
+    "utterance": "Bei Quarto und bei TicTacToe sind die Anordnungen Horizontal und Vertikal möglich."
+  }
+}

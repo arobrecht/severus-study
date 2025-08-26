@@ -11,12 +11,16 @@ import os
 import uuid
 from pathlib import Path
 
+import pandas as pd
+
 from . import socketio
 from . import utils
-from .snape.model_update.base_model_update import BaseModelUpdate
-from .snape.partner.base_partner import BasePartner
-from .snape.partner.dbn_partner import DbnPartner
-
+from .nlg.nlg_lookup import NLG
+from .snape.model_update.model_update_snape import ModelUpdate
+from severusStudy.nlu.nlu import NLU
+#from .snape.partner.base_partner import BasePartner
+from .snape.partner.handle_dbn import DbnPartner
+from config import NLU_LLM
 
 # You may want to define experiment/condition handling classes here or elsewhere and
 # potentially assign users references to specific instances to handle your experiment flow.
@@ -29,23 +33,41 @@ class User(object):
     ):
         self.uid = str(uuid.uuid1())
         attentiveness = (
-            0.9 if experiment_type == "initial" else 0.8
+            0.5 if experiment_type == "initial" else 0.8
         )
         expertise = 0.75
         cooperativeness = 0.75
-        cognitive_load = 0
-        self.partner = DbnPartner(expertise, attentiveness, expertise, cognitive_load)
+        cognitive_load = 0.5
+        self.partner = DbnPartner(expertise, attentiveness, cooperativeness, cognitive_load)
 
         disable_partner_update = (
             experiment_type == "baseline" or experiment_type == "initial"
         )
 
-        self.snape = BaseModelUpdate(
+        self.snape = ModelUpdate(
             self.partner,
+            None,
+            None,
             0,
-            is_baseline=experiment_type == "baseline",
+            self.uid,
+            is_baseline= experiment_type == "baseline",
             disable_partner_update=disable_partner_update,
         )
+
+        # required for visualization
+        self.utterance_id = 0
+        self.pm_data = []
+
+        # used for cognitive load calculation from feedback
+        self.delete_count_history = []
+        self.mean_character_delay_history = []
+
+        self.nlu = None
+        if NLU_LLM:
+            self.nlu = NLU()
+
+        self.nlg = NLG()
+
 
         self.user_number = user_number
         self.remAdr = remAdr
@@ -61,6 +83,9 @@ class User(object):
         self.crowd_user = crowd_user
 
         self.experiment_type = experiment_type
+        if experiment_type == "baseline":
+            path  = os.path.join(os.path.dirname(os.path.abspath(__file__)), './nlg/baseline_utterances.csv')
+            self.baseline_utterances = pd.read_csv(path, delimiter=';')["utterance"].to_list()
 
         # Log some basic information about the user. Consider if you need to log this
         if user_agent:
@@ -95,6 +120,12 @@ class User(object):
             writer.writerow(["timestamp", "route"])
 
 
+
+    def get_baseline_utterances(self, utterance_id):
+        if len(self.baseline_utterances) -1 == utterance_id:
+            self.finished = True
+        return self.baseline_utterances[utterance_id]
+
     def add_crowd_id(self, _id):
         """
         Add the inserted id of the crowd service site (e.g. MTurk) and directly log it
@@ -121,7 +152,7 @@ class User(object):
         move: str | None,
         template: str,
         lous: [float | None],
-        partner: BasePartner,
+        partner: DbnPartner,
     ):
         utils.log(
             self.uid,
@@ -130,18 +161,24 @@ class User(object):
             str(int(datetime.datetime.now().timestamp() * 1000)),
             self.snape.get_current_block_id(),
             cud_triples,
-            move,
-            template,
+            #template['utterance'],
+            #template['move'],
             lous,
             partner.attentiveness,
             partner.expertise,
+            partner.cooperativeness,
+            partner.cognitive_load,
+            #template['comparison_domain'],
+            #template['comparison_triple'],
+            #template['question_type']
         )
 
     def log_question_feedback(self, question: str, word_num: int, answer_found: bool, answer: str, type: str):
         utils.log(self.uid, question, word_num, answer_found, answer, type)
 
     def log_user_turn(
-        self, cud_triple: str | None, feedback: str, lou: float | None, partner: BasePartner
+        self, cud_triple: str | None, feedback: str, lou: float | None, partner: DbnPartner,
+            delete_count_history: [int], mean_character_delay_history: [float]
     ):
         utils.log(
             self.uid,
@@ -154,6 +191,10 @@ class User(object):
             lou,
             partner.attentiveness,
             partner.expertise,
+            partner.cooperativeness,
+            partner.cognitive_load,
+            delete_count_history,
+            mean_character_delay_history
         )
 
     @staticmethod
@@ -196,3 +237,4 @@ class User(object):
 
     def get_id(self):
         return str(self.uid)
+

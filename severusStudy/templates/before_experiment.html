@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block content %}
+
+<link rel="stylesheet" href="{{ url_for('.static', filename='css/study.css') }}" type="text/css" />
+
+
+<div class="flex-container">
+
+    <h2 class="heading">Vielen Dank!</h2>
+
+    <div class="textBlock">
+            <p>
+
+                {% if session["experiment_type"] == "baseline" %}
+                    Im Folgenden wird Ihnen ein Spiel erklärt. Die Erklärung läuft automatisch ab. <br>
+                    Bitte lesen Sie die Erklärung möglichst aufmerksam, die erklärten Informationen werden im Anschluss an die Erklärung abgetestet.
+			          {% elif session["experiment_type"] == "initial" %}
+                    Im Folgenden wird Ihnen ein Spiel erklärt. Die Erklärung läuft automatisch.<br>
+                    Geben Sie bitte Feedback wie sie es in jeder anderen Erklärung auch tun würden. Klicken Sie auf die Smileys, um einen irritierten Gesichtsausdruck (links) oder ein Nicken (rechts) auszudrücken.
+                    Sobald das System Ihr Feedback wahrgenommen hat, ändert sich die Farbe der Sprechblase.<br>
+                    Wenn Sie Fragen an das System haben, tippen Sie diese in die vorgesehene Textbox. Sobald diese rot markiert ist, ist die Erklärung pausiert. <br>
+                    ACHTUNG: Aktuell kann das System ausschließlich Fragen zum erklärten Spiel beantworten!
+                    <div class="column">
+                        <label for="cb1o1">
+                            <img src="{{ url_for('.static', filename='images/Intro/Intro1.jpeg') }}">
+                        </label>
+                    </div>
+                    Sobald die Feedbackmöglichkeiten ausgegraut sind, berechnet das System, was es Ihnen als Nächstes sagen möchte und kann ihr Feedback nicht mehr entgegennehmen.
+                    <div class="column">
+                        <label for="cb1o1">
+                            <img src="{{ url_for('.static', filename='images/Intro/Intro2.jpeg') }}">
+                        </label>
+                    </div>
+                    Das System passt sich Ihrem Feedback an. Sollte das System mehr Rückmeldungen von Ihnen benötigen, wird es Sie daran erinnern.
+                    <div class="column">
+                        <label for="cb1o1">
+                            <img src="{{ url_for('.static', filename='images/Intro/Intro3.jpeg') }}">
+                        </label>
+                    </div>
+                {% elif session["experiment_type"] == "adaptive" %}
+                    Im Folgenden wird Ihnen ein Spiel erklärt. Die Erklärung läuft automatisch.<br>
+                    <span style="color: red; "> Sollte das System beim Generieren der nächsten Äußerung länger als 60 Sekunden benötigen, laden Sie bitte die Seite neu.</span><br>
+                    Geben Sie bitte Feedback wie sie es in jeder anderen Erklärung auch tun würden. Klicken Sie auf die Smileys, um einen irritierten Gesichtsausdruck (links) oder ein Nicken (rechts) auszudrücken.
+                    Sobald das System Ihr Feedback wahrgenommen hat, ändert sich die Farbe der Sprechblase.<br>
+                    Wenn Sie Fragen an das System haben, tippen Sie diese in die vorgesehene Textbox. Sobald diese rot markiert ist, ist die Erklärung pausiert. <br>
+                    ACHTUNG: Aktuell kann das System ausschließlich Fragen zum erklärten Spiel beantworten! Generelle Fragen oder Fragen zu anderen Spielen sind nicht möglich.
+                    <div class="column">
+                        <label for="cb1o1">
+                            <img src="{{ url_for('.static', filename='images/Intro/Intro1.jpeg') }}" class="centerpicture">
+                        </label>
+                    </div>
+                    Sobald die Feedbackmöglichkeiten ausgegraut sind, berechnet das System, was es Ihnen als Nächstes sagen möchte und kann ihr Feedback nicht mehr entgegennehmen.
+                    <div class="column">
+                        <label for="cb1o1">
+                            <img src="{{ url_for('.static', filename='images/Intro/Intro2.jpeg') }}" class="centerpicture">
+                        </label>
+                    </div>
+                    Das System passt sich Ihrem Feedback an. Sollte das System mehr Rückmeldungen von Ihnen benötigen, wird es Sie daran erinnern.
+                    <div class="column">
+                        <label for="cb1o1">
+                            <img src="{{ url_for('.static', filename='images/Intro/Intro3.jpeg') }}" class="centerpicture">
+                        </label>
+                    </div>
+                {% else %}
+                    HIER3<br>
+                {% endif %}
+            </p>
+        <div class="flexBottom">
+            <input type="button" class="button" onclick="window.location.href='{{ url_for('.experiment') }}';" value="Weiter"/>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

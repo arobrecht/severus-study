@@ -1,3 +1,4 @@
+from . import logger
 from .user import User
 
 
@@ -37,3 +38,4 @@ class Manager(object):
             raise KeyError
 
         self.users[uid] = user
+        user.snape.global_state.close()

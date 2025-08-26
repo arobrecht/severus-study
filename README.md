@@ -1,109 +1,78 @@
-## Build dependencies
+There is a requirements.txt which can be used to install the requirements in your current environment using
+pip:
+```pip install -r requirements.txt```
 
-* Python 3.10
+### Install frontend dependencies
+```npm install```
 
-
-### Run dependencies
-
-* Python >= 3.10
-* flask
-* flask-socketio
-* flask-wtf
-* WTForms
-* email_validator
-* eventlet
-* tornado
-* werkzeug
-* numpy
-* matplotlib
-* networkx
-* gensim
-* pyvis
-* nltk
-* pandas
-* sklearn
-* scikit-learn
-* numpy~=1.24.3
-* matplotlib~=3.7.1
-* tqdm
-* neo4j
-* pomdp-py
-* gensim~=4.3.1
-* networkx~=3.1
-* pyvis~=0.3.2
-* nltk~=3.8.1
-* pandas~=2.0.3
-* scikit-learn~=1.2.2
-* embeddings~=0.0.8
-* owlready2
+### Build frontend script
+```npm run build```
 
 
-SNAPE
+### Running the server
+Run the server by executing
+```python runStudy.py```
 
-## Installation
-Python>=3.10 is required.
-Package requirements can be installed using the `requirements.txt` file by running:
 
-```
-conda create -n "adaptive_explanation" python==3.10
-pip install -r requirements.txt
+## Snape uses Neo4j as its database:
+
+### Create Neo4j Container
+Run the following command to create a new Neo4j container named `neo4j-local`:
+
+```sh
+docker run --name neo4j-local \
+  -e NEO4J_AUTH=neo4j/severus_study \  # Set Neo4j authentication (username/password)
+  -p 7474:7474 -p 7687:7687 \          # Expose Neo4j web UI (7474) and Bolt protocol (7687)
+  neo4j:4.4.37                         # Use Neo4j version 4.4.37
 ```
 
-Snape uses Neo4j as its database:
+### Start the Neo4j Container
+If the container is already created but stopped, use:
 
-1. download and unzip neo4j community
-2. optional: rename folder, e.g 'snape_neo4j'
-3. navigate to the unziped folder, e.g: .../snape_neo4j'
-3. start the database by running:
-
-```
-./bin/neo4j start
+```sh
+docker start neo4j-local
 ```
 
-4. open the webinterface (most likeley: loacalhost:7678, starting the db should print this on the terminal) and change the default password to 'severus_study' (password defined in model_update). When opening the webinterface you will first need to give the standard username: neo4j and password: neo4j and then you will be asked to set a new password which should be: severus_study
-5. stop the databse after changning the default password:
+### Stop the Neo4j Container
+To stop the running Neo4j container:
 
-```
-./bin/neo4j stop
-```
-
-Additionally when it is desired to run multiple SNAPE instances on the same machine every instance needs its own neo4j installation and database.
-In this case you need to adjust the ports used by each installation
-
-1. navigate into neo4j folger, e.g: 'snape_neo4j_instance_XXX'
-2. open file /conf/neo4j.conf
-3. adjust server port under '#Bolt connector' change server.bolt.listen_address=:YOUR_PORT
-4. adjust webinterface port under '# HTTP Connector' change server.http.listen_address=:YOUR_PORT
-5. save file
-6. ensure that each instance uses unique ports for the server and the webinteface (increment each port by one for each instance)
-7. change default password as described above (use correct webinterface port when connecting to the db)
-8. repeat steps for each instance
-
-Java 21 is required for neo4j
-
-## Usage
-
-Starting the database:
-
-1. navigate into neo4j folder, e.g: 'snape_neo4j'
-2. start the db by running:
-
-```
-./bin/neo4j start
+```sh
+docker stop neo4j-local
 ```
 
-Stopping the database:
+### Check Running Containers
+To list all currently running containers:
 
-1. navigate into neo4j folger, e.g: 'snape_neo4j'
-2. stop the db by running:
-
-```
-./bin/neo4j stop
+```sh
+docker ps
 ```
 
-The easiest way to manage multiple instances at once, is to open a terminal for each instance and keep it open while the instance is running. When you're done just run the stop command as described above.
+### Remove Neo4j Container
+To delete the `neo4j-local` container (make sure it's stopped first):
 
-The simulation can be started with
+```sh
+docker rm neo4j-local
 ```
-python study_simulation.py
-``
+
+---
+## Using the built-in visualization
+Snape can create a live visualization including the partner model and current graph state if enabled in the (severus-study) config:
+```py
+VISUALIZATION = True
+```
+#### Start the HTTP Server
+The visualization is generated as an HTML page, this HTML page reloads itself automatically to update the visualization.
+This is only possible if it is served via http. Therefore, it is required to start a simple http server.
+Open a new terminal, navigate to the severus-study folder then:
+```sh
+python -m http.server 8000 # if your system already uses port 8000 change this to an unused port
+```
+#### View the visualization in your browser:
+```url
+http://localhost:8000/visualization.html
+```
+
+---
+
+## Licensing notes
+Emoji images are screenshots from Googles' open Noto Font, not sure how this is handled :)

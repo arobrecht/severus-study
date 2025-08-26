@@ -1,0 +1,28 @@
+﻿question;answer;options;points;comment
+Eine Person spielt die hellen und eine Person die dunklen Figuren.;nein;ja, nein;1;
+Man darf auch diagonal eine Reihe bilden.;ja;ja, nein;1;
+Wenn alle Spielsteine gesetzt wurden, endet das Spiel unentschieden.;ja;ja, nein;1;alt
+Es ist erlaubt eine Reihe, die die andere Person angefangen hat, zu verbauen und so eine Niederlage zu vermeiden.;ja;ja, nein;1;
+Man muss sich um die eigenen Reihen, die man angefangen hat, kümmern.;nein;ja, nein;1;
+Das Spiel ist kooperativ.;nein;ja, nein;1;alt
+Insgesamt gibt es zehn Möglichkeiten, um eine Reihe auf dem Spielbrett zu bilden.;ja;ja, nein;1;
+Man darf Figuren beliebig auf freien Feldern des Bretts positionieren.;ja;ja, nein;1;
+Alle Figuren haben verschiedene Formen.;nein;ja, nein;1;
+Man sucht sich die Figur, die man setzt, selbst aus.;nein;ja, nein;1;
+Alle Figuren haben verschiedene Farben.;nein;ja, nein;1;
+Man darf eine Reihe, die die andere Person angefangen hat, vervollständigen und so gewinnen.;ja;ja, nein;1;
+Alle Figuren haben verschiedene Größen.;nein;ja, nein;1;
+Wählen Sie die Antwort ganz links aus.;nein;ja, nein;0;attention check
+Das Spielbrett hat eine gerade Anzahl an Feldern.;ja;ja, nein;1;
+Figuren haben die Merkmale Größe, Struktur, Material und Farbe.;nein;ja, nein;1;zugefügt
+Beide Spieler spielen gleichzeitig.;nein;ja, nein;1;zugefügt
+Bei einem Zug wählt man den passenden Stein aus und setzt ihn auf ein freies Spielfeld.;nein;ja, nein;1;zugefügt
+"Hat man eine Reihe beendet, muss man ""Fertig"" rufen.";nein;ja, nein;1;zugefügt
+Für den Sieg ist wichtig, möglichst schnell eine Reihe zu bilden.;ja;ja, nein;1;alt
+Wählen Sie nein aus.;nein;ja, nein;0;attention check
+Quarto ähnelt Vier Gewinnt.;ja;ja, nein;1;alt
+Für den Sieg ist es wichtig, die Spielfiguren zu Beginn willkürlich auf dem Spielfeld zu verteilen.;nein;ja, nein;1;alt
+Quarto ist ein recht  strategisches Spiel.;ja;ja, nein;1;
+Das eigene Spiel wird von den Entscheidungen der anderen Person stark beeinflusst.;ja;ja, nein;1;
+Eine mögliche Taktik ist es, die Reihe, die die:der Gegenspieler:in begonnnen hat, zu vervollständigen.;ja;ja, nein;1;zugefügt
+Man kann nur mit seinen eigenen Reihen ein Quarto bilden.;nein;ja, nein;1;zugefügt S2

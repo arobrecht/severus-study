@@ -1,0 +1,505 @@
+{% extends "base.html" %}
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('.static', filename='css/study.css') }}" type="text/css" />
+
+<div class="flex-container">
+
+    <h2 class="heading">Spielverstehen</h2>
+    <div class="textBlock">
+        <p>
+            Im Folgenden werden Ihnen einige Fragen zu Quarto gestellt. Bitte beantworten Sie diese bestmöglich.
+            TIPP: Wenn Sie auf den Grafiken kleine von großen Spielfiguren unterscheiden möchten, dann achten Sie auf den Ring um die Spielfigur.
+            Ist der Ring im unteren Drittel, so handelt es sich um eine große Figur.
+        </p>
+    </div>
+
+    <div class="questionBlock">
+
+
+    <form action="" method="post" name="pre_questionnaire_done">
+        {{ form.hidden_tag() }}
+
+        {% for q in form %}
+            {% if q.type == "RadioField" %}
+
+                <hr>
+
+                <h4>
+                   {{ q.label }}
+                </h4>
+                <div class="container">
+                    <div class="row">
+                        {% for subfield in q %}
+                            <div class="column">
+                                {{ subfield.label(class_="pointerCursor") }}
+                            </div>
+                        {% endfor %}
+                    </div>
+
+                    <div class="row">
+                        {% for subfield in q %}
+                            <div class="column">
+                                {{ subfield(class_="pointerCursor") }}
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+
+            {% endif %}
+        {% endfor %}
+
+        <hr>
+
+
+        <h3>
+            Q1: Welche dieser Szenarien enthalten ein Quarto?
+        </h3>
+
+            <div class="container">
+
+              <div class="row">
+                <div class="column">
+                    <label for="cb1o1">
+                        <img src="{{ url_for('.static', filename='images/understanding/t1o1.jpeg') }}">
+                    </label>
+
+                </div>
+                <div class="column">
+                    <label for="cb1o2">
+                        <img src="{{ url_for('.static', filename='images/understanding/t1o2.jpeg') }}">
+                    </label>
+                </div>
+                <div class="column">
+                    <label for="cb1o3">
+                        <img src="{{ url_for('.static', filename='images/understanding/t1o3.jpeg') }}">
+                    </label>
+                </div>
+                <div class="column">
+                    <label for="cb1o4">
+                        <img src="{{ url_for('.static', filename='images/understanding/t1o4.jpeg') }}">
+                    </label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="column">
+                    {{ form.cb1o1 }}
+                </div>
+                <div class="column">
+                    {{ form.cb1o2 }}
+                </div>
+                  <div class="column">
+                    {{ form.cb1o3 }}
+                </div>
+                  <div class="column">
+                    {{ form.cb1o4 }}
+                </div>
+              </div>
+
+            </div>
+
+        <hr>
+
+        <h3>
+            <span>Q: Welche Farbe hat das Wort blau?</span>
+            <span style="margin-left: 1em;">
+                <img src="{{ url_for('.static', filename='images/understanding/ac.jpg') }}">
+            </span>
+        </h3>
+
+            <div class="container">
+                <div class="row">
+                    <div class="column">blau</div>
+                    <div class="column">grün</div>
+                    <div class="column">rot</div>
+                    <div class="column">gelb</div>
+                    <div class="column">violet</div>
+                </div>
+                <div class="row">
+                    <div class="column"> {{ form.blau }}</div>
+                    <div class="column"> {{ form.grün }}</div>
+                    <div class="column"> {{ form.rot }}</div>
+                    <div class="column"> {{ form.gelb }}</div>
+                    <div class="column"> {{ form.violet }}</div>
+                </div>
+            </div>
+
+        <hr>
+
+
+        <h3>
+            Q2: Wählen Sie alle Steine aus, die ein Quarto mit den drei abgebildeten Steinen (t2) bildet.
+        </h3>
+
+        <img src="{{ url_for('.static', filename='images/understanding/t2.jpeg') }}">
+        <h4>
+            t2
+        </h4>
+        <div class="container">
+
+          <div class="row">
+            <div class="column">
+                <label for="cb2o1">
+                    <img src="{{ url_for('.static', filename='images/understanding/t2o1.jpeg') }}" width="200">
+                </label>
+            </div>
+            <div class="column">
+                <label for="cb2o2">
+                    <img src="{{ url_for('.static', filename='images/understanding/t2o2.jpeg') }}">
+                </label>
+            </div>
+            <div class="column">
+                <label for="cb2o3">
+                    <img src="{{ url_for('.static', filename='images/understanding/t2o3.jpeg') }}">
+                </label>
+            </div>
+          </div>
+
+        <div class="row">
+            <div class="column">
+                {{ form.cb2o1 }}
+            </div>
+            <div class="column">
+                {{ form.cb2o2 }}
+            </div>
+            <div class="column">
+                {{ form.cb2o3 }}
+            </div>
+            </div>
+        </div>
+
+
+        <hr>
+
+
+        <h3>
+            Q3: Wählen Sie alle Steine aus, die ein Quarto mit den drei abgebildeten Steinen (t3) bildet.
+        </h3>
+        <img src="{{ url_for('.static', filename='images/understanding/t3.jpeg') }}">
+        <h4>
+            t3
+        </h4>
+        <div class="container">
+
+          <div class="row">
+            <div class="column">
+                <label for="cb3o1">
+                    <img src="{{ url_for('.static', filename='images/understanding/t3o1.jpeg') }}" width="300">
+                </label>
+            </div>
+            <div class="column">
+                <label for="cb3o2">
+                    <img src="{{ url_for('.static', filename='images/understanding/t3o2.jpeg') }}">
+                </label>
+            </div>
+            <div class="column">
+                <label for="cb3o3">
+                    <img src="{{ url_for('.static', filename='images/understanding/t3o3.jpeg') }}">
+                </label>
+            </div>
+          </div>
+
+        <div class="row">
+            <div class="column">
+                {{ form.cb3o1 }}
+            </div>
+            <div class="column">
+                {{ form.cb3o2 }}
+            </div>
+            <div class="column">
+                {{ form.cb3o3 }}
+            </div>
+            </div>
+        </div>
+
+
+        <hr>
+
+
+        <div>
+            <h3>
+                Q4: Wählen Sie alle Steine aus, die ein Quarto mit den drei abgebildeten Steinen (t7) bildet.
+            </h3>
+            <h4>
+                t7
+            </h4>
+            <img src="{{ url_for('.static', filename='images/understanding/t7.jpeg') }}">
+
+            <div class="container">
+                <div class="row">
+                    <div class="column">
+                        <label for="cb4o1">
+                            <img src="{{ url_for('.static', filename='images/understanding/t4o1.jpeg') }}" width="200">
+                        </label>
+                    </div>
+                    <div class="column">
+                        <label for="cb4o2">
+                            <img src="{{ url_for('.static', filename='images/understanding/t4o2.jpeg') }}" width="180">
+                        </label>
+                    </div>
+                    <div class="column">
+                        <label for="cb4o3">
+                            <img src="{{ url_for('.static', filename='images/understanding/t4o3.jpeg') }}" width="200">
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        {{ form.cb4o1 }}
+                    </div>
+                    <div class="column">
+                        {{ form.cb4o2 }}
+                    </div>
+                    <div class="column">
+                        {{ form.cb4o3 }}
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <hr>
+
+
+        <div>
+            <h3>
+                Q5: Wählen Sie die Steine aus, den Sie der:dem Gegenspieler für den nächsten Zug geben würden. Es steht aktuell nur die Reihe t4.
+            </h3>
+            <h4>
+                t4
+            </h4>
+            <img src="{{ url_for('.static', filename='images/understanding/t4.jpeg') }}">
+
+            <div class="container">
+                <div class="row">
+                    <div class="column">
+                        <label for="cb5o1">
+                            <img src="{{ url_for('.static', filename='images/understanding/t5o1.jpeg') }}">
+                        </label>
+                    </div>
+                    <div class="column">
+                        <label for="cb5o2">
+                            <img src="{{ url_for('.static', filename='images/understanding/t5o2.jpeg') }}" width="150">
+                        </label>
+                    </div>
+                    <div class="column">
+                        <label for="cb5o3">
+                            <img src="{{ url_for('.static', filename='images/understanding/t5o3.jpeg') }}" width="180">
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        {{ form.cb5o1 }}
+                    </div>
+                    <div class="column">
+                        {{ form.cb5o2 }}
+                    </div>
+                    <div class="column">
+                        {{ form.cb5o3 }}
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <hr>
+
+
+        <div>
+            <h3>
+                Q6: Wählen Sie die Steine aus, den Sie der:dem Gegenspieler für den nächsten Zug geben würden. Es steht aktuell nur die Reihe t5.
+            </h3>
+            <h4>
+                t5
+            </h4>
+            <img src="{{ url_for('.static', filename='images/understanding/t5.jpeg') }}">
+
+            <div class="container">
+                <div class="row">
+                    <div class="column">
+                        <label for="cb6o1">
+                            <img src="{{ url_for('.static', filename='images/understanding/t6o1.jpeg') }}" width="180">
+                        </label>
+                    </div>
+                    <div class="column">
+                        <label for="cb6o2">
+                            <img src="{{ url_for('.static', filename='images/understanding/t6o2.jpeg') }}">
+                        </label>
+                    </div>
+                    <div class="column">
+                        <label for="cb6o3">
+                            <img src="{{ url_for('.static', filename='images/understanding/t6o3.jpeg') }}">
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        {{ form.cb6o1 }}
+                    </div>
+                    <div class="column">
+                        {{ form.cb6o2 }}
+                    </div>
+                    <div class="column">
+                        {{ form.cb6o3 }}
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <hr>
+
+
+        <div>
+            <h3>
+                Q7: Wählen Sie die Steine aus, den Sie der:dem Gegenspieler für den nächsten Zug geben würden. Es steht aktuell nur die Reihe t8.
+            </h3>
+            <h4>
+                t8
+            </h4>
+            <img src="{{ url_for('.static', filename='images/understanding/t8.jpeg') }}">
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="column">
+                        <label for="cb7o1">
+                            <img src="{{ url_for('.static', filename='images/understanding/t7o1.jpeg') }}" width="150">
+                        </label>
+                    </div>
+                    <div class="column">
+                        <label for="cb7o2">
+                            <img src="{{ url_for('.static', filename='images/understanding/t7o2.jpeg') }}">
+                        </label>
+                    </div>
+                    <div class="column">
+                        <label for="cb7o3">
+                            <img src="{{ url_for('.static', filename='images/understanding/t7o3.jpeg') }}">
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        {{ form.cb7o1 }}
+                    </div>
+                    <div class="column">
+                        {{ form.cb7o2 }}
+                    </div>
+                    <div class="column">
+                        {{ form.cb7o3 }}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <hr>
+
+
+        <div>
+            <h3>
+                Q8: Gegeben ist folgende Spielsituation (t10). Sie bekommen vom Gegner die Spielfigur t8o1. Wohin würden Sie die Figur setzen? (Mehrfachnennung möglich)
+
+                B1, B2, C3, D4, D1, E1, F1, G1, F2
+            </h3>
+            <h4>
+                t10
+            </h4>
+            <img src="{{ url_for('.static', filename='images/understanding/t10.jpeg') }}">
+            <h4>
+                t8o1
+            </h4>
+            <img src="{{ url_for('.static', filename='images/understanding/t8o1.jpeg') }}">
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="column">B1</div>
+                    <div class="column">B2</div>
+                    <div class="column">C3</div>
+                    <div class="column">D4</div>
+                    <div class="column">D1</div>
+                    <div class="column">E1</div>
+                    <div class="column">F1</div>
+                    <div class="column">G1</div>
+                    <div class="column">F2</div>
+                </div>
+                <div class="row">
+                    <div class="column">{{ form.cb8_b1 }}</div>
+                    <div class="column">{{ form.cb8_b2 }}</div>
+                    <div class="column">{{ form.cb8_c3 }}</div>
+                    <div class="column">{{ form.cb8_d4 }}</div>
+                    <div class="column">{{ form.cb8_d1 }}</div>
+                    <div class="column">{{ form.cb8_e1 }}</div>
+                    <div class="column">{{ form.cb8_f1 }}</div>
+                    <div class="column">{{ form.cb8_g1 }}</div>
+                    <div class="column">{{ form.cb8_f2 }}</div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <hr>
+
+
+        <div>
+            <h3>
+                Q9: Gegeben ist die folgende Spielsituation (t11). Welchen Spielsteine würden Sie der/dem Gegenspieler:in geben? (Mehrfachnennung möglich)
+            </h3>
+            <h4>
+                t11
+            </h4>
+            <img src="{{ url_for('.static', filename='images/understanding/t11.jpeg') }}">
+
+            <div class="container">
+                <div class="row">
+                    <div class="column">1</div>
+                    <div class="column">2</div>
+                    <div class="column">3</div>
+                    <div class="column">4</div>
+                    <div class="column">5</div>
+                    <div class="column">6</div>
+                    <div class="column">7</div>
+                    <div class="column">8</div>
+                </div>
+                <div class="row">
+                    <div class="column">{{ form.cb9_1 }}</div>
+                    <div class="column">{{ form.cb9_2 }}</div>
+                    <div class="column">{{ form.cb9_3 }}</div>
+                    <div class="column">{{ form.cb9_4 }}</div>
+                    <div class="column">{{ form.cb9_5 }}</div>
+                    <div class="column">{{ form.cb9_6 }}</div>
+                    <div class="column">{{ form.cb9_7 }}</div>
+                    <div class="column">{{ form.cb9_8 }}</div>
+                </div>
+            </div>
+        <div class="explanation-section" style="margin-top: 20px;">
+            <label for="save_attention"><strong>Erklären Sie Ihre Entscheidung:</strong></label>
+            {{ form.save_attention(rows=6, style="width: 100%;", placeholder="Ihre Begründung (max. 500 Wörter)") }}
+        </div>
+
+        </div>
+
+        <hr>
+
+        <div class="flexBottom">
+            <input type="submit" value="Weiter" class="button">
+        </div>
+
+    </form>
+
+    </div>
+
+</div>>
+
+
+{% endblock %}

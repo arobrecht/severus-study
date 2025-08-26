@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('.static', filename='css/study.css') }}" type="text/css" />
+    <script type="text/javascript">
+        //Test for old browsers:
+        var canvas = document.createElement("canvas");
+        if (!canvas.getContext) {
+            window.location.href = "{{ url_for('.update_browser') }}";
+        }
+
+    </script>
+    <h2 class="heading"> <b>Willkommen zu dieser Studie! </b></h2>
+    <form action="" method="post">
+    {{ form.hidden_tag() }}
+    <div class="textBlock">
+        <p>
+            Guten Tag!
+            Willkommen zur heutigen Studie und herzlichen Dank für Ihr Interesse!<br>
+            Bitte lesen Sie die folgenden Informationen sorgfältig:<br>
+            <br>
+            <b>Nutzung von KI:</b>
+            <br>
+            Diese Studie beschäftigt sich mit dem menschlichen Verhalten und ist darauf angewiesen, dass keine externe Unterstützung hinzugezogen wird.
+            Sollten wir eine Nutzung von KI-Tools (ChatGPT o.ä.) feststellen, müssen wir Sie von der Studie ausschließen. <br>
+            <br>
+            <i>Ich werde keine KI-Tools im Rahmen dieser Studie nutzen:</i>
+                    <div>
+                        <p>
+                            {{ form.checkbox2}}<br>
+                            {% for error in form.checkbox2.errors %}
+                                <span style="color: red;">[{{ error }}]</span><br>
+                            {% endfor %}
+                        </p>
+                    </div>
+            <br>
+            <b>Einverständniserklärung:</b><br>
+{#            <a href="../static/pdfs/Belehrung_Studie.pdf" target="_blank" rel="noreferrer noopener">Belehrung zur Studie</a><br>#}
+            <a href="{{ url_for('.belehrung') }}" target="_blank" rel="noreferrer noopener">Belehrung zur Studie</a><br>
+            Zur in der Belehrung bezeichneten Studie habe ich die Informationen erhalten und gelesen.
+            Über Forschungsziele, Datennutzung und Datenschutz wurde ich in den entsprechenden Abschnitten informiert.
+            Diese Abschnitte habe ich gelesen und verstanden.
+            Mir ist bewusst, dass meine Teilnahme an der Studie vollkommen freiwillig ist und ich
+            bei einer Verweigerung meiner Einwilligung keinerlei Nachteile erleide. Meine Einwilligung
+            kann ich jederzeit mit Wirkung für die Zukunft widerrufen, ohne dass dies einer
+            Begründung bedarf und ohne dass mir daraus irgendwelche Nachteile entstehen. Im Fall
+            eines Widerrufs werden meine personenbezogenen Daten anonymisiert. Mir ist bewusst,
+            dass mir durch Verweigerung keine Nachteile entstehen. Ich kann meine Zustimmung
+            jederzeit widerrufen. Ich wurde auch über meine weiteren Rechte im Umgang mit personenbezogenen
+            Daten informiert.<br>
+            <br>
+            <i>Ich bin mit der Erhebung, Verarbeitung, Speicherung und Weitergabe meiner personenbezogenen und meiner
+    experimentellen Daten entsprechend der Beschreibungen zum oben bezeichneten Forschungsvorhaben einverstanden:</i>
+                <div>
+                    <p>
+                        {{ form.checkbox}}<br>
+                        {% for error in form.checkbox.errors %}
+                            <span style="color: red;">[{{ error }}]</span><br>
+                        {% endfor %}
+                    </p>
+                    <p><input type="submit" value="Start" class="button"></p>
+                    </p>
+    </div>
+    </form>
+    <div  class="textBlock">
+        <p>
+            <span style="color: red; "> Das Laden der nächsten Seite kann bis zu 10 Sekunden in Anspruch nehmen!</span>
+        </p>
+    </div>
+
+{% endblock %}

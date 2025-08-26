@@ -1,0 +1,11 @@
+Item;Antwortmöglichkeiten;
+Bitte geben Sie Ihre Prolific ID an;frei;
+Bitte geben Sie Ihr Alter an;frei;
+Bitte geben Sie an, was auf Sie zutrifft;Student:in, Schüler:in, Auszubildende:r, Berufst�tige:r, Sonstiges;
+Bitte geben Sie Ihren Studiengang an;frei;nur bei Studenten
+Bitte geben Sie ihr Fachsemester an;frei;nur bei Studenten
+Bitte geben Sie ihre Leistungskurse an;frei;nur bei Schülern
+Bitte geben Sie ihren Ausbildungsberuf an;frei;nur bei Azubis
+Bitte geben Sie ihren Beruf an;frei;nur bei Berufstätigen
+Ist Deutsch Ihre Erstsprache oder, falls Sie mehrsprachig aufgewachsen sind, eine Ihrer Erstsprachen?;ja, nein;
+"Kennen Sie das Spiel ""Quarto""?";Nein, gar nicht. , Ich habe davon gehört, es aber noch nie gespielt. , Ich habe es einmal gespielt. , Ich habe es gelegentlich gespielt. , Ich habe es schon oft gespielt.;
