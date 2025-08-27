@@ -1,6 +1,6 @@
 To run this code, the NLU has to be manually set up or disabled in (severus-study) config:
 
-```
+```py
 NLU_LLM = False
 ```
 
