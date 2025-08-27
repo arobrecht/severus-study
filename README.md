@@ -1,3 +1,9 @@
+To run this code, the NLU has to be manually set up or disabled in (severus-study) config:
+
+```
+NLU_LLM = False
+```
+
 There is a requirements.txt which can be used to install the requirements in your current environment using
 pip:
 ```pip install -r requirements.txt```
