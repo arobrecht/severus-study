@@ -90,7 +90,7 @@ Browser Cookies for localhost may cause redirection errors. If this occurs, manu
 
 ---
 ## Using the built-in visualization
-Snape can create a live visualization including the partner model and current graph state if enabled in the (severus-study) config:
+Snape can create a live visualization including the partner model and current graph state if enabled in `severus-study/config.py`:
 ```py
 VISUALIZATION = True
 ```
