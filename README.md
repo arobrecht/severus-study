@@ -1,64 +1,92 @@
 # Adaptive Explanations as Co-Constructed Processes: SNAPE and SNAPE-PM
 This code supplements the thesis _Adaptive Explanations as Co-Constructed Processes -- Modeling a Rational Explainer Through the Interaction of Dynamic Partner Models and Non-Stationary Decision Making_. A [video of the agent](https://doi.org/10.17605/OSF.IO/DAQV9) and preregistrations of the studies on the effects of [dynamic decision-making](https://doi.org/10.17605/OSF.IO/EBH27) and [extended partner-modeling](https://doi.org/10.17605/OSF.IO/DAQV9) on adaptive explanations utilizing the code can be found at OSF.
 
-To run this code, the NLU has to be set up manually or disabled in (severus-study) config:
 
-```py
-NLU_LLM = False
+# Setup Instructions
+
+Follow the steps below to set up and run the project:
+
+---
+
+### 1. Clone the Project
+```bash
+git clone https://github.com/arobrecht/severus-study.git
 ```
 
-There is a requirements.txt which can be used to install the requirements in your current environment using
-pip:
-```pip install -r requirements.txt```
+---
 
-### Install frontend dependencies
-```npm install```
-
-### Build frontend script
-```npm run build```
-
-
-### Running the server
-Run the server by executing
-```python runStudy.py```
-
-
-## Snape uses Neo4j as its database:
-
-### Create Neo4j Container
-Run the following command to create a new Neo4j container named `neo4j-local`:
-
-```sh
-docker run --name neo4j-local -e NEO4J_AUTH=neo4j/severus_study -p 7474:7474 -p 7687:7687 neo4j:4.4.37     
+### 2. Create a Conda Environment
+```bash
+conda create --name severus-study python=3.10
 ```
 
-### Start the Neo4j Container
-If the container is already created but stopped, use:
+---
 
-```sh
+### 3. Activate the Environment
+```bash
+conda activate severus-study
+```
+
+---
+
+### 4. Install Python Requirements
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 5. Install Frontend Dependencies
+```bash
+npm install
+```
+
+---
+
+### 6. Build the Frontend
+```bash
+npm run build
+```
+
+---
+
+### 7. Create a Neo4j Docker Container
+```bash
+docker run --name neo4j-local   -e NEO4J_AUTH=neo4j/severus_study   -p 7474:7474 -p 7687:7687   neo4j:4.4.37
+```
+
+---
+
+### 8. Start Neo4j (if stopped)
+```bash
 docker start neo4j-local
 ```
 
-### Stop the Neo4j Container
-To stop the running Neo4j container:
+---
 
-```sh
-docker stop neo4j-local
+### 9. Disable NLU in Configuration  
+In `severus-study/config.py`, set:
+```python
+NLU_LLM = False
 ```
 
-### Check Running Containers
-To list all currently running containers:
+---
 
-```sh
-docker ps
+### 10. Start the Study
+```bash
+python runStudy.py
 ```
 
-### Remove Neo4j Container
-To delete the `neo4j-local` container (make sure it's stopped first):
+---
 
-```sh
-docker rm neo4j-local
+### 11. Open in Browser
+Navigate to:
 ```
+http://localhost:37000
+```
+#### Potential Redirection Errors
+Browser Cookies for localhost may cause redirection errors. If this occurs, manually delete all cookies for localhost in the settings of your browser.
+
 
 ---
 ## Using the built-in visualization
@@ -78,8 +106,6 @@ python -m http.server 8000 # if your system already uses port 8000 change this t
 http://localhost:8000/visualization.html
 ```
 
-#### Potential Redirection Errors
-Cookies in the browser may cause redirection errors. If this occurs, the cookies can be deleted manually in the browser.
 
 ---
 
