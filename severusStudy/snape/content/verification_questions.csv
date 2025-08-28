@@ -1,0 +1,9 @@
+block,name,question,answer,summary
+Spiel,Spiel,Wie ist der Name des Spiels?,Quarto,Das Spiel Quarto ist ein Brettspiel und Gesellschaftsspiel.
+Spieler,Spieler,Wieviele Spieler:innen können höchstens Quarto spielen?,zwei,Bei Quarto spielen zwei Spieler gegeneinander. 
+Ende,Ende,Wieviele mögliche Ausgänge hat Quarto?,drei,"Quarto kann mit einem Unentschieden, einer Niederlage oder einem Sieg enden."
+Spielziel,Spielziel,Wie lang müssen die Reihen bei Quarto sein?,vier Steine lang,"Das Ziel von Quarto ist es Reihen zu bilden. Eine Reihe bildet man, indem man vier Figuren mit einem gleichen Merkmal waagerecht, senkrecht oder diagonal auf dem Spielfeld platziert. "
+Spielzüge,Spielzüge,Welche Züge gibt es bei Quarto?,Setzen und Wählen,"Bei Quarto gibt es die Spielzüge Setzen und Wählen und die Aktion rufen. Beim Wählen sucht man die Figur aus, die der Gegner als nächstes Setzen muss, beim Setzen platziert man die ausgewählte Figur auf einem freien Spielfeld. Sobald eine Reihe vervollständigt wurde, muss man “Quarto” rufen. "
+Spielfiguren,Spielfiguren,Wie viele Merkmale haben Figuren bei Quarto?,vier,"Die Spielfiguren haben vier verschiedene Merkmale mit jeweils zwei Ausprägungen. Die Figuren unterscheiden sich hinsichtlich ihrer Größe, Form, Farbe und Struktur. "
+Spielbrett,Spielbrett,Wie viele Felder hat das Spielbrett?,16,"Das Spielbrett, auf dem man die Spielfiguren platzieren kann, ist aus Holz und besteht aus 16 Feldern, die in einer 4x4 Struktur angeordnet sind."
+Strategien,Strategien,Welche Taktiken gibt es bei Quarto?,Passiv und Aktiv,"Bei Quarto gibt es zwei Strategien, die man verfolgen kann. Entweder spielt man passiv und verhindert den Sieg des Gegners durch Blocken, oder man spielt aktiv und versucht schnellstmöglich eine eigene Reihe zu vervollständigen. Die Taktiken sind auch gut kombinierbar."
