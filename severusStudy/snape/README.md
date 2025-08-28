@@ -8,59 +8,68 @@ Package requirements can be installed using the `requirements.txt` file by runni
 pip install -r requirements.txt
 ```
 
-Snape uses Neo4j as its database:
 
-1. download and unzip neo4j community
-2. optional: rename folder, e.g 'snape_neo4j'
-3. navigate to the unziped folder, e.g: .../snape_neo4j'
-3. start the database by running:
+## Snape uses Neo4j as its database:
 
-```
-./bin/neo4j start
-```
+### Create Neo4j Container
+Run the following command to create a new Neo4j container named `neo4j-local`:
 
-4. open the webinterface (most likeley: loacalhost:7678, starting the db should print this on the terminal) and change the default password to 'severus_study' (password defined in model_update)
-5. stop the databse after changning the default password:
-
-```
-./bin/neo4j stop
+```sh
+docker run --name neo4j-local \
+  -e NEO4J_AUTH=neo4j/severus_study \  # Set Neo4j authentication (username/password)
+  -p 7474:7474 -p 7687:7687 \          # Expose Neo4j web UI (7474) and Bolt protocol (7687)
+  neo4j:4.4.37                         # Use Neo4j version 4.4.37
 ```
 
-Additionally when it is desired to run multiple SNAPE instances on the same machine every instance needs its own neo4j installation and database.
-In this case you need to adjust the ports used by each installation
+### Start the Neo4j Container
+If the container is already created but stopped, use:
 
-1. navigate into neo4j folger, e.g: 'snape_neo4j_instance_XXX'
-2. open file /conf/neo4j.conf
-3. adjust server port under '#Bolt connector' change server.bolt.listen_address=:YOUR_PORT
-4. adjust webinterface port under '# HTTP Connector' change server.http.listen_address=:YOUR_PORT
-5. save file
-6. ensure that each instance uses unique ports for the server and the webinteface (increment each port by one for each instance)
-7. change default password as described above (use correct webinterface port when connecting to the db)
-8. repeat steps for each instance
-
-Java 21 is required for neo4j
-
-## Usage
-
-Starting the database:
-
-1. navigate into neo4j folder, e.g: 'snape_neo4j'
-2. start the db by running:
-
-```
-./bin/neo4j start
+```sh
+docker start neo4j-local
 ```
 
-Stopping the database:
+### Stop the Neo4j Container
+To stop the running Neo4j container:
 
-1. navigate into neo4j folger, e.g: 'snape_neo4j'
-2. stop the db by running:
-
-```
-./bin/neo4j stop
+```sh
+docker stop neo4j-local
 ```
 
-The easiest way to manage multiple instances at once, is to open a terminal for each instance and keep it open while the instance is running. When you're done just run the stop command as described above.
+### Check Running Containers
+To list all currently running containers:
+
+```sh
+docker ps
+```
+
+### Remove Neo4j Container
+To delete the `neo4j-local` container (make sure it's stopped first):
+
+```sh
+docker rm neo4j-local
+```
+
+---
+## Using the built-in visualization
+Snape can create a live visualization including the partner model and current graph state if enabled in the (severus-study) config:
+```py
+VISUALIZATION = True
+```
+#### Start the HTTP Server
+The visualization is generated as an HTML page, this HTML page reloads itself automatically to update the visualization.
+This is only possible if it is served via http. Therefore, it is required to start a simple http server.
+Open a new terminal, navigate to the severus-study folder then:
+```sh
+python -m http.server 8000 # if your system already uses port 8000 change this to an unused port
+```
+#### View the visualization in your browser:
+```url
+http://localhost:8000/visualization.html
+```
+
+
+---
+
 
 CLI arguments as printed by running `python main.py --help`:
 

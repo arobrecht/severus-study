@@ -37,3 +37,4 @@ class Block:
         self.node_ids = nodes_ids
         self.question = question
         self.valid_answers = valid_answers
+        self.verified = False

@@ -1,9 +1,0 @@
-﻿block;name;question;answer
-Spiel;Spiel;Wie ist der Name des Spiels?;Quarto, quarto, Quarto!
-Spieler;Spieler;Wieviele Spieler:innen können höchstens Quarto spielen?;2, zwei, Zwei
-Ende;Ende;Wieviele mögliche Ausgänge hat Quarto?;3 , drei, sieg niederlage unentschieden
-Spielziel;Spielziel;Wie lang müssen die Reihen bei Quarto sein?;4, vier, vier figuren
-Spielzuege;Spielzüge;Welchen Zug gibt es bei Quarto nicht: Setzen, Tauschen, Wählen oder Rufen?;tauschen, Tauschen
-Spielfiguren;Spielfiguren;Wieviele Merkmale haben Figuren bei Quarto?;4, vier, vier merkmale
-Spielbrett;Spielbrett;Wieviele Felder hat das Spielbrett?;16, sechzehn, 4x4
-Strategien;Strategien;Wenn man nicht aktiv spielt, dann spielt man?;passiv, Passiv

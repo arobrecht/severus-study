@@ -13,6 +13,8 @@ class Partner:
     Attributes:
         expertise: Explainees expertise value
         attentiveness: Explainees attentiveness value
+        cooperativeness: Explainees cooperativeness value
+        cognitive_load: Explainees cognitive load value
         negative_feedback_prob: Probability for the Explainee to provide negative feedback in a simulation environment.
         positive_feedback_prob: Probability for the Explainee to provide positive feedback in a simulation environment.
         name: Name of the explainee model for logging.
@@ -27,6 +29,8 @@ class Partner:
     name: str
     _init_expertise: float
     _init_attentiveness: float
+    _init_cooperativeness: float
+    _init_cognitive_load: float
     _rng: np.random.Generator
 
     def __init__(
@@ -42,23 +46,27 @@ class Partner:
         """Create a new explainee partner instance.
 
         Args:
-            expertise: Expertise value of the model. Defaults to 0.5.
-            attentiveness: Attentiveness value of the model. Defaults to 0.5.
+            expertise: Expertise value of the model. Defaults to 1.
+            attentiveness: Attentiveness value of the model. Defaults to 1.
+            cooperativeness: Cooperativeness value of the model. Defaults to 1.
+            cognitive_load: Cognitive load value of the model. Defaults to 0.
             negative_feedback_prob: Probability of giving negative feedback in a simulation. Defaults to 0.33.
             positive_feedback_prob: Probability of giving positive feedback in a simulation. Defaults to 0.33.
             name: Name of the explainee for logging. Defaults to str(uuid4()).
         """
         self._init_expertise = expertise
         self._init_attentiveness = attentiveness
+        self._init_cooperativeness = cooperativeness
+        self._init_cognitive_load = cognitive_load
         self._rng = np.random.default_rng()
 
         self.name = name
         self.expertise = expertise
         self.attentiveness = attentiveness
-        self.negative_feedback_prob = negative_feedback_prob
-        self.positive_feedback_prob = positive_feedback_prob
         self.cooperativeness = cooperativeness
         self.cognitive_load = cognitive_load
+        self.negative_feedback_prob = negative_feedback_prob
+        self.positive_feedback_prob = positive_feedback_prob
 
     def __str__(self):
         return f"{self.name}_{self.negative_feedback_prob:0.2g}_{self.positive_feedback_prob:0.2g}".replace(
@@ -66,9 +74,11 @@ class Partner:
         )
 
     def reset(self):
-        """Reset partner model properties (expertise and attentiveness) to initial values."""
+        """Reset partner model properties to initial values."""
         self.expertise = self._init_expertise
         self.attentiveness = self._init_attentiveness
+        self.cooperativeness = self._init_cooperativeness
+        self.cognitive_load = self._init_cognitive_load
 
     @abstractmethod
     def update(self, observations):

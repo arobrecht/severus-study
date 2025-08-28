@@ -1,4 +1,4 @@
-from ..solver.triple_action import ActionType
+from ..decision_making.triple_action import ActionType
 
 
 class ConditionedNode:
@@ -42,6 +42,8 @@ class ConditionedNode:
     dependencies: list[dict]
     complexity: float
     block: str
+    has_example: bool
+    has_comparison: bool
     templates_combined: dict[int, dict[ActionType, list[str]]] = {}
 
     def __init__(
@@ -49,9 +51,11 @@ class ConditionedNode:
             id: int,
             block: str,
             triple: str,
+            has_example: bool,
+            has_comparison: bool,
             dependencies: list[dict],
             complexity: float,
-            classes_triple: tuple,
+            classes_triple: tuple | None,
             lou: float = 0.0,
 
     ):
@@ -68,6 +72,8 @@ class ConditionedNode:
         self.id = id
         self.block = block
         self.triple = triple
+        self.has_example = has_example
+        self.has_comparison = has_comparison
         self.classes_triple = classes_triple
         self.dependencies = dependencies
         self.complexity = complexity

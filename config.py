@@ -3,7 +3,7 @@ WTF_CSRF_ENABLED = True
 
 VISUALIZATION = True
 DEBUG = False
-NLU_LLM = True
+NLU_LLM = False
 
 OLLAMA_HOST = 'http://robusto:11434'
 OLLAMA_MODEL_NLU = "gemma3_nlu"

@@ -2,7 +2,7 @@ from abc import abstractmethod
 
 import numpy as np
 
-from severusStudy.snape.solver.triple_action import ActionType
+from ..decision_making.triple_action import ActionType
 
 
 class FeedbackSimulator:
@@ -46,14 +46,13 @@ class FeedbackSimulator:
                 triple_components[random_number] = "?"
             # The first element here is the metrics we used for the typing/deleting behaviour
             # normally, we would use the preprocess feedback function
-            feedback["sub"] = [0, " ".join(triple_components)]
+            feedback["sub"] = [[", ".join(triple_components)],0]
             random_tae = self.random_generator.choice(["lower", "higher", "None"], p=[1 / 4, 1 / 4, 1 / 2])
             feedback["tae"] = random_tae
             return feedback
         if feedback_mode == 'bc':
             feedback["feedback"] = True
-            feedback["bc"] = self.random_generator.choice(['+', '-'],
-                                                          p=[self.prob_pos_feedback, self.prob_neg_feedback])
+            feedback["bc"] = self.random_generator.choice(['+', '-'],p=[self.prob_pos_feedback, self.prob_neg_feedback])
             return feedback
         else:
             return feedback
@@ -124,9 +123,9 @@ class Neville(FeedbackSimulator):
         self.prob_neg_feedback = 1 - self.prob_pos_feedback
 
 
-class LunaAttentiveClever(FeedbackSimulator):
+class LunaAttentive(FeedbackSimulator):
     def __init__(self):
-        super(LunaAttentiveClever, self).__init__()
+        super(LunaAttentive, self).__init__()
         self.set_probabilities()
 
     def set_probabilities(self):
@@ -137,9 +136,9 @@ class LunaAttentiveClever(FeedbackSimulator):
         self.prob_neg_feedback = 1 - self.prob_pos_feedback
 
 
-class LunaInattentiveClever(FeedbackSimulator):
+class LunaInattentive(FeedbackSimulator):
     def __init__(self):
-        super(LunaInattentiveClever, self).__init__()
+        super(LunaInattentive, self).__init__()
         self.set_probabilities()
 
     def set_probabilities(self):
@@ -160,7 +159,20 @@ class LunaAttentiveStupid(FeedbackSimulator):
         self.prob_bc_feedback = 0.6
         self.prob_no_feedback = 0.1
         self.prob_pos_feedback = 0.3
+
+
+class LunaInattentiveClever(FeedbackSimulator):
+    def __init__(self):
+        super(LunaInattentiveClever, self).__init__()
+        self.set_probabilities()
+
+    def set_probabilities(self):
+        self.prob_substantive_feedback = 0.1
+        self.prob_bc_feedback = 0.2
+        self.prob_no_feedback = 0.7
+        self.prob_pos_feedback = 0.7
         self.prob_neg_feedback = 1 - self.prob_pos_feedback
+
 
 
 class LunaInattentiveStupid(FeedbackSimulator):
@@ -172,5 +184,29 @@ class LunaInattentiveStupid(FeedbackSimulator):
         self.prob_substantive_feedback = 0.1
         self.prob_bc_feedback = 0.2
         self.prob_no_feedback = 0.7
+        self.prob_pos_feedback = 0.3
+
+
+class Realistic(FeedbackSimulator):
+    def __init__(self):
+        super(Realistic, self).__init__()
+        self.set_probabilities()
+
+    def set_probabilities(self):
+        self.prob_substantive_feedback = 0.1
+        self.prob_bc_feedback = 0.4
+        self.prob_no_feedback = 0.5
+        self.prob_pos_feedback = 0.2
+        self.prob_neg_feedback = 1 - self.prob_pos_feedback
+
+class Demo(FeedbackSimulator):
+    def __init__(self):
+        super(Demo, self).__init__()
+        self.set_probabilities()
+
+    def set_probabilities(self):
+        self.prob_substantive_feedback = 0.2
+        self.prob_bc_feedback = 0.4
+        self.prob_no_feedback = 0.4
         self.prob_pos_feedback = 0.3
         self.prob_neg_feedback = 1 - self.prob_pos_feedback
