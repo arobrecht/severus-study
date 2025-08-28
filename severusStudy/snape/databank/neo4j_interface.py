@@ -605,8 +605,8 @@ def _create_conditions(tx, triple_id, condition_triple_id, user_id):
     query = f"""
             MATCH (user: USER {{user_id: '{user_id}'}})   
        
-            MATCH (user) -[:OWNS]-> (relation_node_1:RELATION_NODE {{node_id: '{triple_id}'}})
-            MATCH (user) -[:OWNS]-> (relation_node_2:RELATION_NODE {{node_id: '{condition_triple_id}'}})
+            MATCH (user) -[:OWNS]-> (relation_node_1:RELATION_NODE {{node_id: {triple_id}}})
+            MATCH (user) -[:OWNS]-> (relation_node_2:RELATION_NODE {{node_id: {condition_triple_id}}})
   
             MERGE (relation_node_1)-[:PRECONDITION]->(relation_node_2)
             """
@@ -745,7 +745,7 @@ def _initialize_db(driver, user_id):
 
         # after adding all triples add condition relations
         for triple_id, triple_data in ontology.items():
-            if triple_data['attributes']:
+            if triple_data['domain'] == "Quarto":
                 conditions = triple_data['attributes']['conditions']
                 if len(conditions) > 0:
                     for condition_triple_id in conditions:
