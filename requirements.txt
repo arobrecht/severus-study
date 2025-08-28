@@ -29,7 +29,6 @@ pydantic~=2.10.5
 docstring-parser~=0.16
 annotated-types~=0.7.0
 levenshtein~=0.27.1
-unsloth~=2025.3.18
 trl~=0.15.2
 datasets~=3.3.2
 packaging~=24.1
