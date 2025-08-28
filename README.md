@@ -8,7 +8,7 @@ Follow the steps below to set up and run the project:
 
 ---
 
-### 1. Clone the Project
+### 1. Clone the Project and navigate into severus-study
 ```bash
 git clone https://github.com/arobrecht/severus-study.git
 ```
