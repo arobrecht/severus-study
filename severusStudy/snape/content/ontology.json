@@ -1,0 +1,2955 @@
+{
+  "0": {
+    "domain": "Quarto",
+    "block": "Spiel",
+    "start_node": "Spiel",
+    "relation": "sein",
+    "end_node": "Brettspiel",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [],
+      "examples": [],
+      "nlu_sentences": "Quarto ist ein Brettspiel."
+    }
+  },
+  "1": {
+    "domain": "Quarto",
+    "block": "Spiel",
+    "start_node": "Brettspiel",
+    "relation": "sein",
+    "end_node": "Gesellschaftsspiel",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        0
+      ],
+      "examples": [],
+      "nlu_sentences": "Quarto ist ein Gesellschaftsspiel."
+    }
+  },
+  "2": {
+    "domain": "Quarto",
+    "block": "Spiel",
+    "start_node": "Spiel",
+    "relation": "sein",
+    "end_node": "Komplex",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        0
+      ],
+      "examples": [],
+      "nlu_sentences": "Quarto ist komplex."
+    }
+  },
+  "3": {
+    "domain": "Quarto",
+    "block": "Spiel",
+    "start_node": "Spiel",
+    "relation": "dauern",
+    "end_node": "ungefähr_Zehn_Minuten",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        0
+      ],
+      "examples": [
+        "Wenn das Spiel schnell geht, dann dauert es zum Beispiel nur 5 Minuten.",
+        "Ein langes Spiel kann auch mal 15 Minuten gehen.",
+        "Wenn ein Spiel zum Beispiel lange dauert, dann ist es über 10 Minuten lang."
+      ],
+      "nlu_sentences": "Quarto dauert ungefähr zehn Minuten."
+    }
+  },
+  "4": {
+    "domain": "Quarto",
+    "block": "Spieler",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Spieler",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [],
+      "examples": [
+        "Zum Beispiel dich und mich.",
+        " Also du und eine Freundin zum Beispiel."
+      ],
+      "nlu_sentences": "Quarto hat Spieler."
+    }
+  },
+  "5": {
+    "domain": "Quarto",
+    "block": "Spieler",
+    "start_node": "Spieler",
+    "relation": "Anzahl_haben",
+    "end_node": "zwei",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        4
+      ],
+      "examples": [
+        "Also du, eins, und ich, zwei."
+      ],
+      "nlu_sentences": "Quarto hat zwei Spieler."
+    }
+  },
+  "6": {
+    "domain": "Quarto",
+    "block": "Spieler",
+    "start_node": "Spieler",
+    "relation": "reihenfolge",
+    "end_node": "Abwechselnd",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        4
+      ],
+      "examples": [
+        "Also zum Beispiel bist erst du dran, dann ich und dann wieder du.",
+        "Also zum Beispiel Spieler 1, dann Spieler 2, dann wieder Spieler 1 und so weiter."
+      ],
+      "nlu_sentences": "Die Spieler spielen abwechselnd."
+    }
+  },
+  "7": {
+    "domain": "Quarto",
+    "block": "Spieler",
+    "start_node": "Gegner",
+    "relation": "spielen",
+    "end_node": "Gegeneinander",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        4,
+        8
+      ],
+      "examples": [
+        "Also wenn wir zusammen spielen, dann spiele ich gegen dich und du gegen mich."
+      ],
+      "nlu_sentences": "Gegner spielen gegeneinander."
+    }
+  },
+  "8": {
+    "domain": "Quarto",
+    "block": "Spieler",
+    "start_node": "Spieler",
+    "relation": "sein",
+    "end_node": "Gegner",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        4
+      ],
+      "examples": [],
+      "nlu_sentences": "Die Spieler sind Gegner."
+    }
+  },
+  "9": {
+    "domain": "Quarto",
+    "block": "Ende",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Spielausgang",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [],
+      "examples": [],
+      "nlu_sentences": "Quarto hat verschiedene Spielausgänge."
+    }
+  },
+  "10": {
+    "domain": "Quarto",
+    "block": "Ende",
+    "start_node": "Spielausgang",
+    "relation": "Anzahl_haben",
+    "end_node": "drei",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        9
+      ],
+      "examples": [],
+      "nlu_sentences": "Quarto hat drei mögliche Spielausgänge."
+    }
+  },
+  "11": {
+    "domain": "Quarto",
+    "block": "Ende",
+    "start_node": "Spielausgang",
+    "relation": "sein_können",
+    "end_node": "Sieg",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        9,
+        10
+      ],
+      "examples": [
+        "Wenn du zum Beispiel zuerst fertig bist, dann hast du gewonnen."
+      ],
+      "nlu_sentences": "Quarto kann mit einem Sieg enden."
+    }
+  },
+  "12": {
+    "domain": "Quarto",
+    "block": "Ende",
+    "start_node": "Spielausgang",
+    "relation": "sein_können",
+    "end_node": "Unentschieden",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        9,
+        10
+      ],
+      "examples": [
+        "Wenn zum Beispiel keiner der Spieler fertig ist aber alle Figuren gesetzt sind, dann ist das ein Unentschieden."
+      ],
+      "nlu_sentences": "Quarto kann mit einem Unentschieden enden."
+    }
+  },
+  "13": {
+    "domain": "Quarto",
+    "block": "Ende",
+    "start_node": "Spielausgang",
+    "relation": "sein_können",
+    "end_node": "Niederlage",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        9,
+        10
+      ],
+      "examples": [
+        "Wenn wir gegeneinander spielen und ich bin zuerst fertig, hast du verloren."
+      ],
+      "nlu_sentences": "Quarto kann mit einer Niederlage enden."
+    }
+  },
+  "14": {
+    "domain": "Quarto",
+    "block": "Ende",
+    "start_node": "Sieg",
+    "relation": "bedingung_haben",
+    "end_node": "Rufen",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        11,
+        9
+      ],
+      "examples": [
+        "Wenn ich zum Beispiel eine Reihe abschließe, dann muss ich Quarto rufen, um zu gewinnen.",
+        "Wenn du also eine Reihe bildest und das Rufen vergisst, dann hast du nicht gewonnen.",
+        "Wenn du zum Beispiel eine Reihe fertig machst und vergisst zu Rufen, dann kann ich Quarto Rufen und habe gewonnen."
+      ],
+      "nlu_sentences": "Ein Sieg hat die Aktion “Rufen” als Vorbedingung."
+    }
+  },
+  "15": {
+    "domain": "Quarto",
+    "block": "Ende",
+    "start_node": "Reihe",
+    "relation": "erzeugen",
+    "end_node": "Siegchance",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        17,
+        18,
+        9
+      ],
+      "examples": [
+        "Wenn du zum Beispiel eine Reihe aus vier großen Figuren stellst, dann hast du die Chance auf einen Sieg."
+      ],
+      "nlu_sentences": "Das Bilden einer Reihe erzeugt eine Siegchance."
+    }
+  },
+  "16": {
+    "domain": "Quarto",
+    "block": "Spielziel",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Ziel",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [],
+      "examples": [],
+      "nlu_sentences": "Quarto hat ein Ziel."
+    }
+  },
+  "17": {
+    "domain": "Quarto",
+    "block": "Spielziel",
+    "start_node": "Reihe",
+    "relation": "sein",
+    "end_node": "Ziel",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        16
+      ],
+      "examples": [],
+      "nlu_sentences": "Das Ziel von Quarto ist das Bilden einer Reihe."
+    }
+  },
+  "18": {
+    "domain": "Quarto",
+    "block": "Spielziel",
+    "start_node": "Rufen",
+    "relation": "bedingung_haben",
+    "end_node": "Reihe",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        16,
+        17
+      ],
+      "examples": [
+        "Wenn du zum Beispiel Quarto rufst, ohne dass es eine Reihe auf dem Spielfeld gibt, zählt das nicht.",
+        "Quarto rufen darfst du also nur dann, wenn auf dem Spielbrett schon eine Reihe steht."
+      ],
+      "nlu_sentences": "Man darf erst die Aktion “Rufen” ausführen, wenn eine Reihe gebildet wurde."
+    }
+  },
+  "19": {
+    "domain": "Quarto",
+    "block": "Spielziel",
+    "start_node": "Reihe",
+    "relation": "gleich",
+    "end_node": "Figurenmerkmal",
+    "attributes": {
+      "complexity": 3,
+      "conditions": [
+        16,
+        17,
+        23
+      ],
+      "examples": [
+        "Vier helle Figuren wären zum Beispiel eine Reihe.",
+        "Eine Reihe bei Quarto kann zum Beispiel aus vier kleinen Figuren bestehen.",
+        "Eine Reihe kann zum Beispiel auch aus vier eckigen Steinen bestehen.",
+        "Es ist auch eine Reihe, wenn mehr als ein Merkmal gleich ist, also Farbe und Form zum Beispiel."
+      ],
+      "nlu_sentences": "Eine Reihe ist durch mindestens ein gleiches Figurenmerkmal zu erkennen."
+    }
+  },
+  "20": {
+    "domain": "Quarto",
+    "block": "Spielziel",
+    "start_node": "Reihe",
+    "relation": "länge",
+    "end_node": "vier",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        16,
+        17
+      ],
+      "examples": [
+        "Wenn du zum Beispiel die passende Figur zu einer Dreierreihe zufügst, dann ist die Reihe fertig.",
+        "Wenn die Reihe zum Beispiel nur 3 Figuren enthält, dann ist sie zu kurz.",
+        "Wenn die Reihe nicht in einer Linie verläuft, dann zählt sie leider auch nicht."
+      ],
+      "nlu_sentences": "Eine Reihe ist vier Figuren lang."
+    }
+  },
+  "21": {
+    "domain": "Quarto",
+    "block": "Spielziel",
+    "start_node": "Reihe",
+    "relation": "sein",
+    "end_node": "Siegbedingung",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        16,
+        17
+      ],
+      "examples": [
+        "Wenn du zum Beispiel eine Reihe aus vier großen Figuren stellst, dann hast du eine Bedingung für den Sieg erfüllt."
+      ],
+      "nlu_sentences": "Eine Siegbedingung ist die Existenz einer Reihe."
+    }
+  },
+  "22": {
+    "domain": "Quarto",
+    "block": "Spielziel",
+    "start_node": "Reihe",
+    "relation": "haben",
+    "end_node": "Anordnung",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        16,
+        17
+      ],
+      "examples": [],
+      "nlu_sentences": "Eine Reihe kann verschiedene Anordnungen haben."
+    }
+  },
+  "23": {
+    "domain": "Quarto",
+    "block": "Spielziel",
+    "start_node": "Reihe",
+    "relation": "bestehen_aus",
+    "end_node": "Figuren",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        16,
+        17
+      ],
+      "examples": [],
+      "nlu_sentences": "Eine Reihe besteht aus Figuren."
+    }
+  },
+  "24": {
+    "domain": "Quarto",
+    "block": "Spielziel",
+    "start_node": "Anordnung",
+    "relation": "Anzahl_haben",
+    "end_node": "drei",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        22,
+        17
+      ],
+      "examples": [],
+      "nlu_sentences": "Es gibt drei mögliche Arten der Anordnung."
+    }
+  },
+  "25": {
+    "domain": "Quarto",
+    "block": "Spielziel",
+    "start_node": "Anordnung",
+    "relation": "sein_können",
+    "end_node": "Diagonal",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        22,
+        24,
+        17
+      ],
+      "examples": [
+        "Also eine Reihe von links unten nach recht oben ist ein Beispiel dafür.",
+        "Wenn die Reihe beispielsweise links oben beginnt und dann gerade nach rechts unten läuft, dann ist sie diagonal."
+      ],
+      "nlu_sentences": "Eine mögliche Anordnung ist diagonal."
+    }
+  },
+  "26": {
+    "domain": "Quarto",
+    "block": "Spielziel",
+    "start_node": "Anordnung",
+    "relation": "sein_können",
+    "end_node": "Vertikal",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        22,
+        24,
+        17
+      ],
+      "examples": [
+        "Wenn du zum Beispiel eine Reihe in allen Feldern ganz links erstellst, dann ist die vertikal.",
+        "Eine Reihe von oben rechts nach unten rechts wäre also vertikal."
+      ],
+      "nlu_sentences": "Eine mögliche Anordnung ist vertikal."
+    }
+  },
+  "27": {
+    "domain": "Quarto",
+    "block": "Spielziel",
+    "start_node": "Anordnung",
+    "relation": "sein_können",
+    "end_node": "Horizontal",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        22,
+        24,
+        17
+      ],
+      "examples": [
+        "Eine horizontale Reihe könnte zum Beispiel von unten links nach unten rechts gehen.",
+        "Eine Reihe von oben links nach oben rechts wäre horizontal."
+      ],
+      "nlu_sentences": "Eine mögliche Anordnung ist horizontal."
+    }
+  },
+  "28": {
+    "domain": "Quarto",
+    "block": "Spielzüge",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Spielzug",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [],
+      "examples": [
+        "Zum Beispiel Wählen.",
+        "Zum Beispiel Setzen.",
+        "Wenn du gerade eine Figur für deinen Gegner wählst, dann ist das ein Spielzug.",
+        "Wenn du gerade eine Figur gesetzt hast, dann hast du einen der beiden Spielzüge gemacht."
+      ],
+      "nlu_sentences": "Quarto hat Spielzüge."
+    }
+  },
+  "29": {
+    "domain": "Quarto",
+    "block": "Spielzüge",
+    "start_node": "Spielzug",
+    "relation": "Anzahl_haben",
+    "end_node": "zwei",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        28
+      ],
+      "examples": [],
+      "nlu_sentences": "Quarto hat zwei Spielzüge."
+    }
+  },
+  "30": {
+    "domain": "Quarto",
+    "block": "Spielzüge",
+    "start_node": "Spiel",
+    "relation": "eingeteilt_sein_in",
+    "end_node": "Runde",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [],
+      "examples": [],
+      "nlu_sentences": "Quarto ist in Runden eingeteilt."
+    }
+  },
+  "31": {
+    "domain": "Quarto",
+    "block": "Spielzüge",
+    "start_node": "Runde",
+    "relation": "enthalten",
+    "end_node": "Spielfigur_wählen",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        28,
+        30
+      ],
+      "examples": [
+        "Also Wählen ist einer der beiden Spielzüge.",
+        "Wenn du gerade eine Figur für deinen Gegner wählst, dann ist das ein Spielzug."
+      ],
+      "nlu_sentences": "Eine Runde enthält den Spielzug Wählen."
+    }
+  },
+  "32": {
+    "domain": "Quarto",
+    "block": "Spielzüge",
+    "start_node": "Runde",
+    "relation": "enthalten",
+    "end_node": "Spielfigur_setzen",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        28,
+        30
+      ],
+      "examples": [
+        "Wenn du gerade eine Figur gesetzt hast, dann hast du einen der beiden Spielzüge gemacht."
+      ],
+      "nlu_sentences": "Eine Runde enthält den Spielzug Setzen."
+    }
+  },
+  "33": {
+    "domain": "Quarto",
+    "block": "Spielzüge",
+    "start_node": "Spielfigur_wählen",
+    "relation": "folgen_auf",
+    "end_node": "Spielfigur_setzen",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        28,
+        39,
+        34
+      ],
+      "examples": [
+        "Angenommen du hast gerade deine Figur gesetzt, dann musst du noch eine Figur auswählen und danach ist der Zug vorbei."
+      ],
+      "nlu_sentences": "Das Auswählen der Spielfigur folgt auf das Setzen der Spielfigur."
+    }
+  },
+  "34": {
+    "domain": "Quarto",
+    "block": "Spielzüge",
+    "start_node": "Spielfigur_wählen",
+    "relation": "sein",
+    "end_node": "Spielzug",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        28
+      ],
+      "examples": [],
+      "nlu_sentences": "Das Auswählen der Spielfigur ist ein Spielzug."
+    }
+  },
+  "35": {
+    "domain": "Quarto",
+    "block": "Spielzüge",
+    "start_node": "Spielfigur_wählen",
+    "relation": "heraus",
+    "end_node": "Figurenvorrat",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        28,
+        34
+      ],
+      "examples": [
+        "Also die unbenutzen Figuren stehen ja irgendwo, neben dem Spielbrett auf dem Tisch zum Beispiel. Von denen wählst du eine."
+      ],
+      "nlu_sentences": "Man wählt eine Figur aus dem übrigen Figurenvorrat."
+    }
+  },
+  "36": {
+    "domain": "Quarto",
+    "block": "Spielzüge",
+    "start_node": "Spielfigur_wählen",
+    "relation": "wählen",
+    "end_node": "Spielfigur",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        28,
+        34
+      ],
+      "examples": [
+        "Wenn du Wählen musst, dann wählst du die Spielfigur aus dem Figurenvorrat aus, von der du in dem Moment glaubst, das ich sie setzen soll."
+      ],
+      "nlu_sentences": "Beim Spielzug Wählen, wählt man eine Spielfigur aus."
+    }
+  },
+  "37": {
+    "domain": "Quarto",
+    "block": "Spielzüge",
+    "start_node": "Spielfigur_wählen",
+    "relation": "für",
+    "end_node": "Gegner",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        34,
+        36,
+        28
+      ],
+      "examples": [
+        "Wenn zum Beispiel nur noch eine kleine Figur für die Reihe fehlt, dann würdest du eine große Figur wählen, damit ich nicht gewinne."
+      ],
+      "nlu_sentences": "Beim Spielzug Wählen, wählt man für seinen Gegner."
+    }
+  },
+  "38": {
+    "domain": "Quarto",
+    "block": "Spielzüge",
+    "start_node": "Spielfigur_wählen",
+    "relation": "spielfigur_geben",
+    "end_node": "Gegner",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        37,
+        36,
+        28
+      ],
+      "examples": [],
+      "nlu_sentences": "Beim Spielzug Wählen, gibt man dem Gegner eine Figur."
+    }
+  },
+  "39": {
+    "domain": "Quarto",
+    "block": "Spielzüge",
+    "start_node": "Spielfigur_setzen",
+    "relation": "sein",
+    "end_node": "Spielzug",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        28
+      ],
+      "examples": [],
+      "nlu_sentences": "Das Setzen der Figur ist ein Spielzug."
+    }
+  },
+  "40": {
+    "domain": "Quarto",
+    "block": "Spielzüge",
+    "start_node": "Spielfigur_setzen",
+    "relation": "nutzen",
+    "end_node": "Ausgewählt",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        36,
+        37
+      ],
+      "examples": [],
+      "nlu_sentences": "Man nutzt zum Setzen die ausgewählte Figur."
+    }
+  },
+  "41": {
+    "domain": "Quarto",
+    "block": "Spielzüge",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Aktion",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [],
+      "examples": [],
+      "nlu_sentences": "Das Spiel hat Aktionen."
+    }
+  },
+  "42": {
+    "domain": "Quarto",
+    "block": "Spielzüge",
+    "start_node": "Rufen",
+    "relation": "sein",
+    "end_node": "Aktion",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        41
+      ],
+      "examples": [
+        "Wenn du zum Beispiel eine Reihe machst, es nicht bemerkst und mir eine Figur raussuchst, dann ist die Siegchance für dich vergangen.",
+        "Wenn du deine Siegchance verpasst hast und ich die fertige Reihe auch nicht bemerke, dann ist die Siegchance mit der Reihe für immer vergangen."
+      ],
+      "nlu_sentences": "Das Rufen ist eine Aktion."
+    }
+  },
+  "43": {
+    "domain": "Quarto",
+    "block": "Spielzüge",
+    "start_node": "Rufen",
+    "relation": "sagen",
+    "end_node": "Spielname_Spiel",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        42,
+        41
+      ],
+      "examples": [
+        "Du sagst also laut QUARTO."
+      ],
+      "nlu_sentences": "Beim Rufen muss man den Namen des Spiels “Quarto” sagen."
+    }
+  },
+  "44": {
+    "domain": "Quarto",
+    "block": "Spielzüge",
+    "start_node": "Rufen",
+    "relation": "folgen_auf",
+    "end_node": "Spielfigur_setzen",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        42,
+        39,
+        41
+      ],
+      "examples": [],
+      "nlu_sentences": "Das Rufen folgt auf das Setzen."
+    }
+  },
+  "45": {
+    "domain": "Quarto",
+    "block": "Spielzüge",
+    "start_node": "Spielfigur_setzen",
+    "relation": "auf",
+    "end_node": "Feld",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        39,
+        28
+      ],
+      "examples": [],
+      "nlu_sentences": "Die Figur muss auf ein freies Feld gesetzt werden."
+    }
+  },
+  "46": {
+    "domain": "Quarto",
+    "block": "Spielzüge",
+    "start_node": "Spielfigur_setzen",
+    "relation": "sein",
+    "end_node": "Endgültig",
+    "attributes": {
+      "complexity": 2,
+      "conditions": [
+        39,
+        47,
+        48,
+        28
+      ],
+      "examples": [
+        "Wenn du zum Beispiel gesetzt hast und dann merkst, dass die Entscheidung die falsche war, dann hast du leider Pech gehabt.",
+        "Wenn du also gerade nicht aufgepasst hast und eine Reihe übersehen hast, dann darfst du nicht mehr umsetzen."
+      ],
+      "nlu_sentences": "Das Setzen ist endgültig."
+    }
+  },
+  "47": {
+    "domain": "Quarto",
+    "block": "Spielzüge",
+    "start_node": "Spielfigur_setzen",
+    "relation": "auf",
+    "end_node": "Spielbrett",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        39,
+        28
+      ],
+      "examples": [],
+      "nlu_sentences": "Die Figur wird auf das Spielbrett gesetzt."
+    }
+  },
+  "48": {
+    "domain": "Quarto",
+    "block": "Spielzüge",
+    "start_node": "Spielfigur_setzen",
+    "relation": "setzen",
+    "end_node": "Spielfigur",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        28,
+        39
+      ],
+      "examples": [],
+      "nlu_sentences": "Beim Spielzug Setzen, setzt man die Spielfigur."
+    }
+  },
+  "49": {
+    "domain": "Quarto",
+    "block": "Spielfiguren",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Spielfigur",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [],
+      "examples": [],
+      "nlu_sentences": "Quarto hat Spielfiguren."
+    }
+  },
+  "50": {
+    "domain": "Quarto",
+    "block": "Spielfiguren",
+    "start_node": "Spielfigur",
+    "relation": "haben",
+    "end_node": "Figurenmerkmal",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        49
+      ],
+      "examples": [
+        "Es gibt zum Beispiel eine große, eckige, dunkle Spielfigur mit Loch in der Mitte.",
+        "Eine Figur ist beispielsweise klein, dunkel, rund und hohl, eine andere klein, dunkel, eckig und ausgefüllt."
+      ],
+      "nlu_sentences": "Die Spielfiguren haben verschiedene Merkmale."
+    }
+  },
+  "51": {
+    "domain": "Quarto",
+    "block": "Spielfiguren",
+    "start_node": "Spielfigur",
+    "relation": "Anzahl_haben",
+    "end_node": "sechzehn",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        49
+      ],
+      "examples": [],
+      "nlu_sentences": "Es gibt sechzehn verschiedene Spielfiguren."
+    }
+  },
+  "52": {
+    "domain": "Quarto",
+    "block": "Spielfiguren",
+    "start_node": "Figurenmerkmal",
+    "relation": "Anzahl_haben",
+    "end_node": "vier",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        49,
+        50
+      ],
+      "examples": [],
+      "nlu_sentences": "Jede Figur hat vier verschiedene Merkmale."
+    }
+  },
+  "53": {
+    "domain": "Quarto",
+    "block": "Spielfiguren",
+    "start_node": "Farbe",
+    "relation": "sein",
+    "end_node": "Figurenmerkmal",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        49,
+        50,
+        52
+      ],
+      "examples": [
+        "Es gibt beispielsweise helle Figuren.",
+        "Figuren können zum Beispiel aus dunklem Holz sein."
+      ],
+      "nlu_sentences": "Die Farbe ist ein Figurenmerkmal."
+    }
+  },
+  "54": {
+    "domain": "Quarto",
+    "block": "Spielfiguren",
+    "start_node": "Form",
+    "relation": "sein",
+    "end_node": "Figurenmerkmal",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        49,
+        50,
+        52
+      ],
+      "examples": [
+        "Es gibt beispielsweise runde Figuren.",
+        "Figuren können zum Beispiel eckig sein."
+      ],
+      "nlu_sentences": "Die Form ist ein Figurenmerkmal."
+    }
+  },
+  "55": {
+    "domain": "Quarto",
+    "block": "Spielfiguren",
+    "start_node": "Struktur",
+    "relation": "sein",
+    "end_node": "Figurenmerkmal",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        49,
+        50,
+        52
+      ],
+      "examples": [
+        "Es gibt 8 Figuren mit einem Loch in der Mitte."
+      ],
+      "nlu_sentences": "Die Struktur ist ein Figurenmerkmal."
+    }
+  },
+  "56": {
+    "domain": "Quarto",
+    "block": "Spielfiguren",
+    "start_node": "Größe",
+    "relation": "sein",
+    "end_node": "Figurenmerkmal",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        49,
+        50,
+        52
+      ],
+      "examples": [
+        "Figuren können zum Beispiel groß oder klein sein."
+      ],
+      "nlu_sentences": "Die Größe ist ein Figurenmerkmal."
+    }
+  },
+  "57": {
+    "domain": "Quarto",
+    "block": "Spielbrett",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Spielbrett",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [],
+      "examples": [],
+      "nlu_sentences": "Quarto hat ein Spielbrett."
+    }
+  },
+  "58": {
+    "domain": "Quarto",
+    "block": "Spielbrett",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Figurenvorrat",
+    "attributes": {
+      "complexity": 2,
+      "conditions": [
+        57
+      ],
+      "examples": [
+        "Der Figurenvorrat kann zum Beispiel neben dem Spielbrett oder in der Spielverpackung sein."
+      ],
+      "nlu_sentences": "Quarto hat einen Figurenvorrat."
+    }
+  },
+  "59": {
+    "domain": "Quarto",
+    "block": "Spielbrett",
+    "start_node": "Figurenvorrat",
+    "relation": "neben",
+    "end_node": "Spielbrett",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        58
+      ],
+      "examples": [
+        "Alle Figuren die unsortiert an der Seite des Spielbretts liegen wären also der Vorrat."
+      ],
+      "nlu_sentences": "Der Figurenvorrat ist neben dem Spielbrett."
+    }
+  },
+  "60": {
+    "domain": "Quarto",
+    "block": "Spielbrett",
+    "start_node": "Figurenvorrat",
+    "relation": "umfassen",
+    "end_node": "freie_Spielfiguren",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        58
+      ],
+      "examples": [
+        "Wenn die kleine, eckige, runde, hohle Figur noch nicht ausgewählt wurde, dann befindet sie sich noch im Figurenvorrat."
+      ],
+      "nlu_sentences": "Der Figurenvorrat umfässt die freien Spielfiguren."
+    }
+  },
+  "61": {
+    "domain": "Quarto",
+    "block": "Spielbrett",
+    "start_node": "Feld",
+    "relation": "Anzahl_haben",
+    "end_node": "sechzehn",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        57,
+        62
+      ],
+      "examples": [],
+      "nlu_sentences": "Das Spielbrett hat sechzehn Felder."
+    }
+  },
+  "62": {
+    "domain": "Quarto",
+    "block": "Spielbrett",
+    "start_node": "Spielbrett",
+    "relation": "haben",
+    "end_node": "Feld",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        57
+      ],
+      "examples": [],
+      "nlu_sentences": "Das Spielbrett hat Felder."
+    }
+  },
+  "63": {
+    "domain": "Quarto",
+    "block": "Spielbrett",
+    "start_node": "Spielbrett",
+    "relation": "sein",
+    "end_node": "Spielbestandteil",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        57
+      ],
+      "examples": [],
+      "nlu_sentences": "Das Spielbrett ist ein Bestandteil von Quarto."
+    }
+  },
+  "64": {
+    "domain": "Quarto",
+    "block": "Strategien",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Taktik",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [],
+      "examples": [],
+      "nlu_sentences": "Quarto hat verschiedene Taktiken."
+    }
+  },
+  "65": {
+    "domain": "Quarto",
+    "block": "Strategien",
+    "start_node": "Aktiv_spielen",
+    "relation": "sein",
+    "end_node": "Taktik",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        64
+      ],
+      "examples": [
+        "Wenn du zum Beispiel aktiv spielen möchtest, dann versuchst du ganz schnell eine Reihe zu beenden."
+      ],
+      "nlu_sentences": "Aktiv zu Spielen ist eine Taktik."
+    }
+  },
+  "66": {
+    "domain": "Quarto",
+    "block": "Strategien",
+    "start_node": "Passiv_spielen",
+    "relation": "sein",
+    "end_node": "Taktik",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        64
+      ],
+      "examples": [
+        "Wenn du zum Beispiel passiv spielen möchtest, dann versuchst du mir alle Möglichkeiten zu verbauen."
+      ],
+      "nlu_sentences": "Passiv zu Spielen ist eine Taktik."
+    }
+  },
+  "67": {
+    "domain": "Quarto",
+    "block": "Strategien",
+    "start_node": "Blocken",
+    "relation": "sein",
+    "end_node": "Passiv_spielen",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        64,
+        66
+      ],
+      "examples": [
+        "Also wenn zum Beispiel drei kleine Figuren in einer Reihe stehen und ich suche für dich eine große Figur aus.",
+        "Wenn du diese Figur dann in die Dreierreihe stellst, Blockst du die Reihe für mich und kannst wieder kleine Figuren wählen."
+      ],
+      "nlu_sentences": "Den Gegner zu Blocken gehört eher zur passiven Taktik."
+    }
+  },
+  "68": {
+    "domain": "Quarto",
+    "block": "Strategien",
+    "start_node": "Taktik",
+    "relation": "sein",
+    "end_node": "Kombinierbar",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        64,
+        66,
+        65
+      ],
+      "examples": [
+        "Du kannst beispielsweise so lange passiv spielen, bis du das Spiel mir einem aktiveren Zug beenden kannst.",
+        "Du kannst beispielsweise auch  absichtlich deinem Gegner Figuren geben, mit der er eine Reihe bilden kann und hoffen, dass er es nicht bemerkt."
+      ],
+      "nlu_sentences": "Die verschiedenen Taktiken sind kombinierbar."
+    }
+  },
+  "69": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Siegchance",
+    "relation": "können",
+    "end_node": "Vergehen",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        15
+      ],
+      "examples": [],
+      "nlu_sentences": "Eine Siechance kann auch vergehen."
+    }
+  },
+  "70": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Spiel",
+    "relation": "erfinder_haben",
+    "end_node": "Blaise_Mueller",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        0
+      ],
+      "examples": [],
+      "nlu_sentences": ""
+    }
+  },
+  "71": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Spiel",
+    "relation": "dauern_können",
+    "end_node": "10_bis_20_Minuten",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        0,
+        3
+      ],
+      "examples": [],
+      "nlu_sentences": "Das Spiel kann zehn bis zwanzig Minuten dauern."
+    }
+  },
+  "72": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Spiel",
+    "relation": "dauern_können",
+    "end_node": "Individuell",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        0,
+        3
+      ],
+      "examples": [],
+      "nlu_sentences": "Die Dauer von Quarto ist individuell."
+    }
+  },
+  "73": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Spieler",
+    "relation": "mindestalter_haben",
+    "end_node": "Drei_Jahre",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        4
+      ],
+      "examples": [],
+      "nlu_sentences": "Die Spieler müssen mindestens drei Jahre alt sein."
+    }
+  },
+  "74": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Spieler",
+    "relation": "empfehlung_mindestalter_haben",
+    "end_node": "Acht_Jahre",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        4
+      ],
+      "examples": [],
+      "nlu_sentences": "Ein Alter von mindestens acht Jahren ist empfohlen."
+    }
+  },
+  "75": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Spielbrett",
+    "relation": "material",
+    "end_node": "Holz",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        57
+      ],
+      "examples": [],
+      "nlu_sentences": "Das Spielbrett ist aus Holz."
+    }
+  },
+  "76": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Feld",
+    "relation": "form",
+    "end_node": "Rund",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        62
+      ],
+      "examples": [],
+      "nlu_sentences": "Die Felder auf dem Spielbrett sind rund."
+    }
+  },
+  "77": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Spieler",
+    "relation": "haben_gleich",
+    "end_node": "Ziel",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        4
+      ],
+      "examples": [],
+      "nlu_sentences": "Die Spieler haben das gleiche Ziel."
+    }
+  },
+  "78": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Brettspiel",
+    "relation": "auf",
+    "end_node": "Tisch",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        57
+      ],
+      "examples": [],
+      "nlu_sentences": "Ein Brettspiel spielt man meistens auf einem Tisch."
+    }
+  },
+  "79": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Horizontal",
+    "relation": "synonym",
+    "end_node": "Waagerecht",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [],
+      "examples": [],
+      "nlu_sentences": "Horizontal ist ein anderes Wort für waagerecht."
+    }
+  },
+  "80": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Struktur",
+    "relation": "sein_können",
+    "end_node": "Hohl",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        55
+      ],
+      "examples": [],
+      "nlu_sentences": "Die Struktur einer Figur kann hohl sein."
+    }
+  },
+  "81": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Struktur",
+    "relation": "sein_können",
+    "end_node": "Massiv",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        55
+      ],
+      "examples": [],
+      "nlu_sentences": "Die Struktur einer Figur kann massiv sein."
+    }
+  },
+  "82": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Spielfigur",
+    "relation": "material",
+    "end_node": "Holz",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        49
+      ],
+      "examples": [],
+      "nlu_sentences": "Die Spielfiguren bestehen aus Holz."
+    }
+  },
+  "83": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Figurenmerkmal",
+    "relation": "wichtig",
+    "end_node": "Spielziel",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        50
+      ],
+      "examples": [],
+      "nlu_sentences": "Die Figurenmerkmale sind wichtig, um das Spielziel zu erreichen."
+    }
+  },
+  "84": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Spielbrett",
+    "relation": "größe",
+    "end_node": "15x15cm",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        57
+      ],
+      "examples": [],
+      "nlu_sentences": "Das Spielbrett hat eine Größe von fünfzehn mal fünfzehn Zentimeter."
+    }
+  },
+  "85": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Form",
+    "relation": "sein_können",
+    "end_node": "Rund",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        54
+      ],
+      "examples": [],
+      "nlu_sentences": "Figuren können eine runde Form haben."
+    }
+  },
+  "86": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Form",
+    "relation": "sein_können",
+    "end_node": "Eckig",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        54
+      ],
+      "examples": [],
+      "nlu_sentences": "Figuren können eine eckige Form haben."
+    }
+  },
+  "87": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Farbe",
+    "relation": "sein_können",
+    "end_node": "Hell",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        53
+      ],
+      "examples": [],
+      "nlu_sentences": "Figuren können eine helle Farbe haben."
+    }
+  },
+  "88": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Farbe",
+    "relation": "sein_können",
+    "end_node": "Dunkel",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        53
+      ],
+      "examples": [],
+      "nlu_sentences": "Figuren können eine dunkle Farbe haben."
+    }
+  },
+  "89": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Unentschieden",
+    "relation": "kein",
+    "end_node": "Gewinner",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        12
+      ],
+      "examples": [],
+      "nlu_sentences": "Wenn das Spiel unentschieden endet, dann gibt es keinen Gewinner."
+    }
+  },
+  "90": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Spielbrett",
+    "relation": "sein",
+    "end_node": "Gegenstand",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        57
+      ],
+      "examples": [],
+      "nlu_sentences": "Das Spielbrett ist ein Gegenstand."
+    }
+  },
+  "91": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Figurenmerkmal",
+    "relation": "gleich",
+    "end_node": "mindestens_1",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        50,
+        52,
+        19,
+        23
+      ],
+      "examples": [],
+      "nlu_sentences": "Es muss mindestens ein Figurenmerkmal übereinstimmen, um eine Reihe zu erzeugen."
+    }
+  },
+  "92": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Spielfigur_wählen",
+    "relation": "untypisch",
+    "end_node": "Spielzug",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [],
+      "examples": [],
+      "nlu_sentences": "Das Auswählen der Spielfigur ist ein sehr ungewöhnlicher Spielzug."
+    }
+  },
+  "93": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Taktik",
+    "relation": "sein",
+    "end_node": "Persönlich",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        64
+      ],
+      "examples": [],
+      "nlu_sentences": "Welche Taktik man bevorzugt ist sehr persönlich."
+    }
+  },
+  "94": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Blocken",
+    "relation": "verhindern",
+    "end_node": "Reihe",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        67
+      ],
+      "examples": [],
+      "nlu_sentences": "Beim Blocken verhindert man das Bilden einer Reihe."
+    }
+  },
+  "95": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Reihe",
+    "relation": "sein",
+    "end_node": "Übersehbar",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        17
+      ],
+      "examples": [],
+      "nlu_sentences": "Mögliche Reihen kann man leicht übersehen."
+    }
+  },
+  "96": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Unentschieden",
+    "relation": "aufgebraucht",
+    "end_node": "Figuren",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        12
+      ],
+      "examples": [],
+      "nlu_sentences": "Bei einem Unentschieden sind alle Figuren aufgebraucht aber keiner hat eine Reihe gebildet."
+    }
+  },
+  "97": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Spielfigur",
+    "relation": "aufgebraucht",
+    "end_node": "Unentschieden",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        12
+      ],
+      "examples": [],
+      "nlu_sentences": "Wenn keine Reihe gebildet wurde aber alle Figuren aufgebraucht sind, dann ist das ein Unentschieden."
+    }
+  },
+  "98": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Spielzug",
+    "relation": "sein",
+    "end_node": "Abwechselnd",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        28,
+        6
+      ],
+      "examples": [],
+      "nlu_sentences": "Die Spieler sind immer abwechselnd am Zug."
+    }
+  },
+  "99": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Spielfigur",
+    "relation": "keine_feste_Zuweisung",
+    "end_node": "Spieler",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        49
+      ],
+      "examples": [],
+      "nlu_sentences": "Den Spielern gehören nicht bestimmte Spielfiguren."
+    }
+  },
+  "100": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Komplex",
+    "relation": "erfordert",
+    "end_node": "Aufmerksamkeit",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        2
+      ],
+      "examples": [],
+      "nlu_sentences": "Da das Spiel komplex ist, erfordert es eine hohe Aufmerksamkeit."
+    }
+  },
+  "101": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Taktik",
+    "relation": "verbessert",
+    "end_node": "Siegchance",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        64
+      ],
+      "examples": [],
+      "nlu_sentences": "Taktisch zu spielen erhöht die Siegchance."
+    }
+  },
+  "102": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Niederlage",
+    "relation": "sein_können",
+    "end_node": "Überraschend",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        13
+      ],
+      "examples": [],
+      "nlu_sentences": "Niederlagen können einen manchmal sehr überraschen."
+    }
+  },
+  "103": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Feld",
+    "relation": "struktur",
+    "end_node": "4x4",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        62,
+        57
+      ],
+      "examples": [],
+      "nlu_sentences": "Die Felder sind in einer vier mal vier Struktur angeordnet."
+    }
+  },
+  "104": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Größe",
+    "relation": "sein_können",
+    "end_node": "Groß",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        56
+      ],
+      "examples": [],
+      "nlu_sentences": "Die Figuren können groß sein."
+    }
+  },
+  "105": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Größe",
+    "relation": "sein_können",
+    "end_node": "Klein",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        56
+      ],
+      "examples": [],
+      "nlu_sentences": "Die Figuren können klein sein."
+    }
+  },
+  "106": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Gegner",
+    "relation": "sein",
+    "end_node": "Spieler",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        4
+      ],
+      "examples": [],
+      "nlu_sentences": "Die Spieler sind Gegner."
+    }
+  },
+  "107": {
+    "domain": "Quarto",
+    "block": "Additional",
+    "start_node": "Figurenvorrat",
+    "relation": "synonym",
+    "end_node": "Stall",
+    "attributes": {
+      "complexity": 1,
+      "conditions": [
+        58
+      ],
+      "examples": [],
+      "nlu_sentences": "Stall ist ein Synonym für Figurenvorrat."
+    }
+  },
+  "108": {
+    "domain": "TicTacToe",
+    "block": "Spiel",
+    "start_node": "Spiel",
+    "relation": "nicht_sein",
+    "end_node": "Brettspiel",
+    "attributes": null
+  },
+  "109": {
+    "domain": "TicTacToe",
+    "block": "Spiel",
+    "start_node": "Spiel",
+    "relation": "nicht_sein",
+    "end_node": "Komplex",
+    "attributes": null
+  },
+  "110": {
+    "domain": "TicTacToe",
+    "block": "Spiel",
+    "start_node": "Spiel",
+    "relation": "spieldauer_haben",
+    "end_node": "ungefähr_fünf_Minuten",
+    "attributes": null
+  },
+  "111": {
+    "domain": "TicTacToe",
+    "block": "Spieler",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Spieler",
+    "attributes": null
+  },
+  "112": {
+    "domain": "TicTacToe",
+    "block": "Spieler",
+    "start_node": "Spieler",
+    "relation": "Anzahl_haben",
+    "end_node": "zwei",
+    "attributes": null
+  },
+  "113": {
+    "domain": "TicTacToe",
+    "block": "Spieler",
+    "start_node": "Gegner",
+    "relation": "sein",
+    "end_node": "Spieler",
+    "attributes": null
+  },
+  "114": {
+    "domain": "TicTacToe",
+    "block": "Spieler",
+    "start_node": "Spieler",
+    "relation": "reihenfolge",
+    "end_node": "Abwechselnd",
+    "attributes": null
+  },
+  "115": {
+    "domain": "TicTacToe",
+    "block": "Spieler",
+    "start_node": "Spieler",
+    "relation": "gegeneinander",
+    "end_node": "Gegner",
+    "attributes": null
+  },
+  "116": {
+    "domain": "TicTacToe",
+    "block": "Ende",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Spielausgang",
+    "attributes": null
+  },
+  "117": {
+    "domain": "TicTacToe",
+    "block": "Ende",
+    "start_node": "Spielausgang",
+    "relation": "Anzahl_haben",
+    "end_node": "drei",
+    "attributes": null
+  },
+  "118": {
+    "domain": "TicTacToe",
+    "block": "Ende",
+    "start_node": "Spielausgang",
+    "relation": "sein_können",
+    "end_node": "Sieg",
+    "attributes": null
+  },
+  "119": {
+    "domain": "TicTacToe",
+    "block": "Ende",
+    "start_node": "Spielausgang",
+    "relation": "sein_können",
+    "end_node": "Unentschieden",
+    "attributes": null
+  },
+  "120": {
+    "domain": "TicTacToe",
+    "block": "Ende",
+    "start_node": "Spielausgang",
+    "relation": "sein_können",
+    "end_node": "Niederlage",
+    "attributes": null
+  },
+  "121": {
+    "domain": "TicTacToe",
+    "block": "Ende",
+    "start_node": "Sieg",
+    "relation": "nicht_bedingung_haben",
+    "end_node": "Rufen",
+    "attributes": null
+  },
+  "122": {
+    "domain": "TicTacToe",
+    "block": "Ende",
+    "start_node": "Reihe",
+    "relation": "erzeugen",
+    "end_node": "Sieg",
+    "attributes": null
+  },
+  "123": {
+    "domain": "TicTacToe",
+    "block": "Spielziel",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Ziel",
+    "attributes": null
+  },
+  "124": {
+    "domain": "TicTacToe",
+    "block": "Spielziel",
+    "start_node": "Reihe",
+    "relation": "sein",
+    "end_node": "Ziel",
+    "attributes": null
+  },
+  "125": {
+    "domain": "TicTacToe",
+    "block": "Spielziel",
+    "start_node": "Reihe",
+    "relation": "gleich",
+    "end_node": "Figurenmerkmal",
+    "attributes": null
+  },
+  "126": {
+    "domain": "TicTacToe",
+    "block": "Spielziel",
+    "start_node": "Reihe",
+    "relation": "länge",
+    "end_node": "drei",
+    "attributes": null
+  },
+  "127": {
+    "domain": "TicTacToe",
+    "block": "Spielziel",
+    "start_node": "Reihe",
+    "relation": "sein",
+    "end_node": "Siegbedingung",
+    "attributes": null
+  },
+  "128": {
+    "domain": "TicTacToe",
+    "block": "Spielziel",
+    "start_node": "Reihe",
+    "relation": "haben",
+    "end_node": "Anordnung",
+    "attributes": null
+  },
+  "129": {
+    "domain": "TicTacToe",
+    "block": "Spielziel",
+    "start_node": "Reihe",
+    "relation": "bestehen_aus",
+    "end_node": "Zeichen",
+    "attributes": null
+  },
+  "130": {
+    "domain": "TicTacToe",
+    "block": "Spielziel",
+    "start_node": "Anordnung",
+    "relation": "Anzahl_haben",
+    "end_node": "drei",
+    "attributes": null
+  },
+  "131": {
+    "domain": "TicTacToe",
+    "block": "Spielziel",
+    "start_node": "Anordnung",
+    "relation": "sein_können",
+    "end_node": "Diagonal",
+    "attributes": null
+  },
+  "132": {
+    "domain": "TicTacToe",
+    "block": "Spielziel",
+    "start_node": "Anordnung",
+    "relation": "sein_können",
+    "end_node": "Vertikal",
+    "attributes": null
+  },
+  "133": {
+    "domain": "TicTacToe",
+    "block": "Spielziel",
+    "start_node": "Anordnung",
+    "relation": "sein_können",
+    "end_node": "Horizontal",
+    "attributes": null
+  },
+  "134": {
+    "domain": "TicTacToe",
+    "block": "Spielzüge",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Spielzug",
+    "attributes": null
+  },
+  "135": {
+    "domain": "TicTacToe",
+    "block": "Spielzüge",
+    "start_node": "Spielzug",
+    "relation": "Anzahl_haben",
+    "end_node": "eins",
+    "attributes": null
+  },
+  "136": {
+    "domain": "TicTacToe",
+    "block": "Spielzüge",
+    "start_node": "Spiel",
+    "relation": "eingeteilt_sein_in",
+    "end_node": "Runde",
+    "attributes": null
+  },
+  "137": {
+    "domain": "TicTacToe",
+    "block": "Spielzüge",
+    "start_node": "Runde",
+    "relation": "enthalten",
+    "end_node": "Zeichen_malen",
+    "attributes": null
+  },
+  "138": {
+    "domain": "TicTacToe",
+    "block": "Spielzüge",
+    "start_node": "Zeichen_malen",
+    "relation": "vergleichbar",
+    "end_node": "Setzen",
+    "attributes": null
+  },
+  "139": {
+    "domain": "TicTacToe",
+    "block": "Spielzüge",
+    "start_node": "Spielzug",
+    "relation": "sein",
+    "end_node": "Zeichen_malen",
+    "attributes": null
+  },
+  "140": {
+    "domain": "TicTacToe",
+    "block": "Spielzüge",
+    "start_node": "Zeichen_malen",
+    "relation": "auf",
+    "end_node": "Feld",
+    "attributes": null
+  },
+  "141": {
+    "domain": "TicTacToe",
+    "block": "Spielzüge",
+    "start_node": "Zeichen_malen",
+    "relation": "sein",
+    "end_node": "Endgültig",
+    "attributes": null
+  },
+  "142": {
+    "domain": "TicTacToe",
+    "block": "Spielzüge",
+    "start_node": "Zeichen_malen",
+    "relation": "auf",
+    "end_node": "Spielbrett",
+    "attributes": null
+  },
+  "143": {
+    "domain": "TicTacToe",
+    "block": "Spielzüge",
+    "start_node": "Zeichen_malen",
+    "relation": "setzen",
+    "end_node": "Zeichen",
+    "attributes": null
+  },
+  "144": {
+    "domain": "TicTacToe",
+    "block": "Spielfiguren",
+    "start_node": "Spiel",
+    "relation": "nicht_haben",
+    "end_node": "Spielfigur",
+    "attributes": null
+  },
+  "145": {
+    "domain": "TicTacToe",
+    "block": "Spielfiguren",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Zeichen",
+    "attributes": null
+  },
+  "146": {
+    "domain": "TicTacToe",
+    "block": "Spielfiguren",
+    "start_node": "Zeichen",
+    "relation": "haben",
+    "end_node": "Figurenmerkmal",
+    "attributes": null
+  },
+  "147": {
+    "domain": "TicTacToe",
+    "block": "Spielfiguren",
+    "start_node": "Figurenmerkmal",
+    "relation": "Anzahl_haben",
+    "end_node": "eins",
+    "attributes": null
+  },
+  "148": {
+    "domain": "TicTacToe",
+    "block": "Spielfiguren",
+    "start_node": "Form",
+    "relation": "sein",
+    "end_node": "Figurenmerkmal",
+    "attributes": null
+  },
+  "149": {
+    "domain": "TicTacToe",
+    "block": "Spielbrett",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Spielpapier",
+    "attributes": null
+  },
+  "150": {
+    "domain": "TicTacToe",
+    "block": "Spielbrett",
+    "start_node": "Feld",
+    "relation": "Anzahl_haben",
+    "end_node": "neun",
+    "attributes": null
+  },
+  "151": {
+    "domain": "TicTacToe",
+    "block": "Spielbrett",
+    "start_node": "Spielpapier",
+    "relation": "haben",
+    "end_node": "Feld",
+    "attributes": null
+  },
+  "152": {
+    "domain": "TicTacToe",
+    "block": "Spielbrett",
+    "start_node": "Spielfeld ",
+    "relation": "material",
+    "end_node": "Papier",
+    "attributes": null
+  },
+  "153": {
+    "domain": "Chess",
+    "block": "Spiel",
+    "start_node": "Spiel",
+    "relation": "sein",
+    "end_node": "Brettspiel",
+    "attributes": null
+  },
+  "154": {
+    "domain": "Chess",
+    "block": "Spiel",
+    "start_node": "Brettspiel",
+    "relation": "sein",
+    "end_node": "Gesellschafftsspiel",
+    "attributes": null
+  },
+  "155": {
+    "domain": "Chess",
+    "block": "Spiel",
+    "start_node": "Spiel",
+    "relation": "sein",
+    "end_node": "Komplex",
+    "attributes": null
+  },
+  "156": {
+    "domain": "Chess",
+    "block": "Spiel",
+    "start_node": "Spiel",
+    "relation": "spieldauer_haben",
+    "end_node": "ungefähr_zwei_Stunden",
+    "attributes": null
+  },
+  "157": {
+    "domain": "Chess",
+    "block": "Spieler",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Spieler",
+    "attributes": null
+  },
+  "158": {
+    "domain": "Chess",
+    "block": "Spieler",
+    "start_node": "Spieler",
+    "relation": "Anzahl_haben",
+    "end_node": "zwei",
+    "attributes": null
+  },
+  "159": {
+    "domain": "Chess",
+    "block": "Spieler",
+    "start_node": "Gegner",
+    "relation": "sein",
+    "end_node": "Spieler",
+    "attributes": null
+  },
+  "160": {
+    "domain": "Chess",
+    "block": "Spieler",
+    "start_node": "Spieler",
+    "relation": "reihenfolge",
+    "end_node": "Abwechselnd",
+    "attributes": null
+  },
+  "161": {
+    "domain": "Chess",
+    "block": "Spieler",
+    "start_node": "Spieler",
+    "relation": "gegeneinander",
+    "end_node": "Gegner",
+    "attributes": null
+  },
+  "162": {
+    "domain": "Chess",
+    "block": "Ende",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Spielausgang",
+    "attributes": null
+  },
+  "163": {
+    "domain": "Chess",
+    "block": "Ende",
+    "start_node": "Spielausgang",
+    "relation": "Anzahl_haben",
+    "end_node": "drei",
+    "attributes": null
+  },
+  "164": {
+    "domain": "Chess",
+    "block": "Ende",
+    "start_node": "Spielausgang",
+    "relation": "sein_können",
+    "end_node": "Sieg",
+    "attributes": null
+  },
+  "165": {
+    "domain": "Chess",
+    "block": "Ende",
+    "start_node": "Spielausgang",
+    "relation": "sein_können",
+    "end_node": "Remis",
+    "attributes": null
+  },
+  "166": {
+    "domain": "Chess",
+    "block": "Ende",
+    "start_node": "Spielausgang",
+    "relation": "sein_können",
+    "end_node": "Niederlage",
+    "attributes": null
+  },
+  "167": {
+    "domain": "Chess",
+    "block": "Ende",
+    "start_node": "Sieg",
+    "relation": "bedingung_haben",
+    "end_node": "Rufen",
+    "attributes": null
+  },
+  "168": {
+    "domain": "Chess",
+    "block": "Ende",
+    "start_node": "Matt",
+    "relation": "erzeugen",
+    "end_node": "Siegchance",
+    "attributes": null
+  },
+  "169": {
+    "domain": "Chess",
+    "block": "Spielziel",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Ziel",
+    "attributes": null
+  },
+  "170": {
+    "domain": "Chess",
+    "block": "Spielziel",
+    "start_node": "König_schlagen",
+    "relation": "sein",
+    "end_node": "Ziel",
+    "attributes": null
+  },
+  "171": {
+    "domain": "Chess",
+    "block": "Spielziel",
+    "start_node": "Rufen",
+    "relation": "bedingung_haben",
+    "end_node": "Spiel_matt",
+    "attributes": null
+  },
+  "172": {
+    "domain": "Chess",
+    "block": "Spielziel",
+    "start_node": "Spiel_matt",
+    "relation": "sein",
+    "end_node": "Siegbedingung",
+    "attributes": null
+  },
+  "173": {
+    "domain": "Chess",
+    "block": "Spielzüge",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Spielzug",
+    "attributes": null
+  },
+  "174": {
+    "domain": "Chess",
+    "block": "Spielzüge",
+    "start_node": "Spielzug",
+    "relation": "Anzahl_haben",
+    "end_node": "eins",
+    "attributes": null
+  },
+  "175": {
+    "domain": "Chess",
+    "block": "Spielzüge",
+    "start_node": "Spiel",
+    "relation": "eingeteilt_sein_in",
+    "end_node": "Runde",
+    "attributes": null
+  },
+  "176": {
+    "domain": "Chess",
+    "block": "Spielzüge",
+    "start_node": "Runde",
+    "relation": "enthalten",
+    "end_node": "Spielfigur_wählen",
+    "attributes": null
+  },
+  "177": {
+    "domain": "Chess",
+    "block": "Spielzüge",
+    "start_node": "Runde",
+    "relation": "enthalten",
+    "end_node": "Spielfigur_setzen",
+    "attributes": null
+  },
+  "178": {
+    "domain": "Chess",
+    "block": "Spielzüge",
+    "start_node": "Spielfigur_wählen",
+    "relation": "sein",
+    "end_node": "Spielzug",
+    "attributes": null
+  },
+  "179": {
+    "domain": "Chess",
+    "block": "Spielzüge",
+    "start_node": "Spielfigur_wählen",
+    "relation": "heraus",
+    "end_node": "eigene_Figuren",
+    "attributes": null
+  },
+  "180": {
+    "domain": "Chess",
+    "block": "Spielzüge",
+    "start_node": "Spielfigur_wählen",
+    "relation": "wählen",
+    "end_node": "Spielfigur",
+    "attributes": null
+  },
+  "181": {
+    "domain": "Chess",
+    "block": "Spielzüge",
+    "start_node": "Spielfigur_wählen",
+    "relation": "für",
+    "end_node": "Selbst",
+    "attributes": null
+  },
+  "182": {
+    "domain": "Chess",
+    "block": "Spielzüge",
+    "start_node": "Spielfigur_setzen",
+    "relation": "sein",
+    "end_node": "Spielzug",
+    "attributes": null
+  },
+  "183": {
+    "domain": "Chess",
+    "block": "Spielzüge",
+    "start_node": "Spielfigur_setzen",
+    "relation": "nutzen",
+    "end_node": "eigene_Figuren",
+    "attributes": null
+  },
+  "184": {
+    "domain": "Chess",
+    "block": "Spielzüge",
+    "start_node": "Rufen",
+    "relation": "sein",
+    "end_node": "Aktion",
+    "attributes": null
+  },
+  "185": {
+    "domain": "Chess",
+    "block": "Spielzüge",
+    "start_node": "Rufen",
+    "relation": "sagen",
+    "end_node": "Spiel_Matt",
+    "attributes": null
+  },
+  "186": {
+    "domain": "Chess",
+    "block": "Spielzüge",
+    "start_node": "Rufen",
+    "relation": "folgen_auf",
+    "end_node": "Spielfigur_setzen",
+    "attributes": null
+  },
+  "187": {
+    "domain": "Chess",
+    "block": "Spielzüge",
+    "start_node": "Spielfigur_setzen",
+    "relation": "auf",
+    "end_node": "Feld",
+    "attributes": null
+  },
+  "188": {
+    "domain": "Chess",
+    "block": "Spielzüge",
+    "start_node": "Spielfigur_setzen",
+    "relation": "sein",
+    "end_node": "Endgültig",
+    "attributes": null
+  },
+  "189": {
+    "domain": "Chess",
+    "block": "Spielzüge",
+    "start_node": "Spielfigur_setzen",
+    "relation": "auf",
+    "end_node": "Spielbrett",
+    "attributes": null
+  },
+  "190": {
+    "domain": "Chess",
+    "block": "Spielzüge",
+    "start_node": "Spielfigur_setzen",
+    "relation": "setzen",
+    "end_node": "Spielfigur",
+    "attributes": null
+  },
+  "191": {
+    "domain": "Chess",
+    "block": "Spielfiguren",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Spielfigur",
+    "attributes": null
+  },
+  "192": {
+    "domain": "Chess",
+    "block": "Spielfiguren",
+    "start_node": "Spielfigur",
+    "relation": "haben",
+    "end_node": "Figurenmerkmal",
+    "attributes": null
+  },
+  "193": {
+    "domain": "Chess",
+    "block": "Spielfiguren",
+    "start_node": "Spielfigur",
+    "relation": "Anzahl_haben",
+    "end_node": "zweiunddreißig",
+    "attributes": null
+  },
+  "194": {
+    "domain": "Chess",
+    "block": "Spielfiguren",
+    "start_node": "Figurenmerkmal",
+    "relation": "Anzahl_haben",
+    "end_node": "zwei",
+    "attributes": null
+  },
+  "195": {
+    "domain": "Chess",
+    "block": "Spielfiguren",
+    "start_node": "Farbe",
+    "relation": "sein",
+    "end_node": "Figurenmerkmal",
+    "attributes": null
+  },
+  "196": {
+    "domain": "Chess",
+    "block": "Spielfiguren",
+    "start_node": "Form",
+    "relation": "sein",
+    "end_node": "Figurenmerkmal",
+    "attributes": null
+  },
+  "197": {
+    "domain": "Chess",
+    "block": "Spielfiguren",
+    "start_node": "Struktur",
+    "relation": "nicht_sein",
+    "end_node": "Figurenmerkmal",
+    "attributes": null
+  },
+  "198": {
+    "domain": "Chess",
+    "block": "Spielfiguren",
+    "start_node": "Groesse",
+    "relation": "nicht_sein",
+    "end_node": "Figurenmerkmal",
+    "attributes": null
+  },
+  "199": {
+    "domain": "Chess",
+    "block": "Spielbrett",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Spielbrett",
+    "attributes": null
+  },
+  "200": {
+    "domain": "Chess",
+    "block": "Spielbrett",
+    "start_node": "Spiel",
+    "relation": "nicht_haben",
+    "end_node": "Figurenvorrat",
+    "attributes": null
+  },
+  "201": {
+    "domain": "Chess",
+    "block": "Spielbrett",
+    "start_node": "Feld",
+    "relation": "Anzahl_haben",
+    "end_node": "vierundsechzig",
+    "attributes": null
+  },
+  "202": {
+    "domain": "Chess",
+    "block": "Spielbrett",
+    "start_node": "Spielbrett",
+    "relation": "haben",
+    "end_node": "Feld",
+    "attributes": null
+  },
+  "203": {
+    "domain": "Chess",
+    "block": "Spielbrett",
+    "start_node": "Spielbrett",
+    "relation": "sein",
+    "end_node": "Spielbestandteil",
+    "attributes": null
+  },
+  "204": {
+    "domain": "Chess",
+    "block": "Strategien",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Taktik",
+    "attributes": null
+  },
+  "205": {
+    "domain": "Chess",
+    "block": "Strategien",
+    "start_node": "Doppelangriff",
+    "relation": "sein",
+    "end_node": "Taktik",
+    "attributes": null
+  },
+  "206": {
+    "domain": "Chess",
+    "block": "Strategien",
+    "start_node": "Taktik",
+    "relation": "sein",
+    "end_node": "Kombinierbar",
+    "attributes": null
+  },
+  "207": {
+    "domain": "Chess",
+    "block": "Spielfiguren",
+    "start_node": "Spielfigur",
+    "relation": "feste_Zuweisung",
+    "end_node": "Spieler",
+    "attributes": null
+  },
+  "208": {
+    "domain": "BestOf4",
+    "block": "Spiel",
+    "start_node": "Spiel",
+    "relation": "ähnlich",
+    "end_node": "Brettspiel",
+    "attributes": null
+  },
+  "209": {
+    "domain": "BestOf4",
+    "block": "Spiel",
+    "start_node": "Spiel",
+    "relation": "sein",
+    "end_node": "Gesellschaftsspiel",
+    "attributes": null
+  },
+  "210": {
+    "domain": "BestOf4",
+    "block": "Spiel",
+    "start_node": "Spiel",
+    "relation": "nicht_sein",
+    "end_node": "Komplex",
+    "attributes": null
+  },
+  "211": {
+    "domain": "BestOf4",
+    "block": "Spiel",
+    "start_node": "Spiel",
+    "relation": "spieldauer_haben",
+    "end_node": "Fünf_Minuten",
+    "attributes": null
+  },
+  "212": {
+    "domain": "BestOf4",
+    "block": "Spieler",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Spieler",
+    "attributes": null
+  },
+  "213": {
+    "domain": "BestOf4",
+    "block": "Spieler",
+    "start_node": "Spieler",
+    "relation": "Anzahl",
+    "end_node": "zwei",
+    "attributes": null
+  },
+  "214": {
+    "domain": "BestOf4",
+    "block": "Spieler",
+    "start_node": "Gegner",
+    "relation": "sein",
+    "end_node": "Spieler",
+    "attributes": null
+  },
+  "215": {
+    "domain": "BestOf4",
+    "block": "Spieler",
+    "start_node": "Spieler",
+    "relation": "reihenfolge",
+    "end_node": "Abwechselnd",
+    "attributes": null
+  },
+  "216": {
+    "domain": "BestOf4",
+    "block": "Spieler",
+    "start_node": "Spieler",
+    "relation": "gegeneinander",
+    "end_node": "Gegner",
+    "attributes": null
+  },
+  "217": {
+    "domain": "BestOf4",
+    "block": "Ende",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Spielausgang",
+    "attributes": null
+  },
+  "218": {
+    "domain": "BestOf4",
+    "block": "Ende",
+    "start_node": "Spielausgang",
+    "relation": "Anzahl",
+    "end_node": "drei",
+    "attributes": null
+  },
+  "219": {
+    "domain": "BestOf4",
+    "block": "Ende",
+    "start_node": "Spielausgang",
+    "relation": "option",
+    "end_node": "Sieg",
+    "attributes": null
+  },
+  "220": {
+    "domain": "BestOf4",
+    "block": "Ende",
+    "start_node": "Spielausgang",
+    "relation": "option",
+    "end_node": "Unentschieden",
+    "attributes": null
+  },
+  "221": {
+    "domain": "BestOf4",
+    "block": "Ende",
+    "start_node": "Spielausgang",
+    "relation": "option",
+    "end_node": "Niederlage",
+    "attributes": null
+  },
+  "222": {
+    "domain": "BestOf4",
+    "block": "Ende",
+    "start_node": "Sieg",
+    "relation": "bedingung_haben",
+    "end_node": "nicht",
+    "attributes": null
+  },
+  "223": {
+    "domain": "BestOf4",
+    "block": "Spielziel",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Ziel",
+    "attributes": null
+  },
+  "224": {
+    "domain": "BestOf4",
+    "block": "Spielziel",
+    "start_node": "Reihe",
+    "relation": "sein",
+    "end_node": "Ziel",
+    "attributes": null
+  },
+  "225": {
+    "domain": "BestOf4",
+    "block": "Spielziel",
+    "start_node": "Reihe",
+    "relation": "gleich",
+    "end_node": "Farbe",
+    "attributes": null
+  },
+  "226": {
+    "domain": "BestOf4",
+    "block": "Spielziel",
+    "start_node": "Reihe",
+    "relation": "sein",
+    "end_node": "Ziel",
+    "attributes": null
+  },
+  "227": {
+    "domain": "BestOf4",
+    "block": "Spielziel",
+    "start_node": "Reihe",
+    "relation": "länge",
+    "end_node": "vier",
+    "attributes": null
+  },
+  "228": {
+    "domain": "BestOf4",
+    "block": "Spielziel",
+    "start_node": "Siegbedingung",
+    "relation": "benötigen",
+    "end_node": "Reihe",
+    "attributes": null
+  },
+  "229": {
+    "domain": "BestOf4",
+    "block": "Spielziel",
+    "start_node": "Reihe",
+    "relation": "haben",
+    "end_node": "Anordnung",
+    "attributes": null
+  },
+  "230": {
+    "domain": "BestOf4",
+    "block": "Spielziel",
+    "start_node": "Reihe",
+    "relation": "bestehen_aus",
+    "end_node": "Plättchen",
+    "attributes": null
+  },
+  "231": {
+    "domain": "BestOf4",
+    "block": "Spielziel",
+    "start_node": "Anordnung",
+    "relation": "Anzahl",
+    "end_node": "drei",
+    "attributes": null
+  },
+  "232": {
+    "domain": "BestOf4",
+    "block": "Spielziel",
+    "start_node": "Anordnung",
+    "relation": "option",
+    "end_node": "Diagonal",
+    "attributes": null
+  },
+  "233": {
+    "domain": "BestOf4",
+    "block": "Spielziel",
+    "start_node": "Anordnung",
+    "relation": "option",
+    "end_node": "Vertikal",
+    "attributes": null
+  },
+  "234": {
+    "domain": "BestOf4",
+    "block": "Spielziel",
+    "start_node": "Anordnung",
+    "relation": "option",
+    "end_node": "Horizontal",
+    "attributes": null
+  },
+  "235": {
+    "domain": "BestOf4",
+    "block": "Spielzüge",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Spielzug",
+    "attributes": null
+  },
+  "236": {
+    "domain": "BestOf4",
+    "block": "Spielzüge",
+    "start_node": "Spielzug",
+    "relation": "Anzahl",
+    "end_node": "eins",
+    "attributes": null
+  },
+  "237": {
+    "domain": "BestOf4",
+    "block": "Spielzüge",
+    "start_node": "Spiel",
+    "relation": "eingeteilt_sein_in",
+    "end_node": "Runde",
+    "attributes": null
+  },
+  "238": {
+    "domain": "BestOf4",
+    "block": "Spielzüge",
+    "start_node": "Runde",
+    "relation": "enthalten",
+    "end_node": "Setzen",
+    "attributes": null
+  },
+  "239": {
+    "domain": "BestOf4",
+    "block": "Spielzüge",
+    "start_node": "Setzen",
+    "relation": "sein",
+    "end_node": "Spielzug",
+    "attributes": null
+  },
+  "240": {
+    "domain": "BestOf4",
+    "block": "Spielzüge",
+    "start_node": "Waehlen",
+    "relation": "nicht_sein",
+    "end_node": "Spielzug",
+    "attributes": null
+  },
+  "241": {
+    "domain": "BestOf4",
+    "block": "Spielzüge",
+    "start_node": "Setzen",
+    "relation": "nutzen",
+    "end_node": "Rest",
+    "attributes": null
+  },
+  "242": {
+    "domain": "BestOf4",
+    "block": "Spielzüge",
+    "start_node": "Setzen",
+    "relation": "dorthin",
+    "end_node": "Feld",
+    "attributes": null
+  },
+  "243": {
+    "domain": "BestOf4",
+    "block": "Spielzüge",
+    "start_node": "Setzen",
+    "relation": "auf",
+    "end_node": "Spielbrett",
+    "attributes": null
+  },
+  "244": {
+    "domain": "BestOf4",
+    "block": "Spielzüge",
+    "start_node": "Setzen",
+    "relation": "setzen",
+    "end_node": "Plättchen",
+    "attributes": null
+  },
+  "245": {
+    "domain": "BestOf4",
+    "block": "Spielfiguren",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Plättchen",
+    "attributes": null
+  },
+  "246": {
+    "domain": "BestOf4",
+    "block": "Spielfiguren",
+    "start_node": "Plättchen",
+    "relation": "haben",
+    "end_node": "Figurenmerkmal",
+    "attributes": null
+  },
+  "247": {
+    "domain": "BestOf4",
+    "block": "Spielfiguren",
+    "start_node": "Plättchen",
+    "relation": "Anzahl",
+    "end_node": "zweiundvierzig",
+    "attributes": null
+  },
+  "248": {
+    "domain": "BestOf4",
+    "block": "Spielfiguren",
+    "start_node": "Figurenmerkmal",
+    "relation": "Anzahl",
+    "end_node": "eins",
+    "attributes": null
+  },
+  "249": {
+    "domain": "BestOf4",
+    "block": "Spielfiguren",
+    "start_node": "Farbe",
+    "relation": "sein",
+    "end_node": "Figurenmerkmal",
+    "attributes": null
+  },
+  "250": {
+    "domain": "BestOf4",
+    "block": "Spielbrett",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Spielbrett",
+    "attributes": null
+  },
+  "251": {
+    "domain": "BestOf4",
+    "block": "Spielbrett",
+    "start_node": "Spiel",
+    "relation": "haben",
+    "end_node": "Figurenvorrat",
+    "attributes": null
+  },
+  "252": {
+    "domain": "BestOf4",
+    "block": "Spielbrett",
+    "start_node": "Feld",
+    "relation": "Anzahl",
+    "end_node": "zweiundvierzig",
+    "attributes": null
+  },
+  "253": {
+    "domain": "BestOf4",
+    "block": "Spielbrett",
+    "start_node": "Spielbrett",
+    "relation": "haben",
+    "end_node": "Feld",
+    "attributes": null
+  },
+  "254": {
+    "domain": "BestOf4",
+    "block": "Spielbrett",
+    "start_node": "Spielbrett",
+    "relation": "stehen",
+    "end_node": "senkrecht",
+    "attributes": null
+  },
+  "255": {
+    "domain": "BestOf4",
+    "block": "Spielbrett",
+    "start_node": "Spielbrett",
+    "relation": "sein",
+    "end_node": "Spielbestandteil",
+    "attributes": null
+  },
+  "256": {
+    "domain": "BestOf4",
+    "block": "Strategien",
+    "start_node": "Spiel",
+    "relation": "wenig",
+    "end_node": "Taktik",
+    "attributes": null
+  }
+}
