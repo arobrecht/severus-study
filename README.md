@@ -29,10 +29,7 @@ Run the server by executing
 Run the following command to create a new Neo4j container named `neo4j-local`:
 
 ```sh
-docker run --name neo4j-local \
-  -e NEO4J_AUTH=neo4j/severus_study \  # Set Neo4j authentication (username/password)
-  -p 7474:7474 -p 7687:7687 \          # Expose Neo4j web UI (7474) and Bolt protocol (7687)
-  neo4j:4.4.37                         # Use Neo4j version 4.4.37
+docker run --name neo4j-local -e NEO4J_AUTH=neo4j/severus_study -p 7474:7474 -p 7687:7687 neo4j:4.4.37     
 ```
 
 ### Start the Neo4j Container
