@@ -78,6 +78,9 @@ python -m http.server 8000 # if your system already uses port 8000 change this t
 http://localhost:8000/visualization.html
 ```
 
+#### Potential Redirection Errors
+Cookies in the browser may cause redirection errors. If this occurs, the cookies can be deleted manually in the browser.
+
 ---
 
 ## Licensing notes
