@@ -18,7 +18,7 @@ from . import utils
 from .nlg.nlg_lookup import NLG
 from .snape.model_update.model_update_snape import ModelUpdate
 from severusStudy.nlu.nlu import NLU
-#from .snape.partner.base_partner import BasePartner
+
 from .snape.partner.handle_dbn import DbnPartner
 from config import NLU_LLM
 

@@ -37,7 +37,7 @@ class NLG:
               f"comp_triple_id={comparison_triple_id}\n"
               f"comp_domain={comparison_domain}\n"
               f"answer_type={answer_type}")
-        exit(1)
+        return "NO UTTEANCE FOUND"
 
 
 
