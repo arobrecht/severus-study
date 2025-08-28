@@ -17,3 +17,4 @@ py2neo
 pyagrum==1.15.1
 
 owlready2
+json_repair
