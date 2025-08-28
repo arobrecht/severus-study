@@ -64,7 +64,7 @@ docker start neo4j-local
 
 ---
 
-### 9. Disable NLU in Configuration  
+### 9. Disable NLU in Configuration (If not manually set up)
 In `severus-study/config.py`, set:
 ```python
 NLU_LLM = False
