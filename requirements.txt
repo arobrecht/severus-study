@@ -37,3 +37,7 @@ datasets~=3.3.2
 packaging~=24.1
 filelock~=3.16.1
 mcts~=1.0.4
+flask
+flask-socketio
+sympy
+owlready2
