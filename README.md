@@ -2,7 +2,7 @@
 This code supplements the thesis _Adaptive Explanations as Co-Constructed Processes -- Modeling a Rational Explainer Through the Interaction of Dynamic Partner Models and Non-Stationary Decision Making_. A [video of the agent](https://doi.org/10.17605/OSF.IO/DAQV9) and preregistrations of the studies on the effects of [dynamic decision-making](https://doi.org/10.17605/OSF.IO/EBH27) and [extended partner-modeling](https://doi.org/10.17605/OSF.IO/DAQV9) on adaptive explanations utilizing the code can be found at OSF.
 
 
-# Setup Instructions
+## Setup Instructions
 
 Follow the steps below to set up and run the project:
 
