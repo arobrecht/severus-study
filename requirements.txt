@@ -25,7 +25,6 @@ safetensors~=0.4.5
 gguf~=0.14.0
 sentencepiece~=0.2.0
 pyyaml~=6.0.2
-git~=2.45.2
 pydantic~=2.10.5
 docstring-parser~=0.16
 annotated-types~=0.7.0
